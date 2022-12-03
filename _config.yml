@@ -28,6 +28,8 @@ navbar:
     child:
      - title: Info
        url: /pages/revanced/home
+     - title: Icon Pack Studio
+       url: /pages/revanced/icon.pack.studio
      - title: microG (Fork)
        url: /pages/revanced/micro-g
      - title: Nyx Music Player
