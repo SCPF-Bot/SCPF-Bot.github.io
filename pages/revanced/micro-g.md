@@ -7,7 +7,7 @@ show_comments: true
 
 <h4> <p align="center"> microG </p> </h4>
 
-<p align="center"> By : microG Project </p>
+<p align="center"> By : inotia00 </p>
 
 ![](https://is.gd/ghwVrE)
 
