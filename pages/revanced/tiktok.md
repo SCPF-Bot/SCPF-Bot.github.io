@@ -19,11 +19,9 @@ TikTok is the official app for the super popular social network that lets you cr
 
 ---
 
-<h4> <p align="center"> Current Bug Detected </p> </h4>
+<h4> <p align="center"> Download </p> </h4>
 
-![](https://is.gd/kmwTEx)
-
-[![](https://is-gd/P072Ki)](https://is.gd/izTiiK)
+[![](https://is.gd/P072Ki)](https://is.gd/izTiiK)
 
 ---
 
