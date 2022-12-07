@@ -1,7 +1,3 @@
----
-layout: minimal
----
----
 # [2.112.0](https://github.com/revanced/revanced-patches/compare/v2.111.3...v2.112.0) (2022-12-06)
 
 
