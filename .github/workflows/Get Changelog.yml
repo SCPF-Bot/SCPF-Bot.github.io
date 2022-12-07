@@ -14,7 +14,6 @@ jobs:
     - name: Copy Files
       run: |
         cd pages/scripts
-        chmod +x download.changelog.py
         python download.changelogs.py
         chmod +x cat.files.sh
         ./cat.files.sh
