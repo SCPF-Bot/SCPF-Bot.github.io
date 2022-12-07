@@ -15,7 +15,9 @@ jobs:
       run: |
         cd pages/scripts
         chmod +x patches.changelog.py
-        python patches.changelog.py
+        python download.changelogs.py
+        chmod +x cat.files.sh
+        ./cat.files.sh
 
     - name: Commit to the repo
       run: |
