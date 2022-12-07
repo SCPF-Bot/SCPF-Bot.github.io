@@ -2,7 +2,7 @@
 
 mkdir -p temp
 
-wget -P temp -O patches.md https://raw.githubusercontent.com/revanced/revanced-patches/main/CHANGELOG.md
+wget https://raw.githubusercontent.com/revanced/revanced-patches/main/CHANGELOG.md -o temp/patches.md
 
 rm -rf pages
 
