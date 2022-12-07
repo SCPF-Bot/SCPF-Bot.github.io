@@ -16,3 +16,11 @@ jobs:
         cd pages/scripts
         chmod +x patches.changelog.py
         python patches.changelog.py
+
+    - name: Commit to the repo
+      run: |
+        git config --global user.name "SCP-017"
+        git config --global user.email "unbug.ph@gmail.com"
+        git add .
+        git commit -am "Update Changelogs"
+        git push
