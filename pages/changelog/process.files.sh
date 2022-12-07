@@ -1,8 +1,8 @@
 #!/bin/bash
 
-rm -rf changelogs
-mkdir -p changelogs
+rm -rf pages
+mkdir -p pages
 
-cat origin/origin.md temp/patches.md > changelogs/patches.md
+cat origin/origin.md temp/patches.md > pages/patches.md
 
 rm -rf temp
