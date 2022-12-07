@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cat changelogs/patches.changelog.md > changelogs/patches.md
+cat temp/patches.md temp/patches.changelog.md > changelogs/patches.md
