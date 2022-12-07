@@ -1,6 +1,6 @@
 import requests
 
-url-1 = "https://raw.githubusercontent.com/revanced/revanced-patches/main/CHANGELOG.md"
-myfile-1 = requests.get(url-1, allow_redirects=True)
+url_1 = "https://raw.githubusercontent.com/revanced/revanced-patches/main/CHANGELOG.md"
+myfile_1 = requests.get(url_1, allow_redirects=True)
 
-open("temp/patches.md", "wb").write(myfile-1.content)
+open("temp/patches.md", "wb").write(myfile_1.content)
