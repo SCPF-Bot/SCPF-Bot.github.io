@@ -26,6 +26,8 @@ navbar:
 
   - title: ReVanced
     child:
+     - title: Changelogs
+       url: /pages/scripts/patches.changelog
      - title: Info
        url: /pages/revanced/home
      - title: Icon Pack Studio
