@@ -23,9 +23,13 @@ We created IPS with the idea that no icon pack can fit your home screen better t
 
 [![](https://is.gd/3QQy7N)](https://is.gd/7tVEGR)
 
+<div align ="center">
+
 [Default Button Text](https://scp-017.github.io){: .btn .btn-outline-primary}
 
 <button type="button" class="btn btn-outline-primary">Primary</button>
+
+</div>
 
 ---
 
