@@ -9,7 +9,7 @@ show_comments: true
 
 <p align="center"> By : Smart Launcher Team </p>
 
-![](https://img.shields.io/badge/dynamic/json?label=Version&color=gold&labelColor=gold&style=for-the-badge&query=%24%5B"ginlemon.iconpackstudio.apk"%5D&url=https%3A%2F%2Fis.gd%2F2wPvAM)
+![](https://img.shields.io/badge/dynamic/json?label=Version&color=white&labelColor=white&style=for-the-badge&query=%24%5B"ginlemon.iconpackstudio.apk"%5D&url=https%3A%2F%2Fis.gd%2F2wPvAM)
 
 ---
 
