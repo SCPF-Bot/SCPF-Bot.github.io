@@ -16,7 +16,7 @@ author:
       icon: "fa fa-envelope"
 
 navbar:
-  style: "dual"
+  style: "classic"
   brand:
     title: Home
     img: "https://avatars.githubusercontent.com/u/112224835"
