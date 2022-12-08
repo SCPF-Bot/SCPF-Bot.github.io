@@ -1,2 +1,7 @@
+<div align = center>
+
 [<kbd> <br> Button Here <br> </kbd>][KBDLINK]
-[Link]: https://test.com
+
+[KBDLINK]: https://test.com
+
+</div>
