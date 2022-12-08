@@ -16,7 +16,6 @@ author:
       icon: "fa fa-envelope"
 
  navbar: false
-# navbar:
   style: "classic"
   brand:
     title: Home
