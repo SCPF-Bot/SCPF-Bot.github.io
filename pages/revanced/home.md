@@ -1,8 +1,3 @@
----
-layout: minimal
-show_comments: true
----
-
 <h2> <p align="center"> ReVanced </p> </h2>
 
 ---
