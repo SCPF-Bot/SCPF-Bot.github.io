@@ -1,7 +1,6 @@
 ---
 layout: landingpage
-title: "Site-19"
-subtitle: "SCP Foundation"
+title: " "
 header_type: splash
 header_img: "assets/site/galaxy.jpg"
 show_comments: true
@@ -32,8 +31,3 @@ show_comments: true
 <p align="center">
 <img src="https://www.websitecounterfree.com/c.php?d=9&id=24855&s=36">
 </p>
-
----
-
-<p align="center"> 👁️ </p>
-<p align="center"> <sub> I will be watching you stranger. </sub> </p>
