@@ -28,5 +28,5 @@ show_comments: true
 <h4> <p align="center"> Total Strangers Visited </p> </h4>
 
 <p align="center">
-<img src="https://www.websitecounterfree.com/c.php?d=9&id=24855&s=36">
+<img src="https://www.websitecounterfree.com/c.php?d=9&id=25674&s=40">
 </p>
