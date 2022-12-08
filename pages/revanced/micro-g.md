@@ -14,7 +14,7 @@ show_comments: true
 ---
 
 <p align ="center">
-<a href="https://is.gd/iIBAm2" class="btn btn-outline-success"> Download </a>
+<a href="https://is.gd/iIBAm2" class="btn btn-outline-success"> Download Legacy Icon </a>
 </p>
 
 <p align ="center">
