@@ -1,7 +1,7 @@
 ---
 layout: landingpage
-title: "SCP Foundation"
-subtitle: "Site-19"
+title: "Site-19"
+subtitle: "SCP Foundation"
 header_type: splash
 header_img: "assets/site/galaxy.jpg"
 show_comments: true
