@@ -94,10 +94,14 @@ footer:
   copyright: © 2022 by SCP-017
 
 googlefonts:
- - url: https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap
+ - url: https://fonts.googleapis.com/css2?family=Ubuntu&display=swap
 
 chulapa-skin: 
   skin: twitter-lights-out
+  vars:
+    body-bg: "#000"
+    body-color: "#111"
+    font-family-base: "Ubuntu"
 
 comments:
   provider: giscus #https://giscus.app
