@@ -1,7 +1,6 @@
 ---
 layout: default
 title: " "
-header_type: splash
 header_img: "assets/site/galaxy.jpg"
 show_comments: true
 ---
