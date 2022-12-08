@@ -15,7 +15,8 @@ author:
     - url: ph.server@pm.me
       icon: "fa fa-envelope"
 
-navbar:
+ navbar: false
+# navbar:
   style: "classic"
   brand:
     title: Home
