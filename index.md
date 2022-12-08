@@ -2,7 +2,7 @@
 layout: landingpage
 title: " "
 header_type: splash
-header_img: "assets/site/galaxy.jpg"
+header_img: "assets/site/galaxy.violet.jpg"
 show_comments: true
 ---
 <h4> <p align="center"> Website Stats </p> </h4>
