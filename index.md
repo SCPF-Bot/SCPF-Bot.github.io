@@ -2,7 +2,7 @@
 layout: landingpage
 title: " "
 header_type: splash
-header_img: "https://data.whicdn.com/images/310551923/original.gif"
+header_img: "/assets/site/dark.star.nemesis.mordekaiser.jpg"
 show_comments: true
 ---
 
