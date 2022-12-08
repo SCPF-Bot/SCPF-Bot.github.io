@@ -12,12 +12,6 @@ show_comments: true
 ![](https://img.shields.io/badge/dynamic/json?label=Version&color=success&labelColor=success&style=for-the-badge&query=%24%5B"ginlemon.iconpackstudio.apk"%5D&url=https%3A%2F%2Fis.gd%2F2wPvAM)
 
 <p align ="center">
-<a href="https://is.gd/7tVEGR">
-<button type="button" class="btn btn-outline-success"> Download </button>
-</a>
-</p>
-
-<p align ="center">
 <a href="https://is.gd/7tVEGR" class="btn btn-outline-success"> Download </a>
 </p>
 
