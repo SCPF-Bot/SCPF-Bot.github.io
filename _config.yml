@@ -125,7 +125,8 @@ defaults:
       path: ""
     values:
       layout: "minimal"
-      include_on_search   : false
+      include_on_search : false
+      show_comments     : true
   -
     scope:
       path: ""
