@@ -127,8 +127,6 @@ defaults:
       layout: "default"
       header_type         : "base"
       include_on_search   : false
-      cloudtag_url        : "/tags"
-      cloudcategory_url   : "/categories"
   -
     scope:
       path: ""
@@ -138,6 +136,11 @@ defaults:
       show_comments     : true
       show_author       : true
       header_img        : /assets/site/banner.jpg
+  -
+    scope:
+      path: "pages/revanced"
+    values:
+      layout: "default"
 
 compress_html:
   clippings: all
