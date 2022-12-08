@@ -23,7 +23,7 @@ We created IPS with the idea that no icon pack can fit your home screen better t
 
 [![](https://is.gd/3QQy7N)](https://is.gd/7tVEGR)
 
-[Default Button Text](https://scp-017.github.io){: .btn}
+[Default Button Text](https://scp-017.github.io){: .btn--primary}
 
 ---
 
