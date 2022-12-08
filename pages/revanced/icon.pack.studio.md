@@ -19,13 +19,9 @@ We created IPS with the idea that no icon pack can fit your home screen better t
 
 ---
 
-<h4> <p align="center"> Download </p> </h4>
-
-[![](https://is.gd/3QQy7N)](https://is.gd/7tVEGR)
-
 <p align ="center">
 <a href="https://is.gd/7tVEGR">
-<button type="button" class="btn btn-outline-success"> Text Here </button>
+<button type="button" class="btn btn-outline-success"> Download </button>
 </a>
 </p>
 
