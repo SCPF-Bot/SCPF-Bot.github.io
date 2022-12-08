@@ -13,17 +13,17 @@ show_comments: true
 
 ---
 
-<p align="center"> <sub>
-We created IPS with the idea that no icon pack can fit your home screen better than the one you create by yourself. With IPS you can create an icon pack from scratch or you can download and apply one of thousand uploaded every day by our community.
-</sub> </p>
-
----
-
 <p align ="center">
 <a href="https://is.gd/7tVEGR">
 <button type="button" class="btn btn-outline-success"> Download </button>
 </a>
 </p>
+
+---
+
+<p align="center"> <sub>
+We created IPS with the idea that no icon pack can fit your home screen better than the one you create by yourself. With IPS you can create an icon pack from scratch or you can download and apply one of thousand uploaded every day by our community.
+</sub> </p>
 
 ---
 
