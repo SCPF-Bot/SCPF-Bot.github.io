@@ -124,8 +124,7 @@ defaults:
     scope:
       path: ""
     values:
-      layout: "default"
-      header_type         : "base"
+      layout: "minimal"
       include_on_search   : false
   -
     scope:
@@ -136,11 +135,6 @@ defaults:
       show_comments     : true
       show_author       : true
       header_img        : /assets/site/banner.jpg
-  -
-    scope:
-      path: "pages/revanced"
-    values:
-      layout: "default"
 
 compress_html:
   clippings: all
