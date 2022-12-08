@@ -2,7 +2,7 @@
 layout: landingpage
 title: " "
 header_type: splash
-header_img: "assets/site/banner.jpg"
+header_img: "assets/site/stars.png"
 show_comments: true
 ---
 
