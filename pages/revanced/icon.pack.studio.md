@@ -1,11 +1,6 @@
----
-layout: minimal
-show_comments: true
----
+<h4> <p align="center"> Icon Pack Studio </p> </h4>
 
 ![](https://is.gd/Ja8SbJ)
-
-<h4> <p align="center"> Icon Pack Studio </p> </h4>
 
 <p align="center"> By : Smart Launcher Team </p>
 
