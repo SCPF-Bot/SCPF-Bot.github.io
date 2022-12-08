@@ -17,6 +17,10 @@ show_comments: true
 </a>
 </p>
 
+<p align ="center">
+<a href="https://is.gd/7tVEGR" class="btn btn-outline-success"> Download </a>
+</p>
+
 ---
 
 <p align="center"> <sub>
