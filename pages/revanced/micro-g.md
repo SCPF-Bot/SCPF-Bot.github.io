@@ -12,11 +12,11 @@ show_comments: true
 ![](https://is.gd/ghwVrE)
 
 <p align ="center">
-<a href="https://is.gd/iIBAm2" class="btn btn-outline-success"> Download 1 </a>
+<a href="https://is.gd/iIBAm2" class="btn btn-outline-success"> Download </a>
 </p>
 
 <p align ="center">
-<a href="https://is.gd/KAR5Gu" class="btn btn-outline-success"> Download 2 </a>
+<a href="https://is.gd/KAR5Gu" class="btn btn-outline-success"> Download Google Icon </a>
 </p>
 
 ---
