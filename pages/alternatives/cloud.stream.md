@@ -11,17 +11,15 @@ show_comments: true
 
 ![](https://is.gd/hHlDCq)
 
+<p align ="center">
+<a href="https://is.gd/hlMBA8" class="btn btn-outline-success"> Download </a>
+</p>
+
 ---
 
 <p align="center"> <sub>
 Android app for streaming and downloading Movies, TV-Series and Anime.
 </sub> </p>
-
----
-
-<h4> <p align="center"> Download </p> </h4>
-
-[![](https://is.gd/HFbHPq)](https://is.gd/hlMBA8)
 
 ---
 
