@@ -1,11 +1,6 @@
----
-layout: minimal
-show_comments: true
----
+<h4> <p align="center"> YouTube </p> </h4>
 
 ![](https://is.gd/R1M1Ir)
-
-<h4> <p align="center"> YouTube </p> </h4>
 
 <p align="center"> By : Google LLC </p>
 
