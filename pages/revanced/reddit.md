@@ -1,11 +1,6 @@
----
-layout: minimal
-show_comments: true
----
+<h4> <p align="center"> Reddit </p> </h4>
 
 ![](https://is.gd/LpSbPS)
-
-<h4> <p align="center"> Reddit </p> </h4>
 
 <p align="center"> By : reddit Inc. </p>
 
