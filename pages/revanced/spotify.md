@@ -1,11 +1,6 @@
----
-layout: minimal
-show_comments: true
----
+<h4> <p align="center"> Spotify </p> </h4>
 
 ![](https://is.gd/QnhUxL)
-
-<h4> <p align="center"> Spotify </p> </h4>
 
 <p align="center"> By : Spotify Ltd. </p>
 
