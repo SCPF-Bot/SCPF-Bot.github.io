@@ -1,11 +1,6 @@
----
-layout: minimal
-show_comments: true
----
+<h4> <p align="center"> TikTok </p> </h4>
 
 ![](https://is.gd/8vZuwa)
-
-<h4> <p align="center"> TikTok </p> </h4>
 
 <p align="center"> By : TikTok Pte. Ltd. </p>
 
