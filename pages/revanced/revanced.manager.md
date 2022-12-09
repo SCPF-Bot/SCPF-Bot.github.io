@@ -1,11 +1,6 @@
----
-layout: minimal
-show_comments: true
----
+<h4> <p align="center"> ReVanced Manager </p> </h4>
 
 ![](https://is.gd/UzI9X3)
-
-<h4> <p align="center"> ReVanced Manager </p> </h4>
 
 <p align="center"> By : ReVanced </p>
 
