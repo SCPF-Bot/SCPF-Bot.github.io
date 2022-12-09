@@ -1,11 +1,6 @@
----
-layout: minimal
-show_comments: true
----
+<h4> <p align="center"> CloudStream </p> </h4>
 
 ![](https://is.gd/AbAt2X)
-
-<h4> <p align="center"> CloudStream </p> </h4>
 
 <p align="center"> By : recloudstream </p>
 
