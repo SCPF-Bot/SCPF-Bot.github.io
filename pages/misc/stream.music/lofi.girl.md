@@ -1,13 +1,8 @@
----
-layout: minimal
-show_comments: true
+<h4> <p align="center"> @Lofi Girl </p> </h4>
+
 ---
 
 {% include snippets/video.html id="jfKfPfyJRdk" provider="youtube" %}
-
----
-
-<h4> <p align="center"> @Lofi Girl </p> </h4>
 
 ---
 
