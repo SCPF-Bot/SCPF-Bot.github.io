@@ -1,11 +1,6 @@
----
-layout: minimal
-show_comments: true
----
+<h4> <p align="center"> microG </p> </h4>
 
 ![](https://is.gd/3FVYMW)
-
-<h4> <p align="center"> microG </p> </h4>
 
 <p align="center"> By : inotia00 </p>
 
