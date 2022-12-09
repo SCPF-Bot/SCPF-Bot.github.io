@@ -1,5 +1,4 @@
 ---
-layout: minimal
 skin: gitdev-dark
 ---
 ---
