@@ -1,11 +1,6 @@
----
-layout: minimal
-show_comments: true
----
+<h4> <p align="center"> YouTube Music </p> </h4>
 
 ![](https://is.gd/IJDaYv)
-
-<h4> <p align="center"> YouTube Music </p> </h4>
 
 <p align="center"> By : Google LLC </p>
 
