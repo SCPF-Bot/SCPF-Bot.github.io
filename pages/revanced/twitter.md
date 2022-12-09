@@ -1,11 +1,6 @@
----
-layout: minimal
-show_comments: true
----
+<h4> <p align="center"> Twitter </p> </h4>
 
 ![](https://is.gd/IQgB8e)
-
-<h4> <p align="center"> Twitter </p> </h4>
 
 <p align="center"> By : Twitter </p>
 
