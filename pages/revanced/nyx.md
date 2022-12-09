@@ -1,11 +1,6 @@
----
-layout: minimal
-show_comments: true
----
+<h4> <p align="center"> Nyx Music Player </p> </h4>
 
 ![](https://is.gd/uvC3jA)
-
-<h4> <p align="center"> Nyx Music Player </p> </h4>
 
 <p align="center"> By : Awedea! </p>
 
