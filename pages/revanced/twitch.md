@@ -1,11 +1,6 @@
----
-layout: minimal
-show_comments: true
----
+<h4> <p align="center"> Twitch </p> </h4>
 
 ![](https://is.gd/V17yUr)
-
-<h4> <p align="center"> Twitch </p> </h4>
 
 <p align="center"> By : Twitch Interactive, Inc. </p>
 
