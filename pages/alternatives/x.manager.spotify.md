@@ -1,11 +1,6 @@
----
-layout: minimal
-show_comments: true
----
+<h4> <p align="center"> xManager </p> </h4>
 
 ![](https://is.gd/mXt0Kj)
-
-<h4> <p align="center"> xManager </p> </h4>
 
 <p align="center"> By : xManager-v2 </p>
 
