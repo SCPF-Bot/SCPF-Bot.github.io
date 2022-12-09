@@ -9,10 +9,6 @@
 ---
 
 <p align ="center">
-Warning: Current Patch Error
-</p>
-
-<p align ="center">
 <a href="https://is.gd/izTiiK" class="btn btn-outline-success"> Download </a>
 </p>
 
