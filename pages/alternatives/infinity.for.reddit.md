@@ -1,11 +1,6 @@
----
-layout: minimal
-show_comments: true
----
+<h4> <p align="center"> Infinity For Reddit </p> </h4>
 
 ![](https://is.gd/4XJqSj)
-
-<h4> <p align="center"> Infinity For Reddit </p> </h4>
 
 <p align="center"> By : Docile-Alligator </p>
 
