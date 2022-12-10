@@ -151,7 +151,7 @@ date: 2022-11-30
 
 ### DDOS Attack Tools
 - SlowLoris
-- [Asyncrone | Multifunction SYN Flood DDoS Weapon](https://github.com/fatihsnsy/aSYNcrone)
+- [Asyncrone](https://github.com/fatihsnsy/aSYNcrone)
 - [UFOnet](https://github.com/epsylon/ufonet)
 - [GoldenEye](https://github.com/jseidl/GoldenEye)
 
