@@ -132,6 +132,7 @@ defaults:
       path: ""
       type: "my.posts"
     values:
+      layout: "default"
       header_type       : "post"
       show_comments     : true
       show_author       : true
