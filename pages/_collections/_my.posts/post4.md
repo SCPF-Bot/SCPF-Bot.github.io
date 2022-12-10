@@ -220,11 +220,15 @@ date: 2022-11-30
 #### Mix tools
 - Terminal Multiplexer
 
-![](https://github.com/Z4nzu/hackingtool/blob/master/images/A00.png)
-![](https://github.com/Z4nzu/hackingtool/blob/master/images/A0.png)
-![](https://github.com/Z4nzu/hackingtool/blob/master/images/A1.png)
-![](https://github.com/Z4nzu/hackingtool/blob/master/images/A2.png)
-![](https://github.com/Z4nzu/hackingtool/blob/master/images/A4.png)
+![](https://raw.githubusercontent.com/Z4nzu/hackingtool/master/images/A00.png)
+
+![](https://raw.githubusercontent.com/Z4nzu/hackingtool/master/images/A0.png)
+
+![](https://raw.githubusercontent.com/Z4nzu/hackingtool/master/images/A1.png)
+
+![](https://raw.githubusercontent.com/Z4nzu/hackingtool/master/images/A2.png)
+
+![](https://raw.githubusercontent.com/Z4nzu/hackingtool/master/images/A4.png)
 
 ---
 
