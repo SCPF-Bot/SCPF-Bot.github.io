@@ -51,7 +51,7 @@ Because of this, Storj is also faster, cheaper, and more secure than traditional
 ---
 
 ## Multi-region built in.
-> Storj don’t own or operate a single data center. Instead, Storj takes advantage of a massive global network that enables unparalleled performance, security, privacy, durability at cold storage prices.
+Storj don’t own or operate a single data center. Instead, Storj takes advantage of a massive global network that enables unparalleled performance, security, privacy, durability at cold storage prices.
 
 ---
 
