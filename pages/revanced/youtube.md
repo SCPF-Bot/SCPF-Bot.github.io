@@ -1,15 +1,15 @@
 <h4> <p align="center"> YouTube </p> </h4>
 
-![](https://is.gd/R1M1Ir)
+![Icon](https://rb.gy/qvisms)
 
 <p align="center"> By : Google LLC </p>
 
-![](https://img.shields.io/badge/dynamic/json?label=Version&color=success&labelColor=success&style=for-the-badge&query=%24%5B"com.google.android.youtube.apk"%5D&url=https%3A%2F%2Fis.gd%2F2wPvAM)
+![Version](https://rb.gy/zinxvs)
 
 ---
 
 <p align ="center">
-<a href="https://is.gd/r4hYaU" class="btn btn-outline-success"> Download </a>
+<a href="https://rb.gy/vb4wjb" class="btn btn-outline-success"> Download </a>
 </p>
 
 ---
@@ -20,4 +20,4 @@ YouTube is the official app for the world's largest and most popular video platf
 
 ---
 
-![](https://is.gd/uVvIMS)
+![Black Hole](https://rb.gy/z0dyyw)
