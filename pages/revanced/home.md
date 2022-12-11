@@ -54,6 +54,10 @@ ReVanced is an unofficial continuation of Vanced and is unaffiliated with Vanced
 
 <h4> <p align="center"> Patch Information </p> </h4>
 
+Note:
+
+All the patches that is <del>crossed out</del> in the patch list are the patches that isn't applied in the patching process or currently work in progress.
+
 #### `YouTube`
 - Always repeats the playing video again.
 - Spoofs the YouTube or Vanced client to prevent playback issues.
@@ -144,7 +148,7 @@ ReVanced is an unofficial continuation of Vanced and is unaffiliated with Vanced
 
 #### `Spotify`
 - Allows capturing Spotify's audio output while screen sharing or screen recording.
-- </del>Removes the premium tab from the navbar.</del> (WIP)
+- <del>Removes the premium tab from the navbar.</del>
 - Applies a custom theme.
 
 ---
