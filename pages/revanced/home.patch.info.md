@@ -108,3 +108,10 @@
 - Adds a monochrome icon. (Android 12+)
 - Removes ads from the Twitter timeline.
 
+---
+
+#### Reddit
+#### com.reddit.frontpage
+- Removes general ads from the Reddit frontpage and subreddits.
+- Unlocks premium Reddit app icons.
+
