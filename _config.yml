@@ -97,7 +97,7 @@ googlefonts:
  - url: https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap
 
 chulapa-skin: 
-  skin: twitter-dim
+  skin: twitter-lights-out
   vars:
     font-family-base: "Ubuntu Mono"
 
