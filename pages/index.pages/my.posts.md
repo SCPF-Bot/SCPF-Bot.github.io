@@ -1,7 +1,5 @@
 ---
-layout: indexcategory
 title: My Posts
-show_comments: false
 include_collection: my.posts
 ---
 
