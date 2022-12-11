@@ -1,5 +1,7 @@
 <h2> <p align="center"> Patch Information </p> </h2>
 
+---
+
 #### `YouTube`
 #### `com.google.android.youtube`
 - Always repeats the playing video again.
@@ -49,3 +51,19 @@
 - Enables the tablet mini player layout.
 - Applies a custom theme.
 - Removes ads in the video player.
+
+---
+
+#### `YouTube Music`
+#### `com.google.android.apps.youtube.music`
+- Enables playing music in the background.
+- Adds more audio codec options. The new audio codecs usually result in better audio quality.
+- Hides the music category bar at the top of the homepage.
+- Enables the option to play music without video.
+- Removes all "Get Premium" evidences from the avatar menu.
+- Enables minimized playback on Kids music.
+- Allows YouTube Music ReVanced to run without root and under a different package name.
+- Removes ads in the music player.
+- ~Removes the "Tell us which artists you like" card from the home screen.~
+- Removes the upgrade tab from the pivot bar.
+
