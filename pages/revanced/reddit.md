@@ -1,15 +1,15 @@
 <h4> <p align="center"> Reddit </p> </h4>
 
-![](https://is.gd/LpSbPS)
+![Icon](https://rb.gy/uayk2v)
 
 <p align="center"> By : reddit Inc. </p>
 
-![](https://img.shields.io/badge/dynamic/json?label=Version&color=success&labelColor=success&style=for-the-badge&query=%24%5B"com.reddit.frontpage.apk"%5D&url=https%3A%2F%2Fis.gd%2F2wPvAM)
+![Version](https://rb.gy/hkiiyy)
 
 ---
 
 <p align ="center">
-<a href="https://is.gd/iobwfF" class="btn btn-outline-success"> Download </a>
+<a href="https://rb.gy/j2llmf" class="btn btn-outline-success"> Download </a>
 </p>
 
 ---
@@ -20,4 +20,4 @@ The Reddit Official App is the official app of the giant Reddit, one of the larg
 
 ---
 
-![](https://is.gd/uVvIMS)
+![Black Hole](https://rb.gy/z0dyyw)
