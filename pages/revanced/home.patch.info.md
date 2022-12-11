@@ -2,8 +2,8 @@
 
 ---
 
-#### `YouTube`
-#### `com.google.android.youtube`
+#### YouTube
+#### com.google.android.youtube
 - Always repeats the playing video again.
 - Spoofs the YouTube or Vanced client to prevent playback issues.
 - Hides components related to comments.
@@ -54,8 +54,8 @@
 
 ---
 
-#### `YouTube Music`
-#### `com.google.android.apps.youtube.music`
+#### YouTube Music
+#### com.google.android.apps.youtube.music
 - Enables playing music in the background.
 - Adds more audio codec options. The new audio codecs usually result in better audio quality.
 - Hides the music category bar at the top of the homepage.
@@ -69,8 +69,8 @@
 
 ---
 
-#### `TikTok`
-#### `com.zhiliaoapp.musically`
+#### TikTok
+#### com.zhiliaoapp.musically
 - Do not force login.
 - Removes download restrictions and changes the default path to download to.
 - Filters tiktok videos, removing ads, removing livestreams.
@@ -80,4 +80,13 @@
 - Adds settings for ReVanced to TikTok.
 - Shows progress bar for all video.
 - Spoofs the information which is retrieved from the sim-card.
+
+#### Twitch
+#### tv.twitch.android.app
+- Blocks audio ads in streams and VODs.
+- Blocks embedded steam ads using services like TTV.lol or PurpleAdBlocker.
+- Blocks video ads in streams and VODs.
+- Enables Twitch's internal debugging mode.
+- Adds settings menu to Twitch.
+- Shows deleted chat messages behind a clickable spoiler.
 
