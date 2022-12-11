@@ -9,7 +9,7 @@
 ---
 
 <p align ="center">
-<a href="https://bit.ly/3iV5wGt" class="btn btn-outline-success"> Download </a>
+<a href="https://is.gd/7tVEGR" class="btn btn-outline-success"> Download </a>
 </p>
 
 ---
