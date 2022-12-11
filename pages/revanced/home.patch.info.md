@@ -115,3 +115,18 @@
 - Removes general ads from the Reddit frontpage and subreddits.
 - Unlocks premium Reddit app icons.
 
+---
+
+#### Nyx Music Player
+#### com.awedea.nyx
+- Unlocks all pro features.
+
+---
+
+#### Icon Pack Studio
+#### ginlemon.iconpackstudio
+- Unlocks all pro features.
+
+---
+
+![](https://is.gd/uVvIMS)
