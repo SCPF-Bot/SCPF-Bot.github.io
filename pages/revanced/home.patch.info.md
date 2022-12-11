@@ -100,3 +100,11 @@
 - ~Removes the premium tab from the navbar.~ (WIP)
 - Applies a custom theme.
 
+---
+
+#### Twitter
+#### com.twitter.android
+- Replaces the default Twitter Blue with the users Material You palette. (Android 12+)
+- Adds a monochrome icon. (Android 12+)
+- Removes ads from the Twitter timeline.
+
