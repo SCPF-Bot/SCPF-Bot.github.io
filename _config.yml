@@ -99,8 +99,6 @@ googlefonts:
 chulapa-skin: 
   skin: twitter-dim
   vars:
-    body-bg: "#000"
-    body-color: "#111"
     font-family-base: "Ubuntu Mono"
 
 comments:
