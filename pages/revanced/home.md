@@ -52,4 +52,12 @@ ReVanced is an unofficial continuation of Vanced and is unaffiliated with Vanced
 
 ---
 
+<h4> <p align="center"> Patch Info? </p> </h4>
+
+<p align ="center">
+<a href="https://SCP-017.github.io/pages/revanced/home.patch.info" class="btn btn-outline-success"> Click Here </a>
+</p>
+
+---
+
 ![](https://is.gd/uVvIMS)
