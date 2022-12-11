@@ -59,53 +59,55 @@ Note:
 All the patches that are <del>crossed out</del> in the patch list are the patches that isn't applied in the patching process or currently are work in progress.
 
 #### `YouTube`
-- Always repeats the playing video again.
-- Spoofs the YouTube or Vanced client to prevent playback issues.
-- Hides components related to comments.
-- <del>Changes the YouTube launcher icon and name to your choice (defaults to ReVanced).</del>
-- Lets you change the buffers of videos.
-- Adds more video speed options.
-- Adds debugging options.
-- Disable forced captions from being automatically enabled.
-- Disable automatic popup panels (playlist or live chat) on video player.
-- Disables video description and comments panel in fullscreen view.
-- Disables playing YouTube Shorts when launching YouTube.
-- Disables haptics when zooming.
-- Enables downloading music and videos from YouTube.
-- Replaces the search icon with a wide search bar. This will hide the YouTube logo when active.
-- Removes general ads.
-- Makes the brightness of HDR videos follow the system default.
-- Hides the album cards below the artist description.
-- Hides the artist card below the searchbar.
-- Hides the autoplay button in the video player.
-- Hides the captions button on video player.
-- Hides the cast button in the video player.
-- Hides the create button in the navigation bar.
-- Hides the crowdfunding box between the player and video description.
-- Hides the email address in the account switcher.
-- Hides the suggested video cards at the end of a video in fullscreen.
-- Hides info-cards in videos.
-- Hides mix playlists.
-- Hides the shorts button on the navigation bar.
-- Hides progress bar and time counter on videos.
-- Adds options to hide action buttons under a video.
-- Hides the Watch in VR option in the player settings flyout panel.
-- Hides creator's watermarks on videos.
-- Allows YouTube ReVanced to run without root and under a different package name with Vanced MicroG.
-- Enables minimized and background playback.
-- Enables the original video quality flyout in the video player settings.
-- Bypasses URL redirects and opens links directly inside YouTube app.
-- <del>Shows premium branding on the home screen.</del>
-- Adds the ability to remember the video quality you chose in the video quality flyout.
-- Removes the background from the video player buttons.
-- Shows the dislike count of videos using the Return YouTube Dislike API.
-- Enables tap-to-seek on the seekbar of the video player.
-- Adds settings for ReVanced to YouTube.
-- Integrate SponsorBlock.
-- Adds volume and brightness swipe controls.
-- Enables the tablet mini player layout.
-- Applies a custom theme.
-- Removes ads in the video player.
+| Patch | Description |
+| --- | --- |
+| `always-autorepeat` | Always repeats the playing video again. |
+| `client-spoof` | Spoofs the YouTube or Vanced client to prevent playback issues. |
+| `comments` | Hides components related to comments. |
+| <del>`custom-branding`</del> | <del>Changes the YouTube launcher icon and name to your choice (defaults to ReVanced).</del> |
+| `custom-video-buffer` | Lets you change the buffers of videos. |
+| `custom-video-speed` | Adds more video speed options. |
+| `debugging` | Adds debugging options. |
+| `disable-auto-captions` | Disable forced captions from being automatically enabled. |
+| `disable-auto-player-popup-panels` | Disable automatic popup panels (playlist or live chat) on video player. |
+| `disable-fullscreen-panels` | Disables video description and comments panel in fullscreen view. |
+| `disable-startup-shorts-player` | Disables playing YouTube Shorts when launching YouTube. |
+| `disable-zoom-haptics` | Disables haptics when zooming. |
+| `downloads` | Enables downloading music and videos from YouTube. |
+| `enable-wide-searchbar` | Replaces the search icon with a wide search bar. This will hide the YouTube logo when active. |
+| `general-ads` | Removes general ads. |
+| `hdr-auto-brightness` | Makes the brightness of HDR videos follow the system default. |
+| `hide-album-cards` | Hides the album cards below the artist description. |
+| `hide-artist-card` | Hides the artist card below the searchbar. |
+| `hide-autoplay-button` | Hides the autoplay button in the video player. |
+| `hide-captions-button` | Hides the captions button on video player. |
+| `hide-cast-button` | Hides the cast button in the video player. |
+| `hide-create-button` | Hides the create button in the navigation bar. |
+| `hide-crowdfunding-box` | Hides the crowdfunding box between the player and video description. |
+| `hide-email-address` | Hides the email address in the account switcher. |
+| `hide-endscreen-cards` | Hides the suggested video cards at the end of a video in fullscreen. |
+| `hide-info-cards` | Hides info-cards in videos. |
+| `hide-my-mix` | Hides mix playlists. |
+| `hide-shorts-button` | Hides the shorts button on the navigation bar. |
+| `hide-time-and-seekbar` | Hides progress bar and time counter on videos. |
+| `hide-video-buttons` | Adds options to hide action buttons under a video. |
+| `hide-watch-in-vr` | Hides the Watch in VR option in the player settings flyout panel. |
+| `hide-watermark` | Hides creator's watermarks on videos. |
+| `microg-support` | Allows YouTube ReVanced to run without root and under a different package name with Vanced MicroG. |
+| `minimized-playback` | Enables minimized and background playback. |
+| `old-quality-layout` | Enables the original video quality flyout in the video player settings |
+| `open-links-directly` | Bypasses URL redirects and opens links directly inside YouTube app. |
+| <del>`premium-heading`</del> | <del>Shows premium branding on the home screen.</del> |
+| `remember-video-quality` | Adds the ability to remember the video quality you chose in the video quality flyout. |
+| `remove-player-button-background` | Removes the background from the video player buttons. |
+| `return-youtube-dislike` | Shows the dislike count of videos using the Return YouTube Dislike API. |
+| `seekbar-tapping` | Enables tap-to-seek on the seekbar of the video player. |
+| `settings` | Adds settings for ReVanced to YouTube. |
+| `sponsorblock` | Integrate SponsorBlock. |
+| `swipe-controls` | Adds volume and brightness swipe controls. |
+| `tablet-mini-player` | Enables the tablet mini player layout. |
+| `theme` | Applies a custom theme. |
+| `video-ads` | Removes ads in the video player. |
 
 ---
 
