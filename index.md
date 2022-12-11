@@ -5,6 +5,17 @@ header_type: hero
 header_img: "assets/site/galaxy.violet.jpg"
 ---
 
+![Disable AdBlock](assets/site/disable.adblock.png)
+
+<h4> <p align="center"> Disable AdBlock </p> </h4>
+<p align="center">
+<sub>
+Hey stranger, I'm warning you. Some images and functions might not work or load as intended if your AdBlocker is activated on this website.
+</sub>
+</p>
+
+---
+
 <h4> <p align="center"> Website Stats </p> </h4>
 
 <p align="center">
