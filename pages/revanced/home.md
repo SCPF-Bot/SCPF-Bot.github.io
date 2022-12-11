@@ -58,7 +58,7 @@ ReVanced is an unofficial continuation of Vanced and is unaffiliated with Vanced
 - Always repeats the playing video again.
 - Spoofs the YouTube or Vanced client to prevent playback issues.
 - Hides components related to comments.
-- ~Changes the YouTube launcher icon and name to your choice (defaults to ReVanced).~
+- <del>Changes the YouTube launcher icon and name to your choice (defaults to ReVanced).</del>
 - Lets you change the buffers of videos.
 - Adds more video speed options.
 - Adds debugging options.
@@ -91,7 +91,7 @@ ReVanced is an unofficial continuation of Vanced and is unaffiliated with Vanced
 - Enables minimized and background playback.
 - Enables the original video quality flyout in the video player settings.
 - Bypasses URL redirects and opens links directly inside YouTube app.
-- ~Shows premium branding on the home screen.~
+- <del>Shows premium branding on the home screen.</del>
 - Adds the ability to remember the video quality you chose in the video quality flyout.
 - Removes the background from the video player buttons.
 - Shows the dislike count of videos using the Return YouTube Dislike API.
@@ -114,7 +114,7 @@ ReVanced is an unofficial continuation of Vanced and is unaffiliated with Vanced
 - Enables minimized playback on Kids music.
 - Allows YouTube Music ReVanced to run without root and under a different package name.
 - Removes ads in the music player.
-- ~Removes the "Tell us which artists you like" card from the home screen.~
+- <del>Removes the "Tell us which artists you like" card from the home screen.</del>
 - Removes the upgrade tab from the pivot bar.
 
 ---
@@ -144,7 +144,7 @@ ReVanced is an unofficial continuation of Vanced and is unaffiliated with Vanced
 
 #### `Spotify`
 - Allows capturing Spotify's audio output while screen sharing or screen recording.
-- ~Removes the premium tab from the navbar.~ (WIP)
+- </del>Removes the premium tab from the navbar.</del> (WIP)
 - Applies a custom theme.
 
 ---
