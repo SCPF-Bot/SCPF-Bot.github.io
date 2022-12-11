@@ -1,19 +1,19 @@
 <h4> <p align="center"> YouTube Music </p> </h4>
 
-![](https://is.gd/IJDaYv)
+![Icon](https://rb.gy/dzt9jx)
 
 <p align="center"> By : Google LLC </p>
 
-![](https://img.shields.io/badge/dynamic/json?label=Version&color=success&labelColor=success&style=for-the-badge&query=%24%5B"com.google.android.apps.youtube.music.apk"%5D&url=https%3A%2F%2Fis.gd%2F2wPvAM)
+![Version](https://rb.gy/fjko2s)
 
 ---
 
 <p align ="center">
-<a href="https://is.gd/DaunCd" class="btn btn-outline-success"> Download ARM-V7A </a>
+<a href="https://rb.gy/0egmxw" class="btn btn-outline-success"> Download ARM-V7A </a>
 </p>
 
 <p align ="center">
-<a href="https://is.gd/GJqtaT" class="btn btn-outline-success"> Download ARM64-V8A </a>
+<a href="https://rb.gy/xo85av" class="btn btn-outline-success"> Download ARM64-V8A </a>
 </p>
 
 ---
@@ -24,4 +24,4 @@ YouTube Music is the official music app from YouTube. It lets you enjoy all the 
 
 ---
 
-![](https://is.gd/uVvIMS)
+![Black Hole](https://rb.gy/z0dyyw)
