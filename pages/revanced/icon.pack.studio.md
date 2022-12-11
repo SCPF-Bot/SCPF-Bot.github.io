@@ -1,6 +1,6 @@
 <h4> <p align="center"> Icon Pack Studio </p> </h4>
 
-![](https://t.ly/J7tg)
+![](https://cutt.ly/V0pKxDI)
 
 <p align="center"> By : Smart Launcher Team </p>
 
@@ -9,7 +9,7 @@
 ---
 
 <p align ="center">
-<a href="https://t.ly/Exfr" class="btn btn-outline-success"> Download </a>
+<a href="https://cutt.ly/H0pKRS7" class="btn btn-outline-success"> Download </a>
 </p>
 
 ---
@@ -20,4 +20,4 @@ We created IPS with the idea that no icon pack can fit your home screen better t
 
 ---
 
-![](https://t.ly/zbgY)
+![](https://cutt.ly/B0pKSiv)
