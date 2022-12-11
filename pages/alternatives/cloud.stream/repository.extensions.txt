@@ -1,20 +1,28 @@
 English
-http://is.gd/zXGBFw
+https://raw.githubusercontent.com/recloudstream/cloudstream-extensions/builds/repo.json
 ---
 Multilingual
-http://is.gd/PHqOKk
+https://raw.githubusercontent.com/recloudstream/cloudstream-extensions-multilingual/builds/repo.json
 ---
 Hexated (Mix)
-http://is.gd/alcdB0
+https://raw.githubusercontent.com/hexated/cloudstream-extensions-hexated/builds/repo.json
 ---
 Arabic
-http://is.gd/sk0Lmx
+https://raw.githubusercontent.com/ImZaw/cloudstream-extensions-arabic/builds/repo.json
 ---
 CS3XXX (NSFW)
-http://is.gd/E1GIEq
+https://raw.githubusercontent.com/Jacekun/cs3xxx-repo/main/repo.json
 ---
 Daarkdemon
-http://is.gd/Mwgtm0
+https://raw.githubusercontent.com/daarkdemon/cs-darkdemon-extensions/builds/repo.json
 ---
 Tamil Providers
-http://is.gd/5tMADv
+https://raw.githubusercontent.com/LikDev-256/likdev256-tamil-providers/builds/repo.json
+---
+Kamy CS3
+https://raw.githubusercontent.com/Stormunblessed/kamy-cs3/master/repo.json
+---
+https://raw.githubusercontent.com/Eddy976/cloudstream-extensions-eddy/builds/repo.json
+---
+Stormunblessed CS3
+https://raw.githubusercontent.com/Stormunblessed/stormunblessed-cs3/master/repo.json
