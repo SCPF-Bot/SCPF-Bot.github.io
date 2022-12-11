@@ -1,6 +1,6 @@
 <h4> <p align="center"> Icon Pack Studio </p> </h4>
 
-![Icon](https://bit.ly/3UO7xRO)
+![Icon](https://rb.gy/upuqds)
 
 <p align="center"> By : Smart Launcher Team </p>
 
