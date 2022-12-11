@@ -1,15 +1,15 @@
 <h4> <p align="center"> Nyx Music Player </p> </h4>
 
-![](https://is.gd/uvC3jA)
+![Icon](https://rb.gy/qtqghu)
 
 <p align="center"> By : Awedea! </p>
 
-![](https://img.shields.io/badge/dynamic/json?label=Version&color=success&labelColor=success&style=for-the-badge&query=%24%5B"com.awedea.nyx.apk"%5D&url=https%3A%2F%2Fis.gd%2F2wPvAM)
+![Version](https://rb.gy/hsfiiy)
 
 ---
 
 <p align ="center">
-<a href="https://is.gd/uNwGd7" class="btn btn-outline-success"> Download </a>
+<a href="https://rb.gy/ncusvx" class="btn btn-outline-success"> Download </a>
 </p>
 
 ---
@@ -20,4 +20,4 @@ Nyx Music Player 👻 is one of the Most Gorgeous Music Player 😍 available on
 
 ---
 
-![](https://is.gd/uVvIMS)
+![Black Hole](https://rb.gy/z0dyyw)
