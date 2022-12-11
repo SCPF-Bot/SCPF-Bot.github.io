@@ -4,7 +4,7 @@
 
 <p align="center">
 <a href="https://revanced.app">
-<img src="https://is.gd/P0bMUn">
+<img src="https://rb.gy/jzhvwn">
 </a>
 </p>
 
@@ -19,13 +19,13 @@ ReVanced is an unofficial continuation of Vanced and is unaffiliated with Vanced
 <h4> <p align="center"> ReVanced Info </p> </h4>
 
 <p align="center">
-<a href="https://is.gd/3eJ6uZ">
-<img src="https://is.gd/ZPKoXy">
+<a href="https://rb.gy/xxi3yf">
+<img src="https://rb.gy/4z4pje">
 </a>
 </p>
 
 <p align="center">
-<img src="https://is.gd/uoB7vj">
+<img src="https://rb.gy/t2gz9i">
 </p>
 
 ---
@@ -33,20 +33,20 @@ ReVanced is an unofficial continuation of Vanced and is unaffiliated with Vanced
 <h4> <p align="center"> ReVanced Versions </p> </h4>
 
 <p align="center">
-<a href="https://is.gd/XrXuYH">
-<img src="https://is.gd/L7bJU4">
+<a href="https://rb.gy/tnth8d">
+<img src="https://rb.gy/b0utbo">
 </a>
 </p>
 
 <p align="center">
-<a href="https://is.gd/qPVWKP">
-<img src="https://is.gd/aStrQS">
+<a href="https://rb.gy/amadyg">
+<img src="https://rb.gy/nlrygp">
 </a>
 </p>
 
 <p align="center">
-<a href="https://is.gd/QGEbzP">
-<img src="https://is.gd/p9FBUQ">
+<a href="https://rb.gy/yvmieu">
+<img src="https://rb.gy/fgkl6y">
 </a>
 </p>
 
@@ -176,4 +176,4 @@ All the patches that are <del>crossed out</del> in the patch list are the patche
 
 ---
 
-![](https://is.gd/uVvIMS)
+![Black Hole](https://rb.gy/z0dyyw)
