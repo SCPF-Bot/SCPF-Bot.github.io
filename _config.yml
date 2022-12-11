@@ -127,12 +127,19 @@ defaults:
       show_comments     : true
   -
     scope:
+      path: "pages/index.pages"
+    values:
+      layout: "indexcategory"
+      show_comments     : false
+      header_type       : "base"
+      header_img        : /assets/site/galaxy.forest.jpg
+  -
+    scope:
       path: ""
       type: "my.posts"
     values:
       layout: "default"
       header_type       : "post"
-      show_comments     : true
       show_author       : true
       header_img        : /assets/site/banner.jpg
 
