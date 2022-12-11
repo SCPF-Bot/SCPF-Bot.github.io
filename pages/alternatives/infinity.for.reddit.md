@@ -1,15 +1,15 @@
 <h4> <p align="center"> Infinity For Reddit </p> </h4>
 
-![](https://is.gd/4XJqSj)
+![Icon](https://rb.gy/ujykqf)
 
 <p align="center"> By : Docile-Alligator </p>
 
-![](https://is.gd/No9LA2)
+![Version](https://rb.gy/advzb1)
 
 ---
 
 <p align ="center">
-<a href="https://is.gd/v8fsq9" class="btn btn-outline-success"> Download </a>
+<a href="https://rb.gy/q9yxi5" class="btn btn-outline-success"> Download </a>
 </p>
 
 ---
@@ -20,4 +20,4 @@ A Reddit client on Android written in Java. It does not have any ads and it feat
 
 ---
 
-![](https://is.gd/uVvIMS)
+![Black Hole](https://rb.gy/z0dyyw)
