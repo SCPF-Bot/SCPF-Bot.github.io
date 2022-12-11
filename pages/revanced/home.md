@@ -56,7 +56,7 @@ ReVanced is an unofficial continuation of Vanced and is unaffiliated with Vanced
 
 Note:
 
-All the patches that is <del>crossed out</del> in the patch list are the patches that isn't applied in the patching process or currently work in progress.
+All the patches that are <del>crossed out</del> in the patch list are the patches that isn't applied in the patching process or currently are work in progress.
 
 #### `YouTube`
 - Always repeats the playing video again.
