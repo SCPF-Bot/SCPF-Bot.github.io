@@ -1,4 +1,51 @@
----
-title: Patch Info
----
----
+<h2> <p align="center"> Patch Information </p> </h2>
+
+#### `YouTube`
+#### `com.google.android.youtube`
+- Always repeats the playing video again.
+- Spoofs the YouTube or Vanced client to prevent playback issues.
+- Hides components related to comments.
+- ~Changes the YouTube launcher icon and name to your choice (defaults to ReVanced).~
+- Lets you change the buffers of videos.
+- Adds more video speed options.
+- Adds debugging options.
+- Disable forced captions from being automatically enabled.
+- Disable automatic popup panels (playlist or live chat) on video player.
+- Disables video description and comments panel in fullscreen view.
+- Disables playing YouTube Shorts when launching YouTube.
+- Disables haptics when zooming.
+- Enables downloading music and videos from YouTube.
+- Replaces the search icon with a wide search bar. This will hide the YouTube logo when active.
+- Removes general ads.
+- Makes the brightness of HDR videos follow the system default.
+- Hides the album cards below the artist description.
+- Hides the artist card below the searchbar.
+- Hides the autoplay button in the video player.
+- Hides the captions button on video player.
+- Hides the cast button in the video player.
+- Hides the create button in the navigation bar.
+- Hides the crowdfunding box between the player and video description.
+- Hides the email address in the account switcher.
+- Hides the suggested video cards at the end of a video in fullscreen.
+- Hides info-cards in videos.
+- Hides mix playlists.
+- Hides the shorts button on the navigation bar.
+- Hides progress bar and time counter on videos.
+- Adds options to hide action buttons under a video.
+- Hides the Watch in VR option in the player settings flyout panel.
+- Hides creator's watermarks on videos.
+- Allows YouTube ReVanced to run without root and under a different package name with Vanced MicroG.
+- Enables minimized and background playback.
+- Enables the original video quality flyout in the video player settings.
+- Bypasses URL redirects and opens links directly inside YouTube app.
+- ~Shows premium branding on the home screen.~
+- Adds the ability to remember the video quality you chose in the video quality flyout.
+- Removes the background from the video player buttons.
+- Shows the dislike count of videos using the Return YouTube Dislike API.
+- Enables tap-to-seek on the seekbar of the video player.
+- Adds settings for ReVanced to YouTube.
+- Integrate SponsorBlock.
+- Adds volume and brightness swipe controls.
+- Enables the tablet mini player layout.
+- Applies a custom theme.
+- Removes ads in the video player.
