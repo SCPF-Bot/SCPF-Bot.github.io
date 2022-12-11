@@ -81,6 +81,8 @@
 - Shows progress bar for all video.
 - Spoofs the information which is retrieved from the sim-card.
 
+---
+
 #### Twitch
 #### tv.twitch.android.app
 - Blocks audio ads in streams and VODs.
@@ -89,4 +91,12 @@
 - Enables Twitch's internal debugging mode.
 - Adds settings menu to Twitch.
 - Shows deleted chat messages behind a clickable spoiler.
+
+---
+
+#### Spotify
+#### com.spotify.music
+- Allows capturing Spotify's audio output while screen sharing or screen recording.
+- ~Removes the premium tab from the navbar.~ (WIP)
+- Applies a custom theme.
 
