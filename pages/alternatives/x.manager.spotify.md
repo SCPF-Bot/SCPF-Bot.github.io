@@ -1,15 +1,15 @@
 <h4> <p align="center"> xManager </p> </h4>
 
-![](https://is.gd/mXt0Kj)
+![Icon](https://rb.gy/8exijm)
 
 <p align="center"> By : xManager-v2 </p>
 
-![](https://is.gd/B1vAf6)
+![Version](https://rb.gy/ikkeue)
 
 ---
 
 <p align ="center">
-<a href="https://is.gd/xuWw0N" class="btn btn-outline-success"> Download </a>
+<a href="https://rb.gy/pfrk7z" class="btn btn-outline-success"> Download </a>
 </p>
 
 ---
@@ -20,4 +20,4 @@ Our aim is to make a simple yet useful manager app for everyone's convenience. O
 
 ---
 
-![](https://is.gd/uVvIMS)
+![Black Hole](https://rb.gy/z0dyyw)
