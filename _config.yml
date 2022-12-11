@@ -130,16 +130,15 @@ defaults:
       layout: "indexcategory"
       show_comments     : false
       header_type       : "base"
-      header_img        : /assets/site/galaxy.forest.jpg
+      header_img        : assets/images/galaxy.forest.jpg
   -
     scope:
-      path: ""
-      type: "my.posts"
+      path: "pages/_collections/_my.posts"
     values:
       layout: "default"
       header_type       : "post"
       show_author       : true
-      header_img        : /assets/site/banner.jpg
+      header_img        : assets/images/red.black.hole.jpg
 
 compress_html:
   clippings: all
