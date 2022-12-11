@@ -67,3 +67,17 @@
 - ~Removes the "Tell us which artists you like" card from the home screen.~
 - Removes the upgrade tab from the pivot bar.
 
+---
+
+#### `TikTok`
+#### `com.zhiliaoapp.musically`
+- Do not force login.
+- Removes download restrictions and changes the default path to download to.
+- Filters tiktok videos, removing ads, removing livestreams.
+- Allows logging in with a Google account.
+- Removes ads from TikTok.
+- Enables the playback speed option for all videos.
+- Adds settings for ReVanced to TikTok.
+- Shows progress bar for all video.
+- Spoofs the information which is retrieved from the sim-card.
+
