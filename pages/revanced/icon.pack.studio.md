@@ -1,15 +1,15 @@
 <h4> <p align="center"> Icon Pack Studio </p> </h4>
 
-![](https://cutt.ly/V0pKxDI)
+![Icon](https://bit.ly/3UO7xRO)
 
 <p align="center"> By : Smart Launcher Team </p>
 
-![](https://img.shields.io/badge/dynamic/json?label=Version&color=success&labelColor=success&style=for-the-badge&query=%24%5B"ginlemon.iconpackstudio.apk"%5D&url=https%3A%2F%2Fis.gd%2F2wPvAM)
+![Version](https://img.shields.io/badge/dynamic/json?label=Version&color=success&labelColor=success&style=for-the-badge&query=%24%5B"ginlemon.iconpackstudio.apk"%5D&url=https%3A%2F%2Fis.gd%2F2wPvAM)
 
 ---
 
 <p align ="center">
-<a href="https://cutt.ly/H0pKRS7" class="btn btn-outline-success"> Download </a>
+<a href="https://bit.ly/3hecsxV" class="btn btn-outline-success"> Download </a>
 </p>
 
 ---
@@ -20,4 +20,4 @@ We created IPS with the idea that no icon pack can fit your home screen better t
 
 ---
 
-![](https://cutt.ly/B0pKSiv)
+![Black Hole](https://bit.ly/3iO0taF)
