@@ -1,15 +1,15 @@
 <h4> <p align="center"> ReVanced Manager </p> </h4>
 
-![](https://is.gd/UzI9X3)
+![Icon](https://rb.gy/wymlg6)
 
 <p align="center"> By : ReVanced </p>
 
-![](https://is.gd/G8YJ1V)
+![Version](https://rb.gy/dnffac)
 
 ---
 
 <p align ="center">
-<a href="https://is.gd/WAaR8n" class="btn btn-outline-success"> Download </a>
+<a href="https://rb.gy/bavxw5" class="btn btn-outline-success"> Download </a>
 </p>
 
 ---
@@ -20,4 +20,4 @@ The official ReVanced Manager.
 
 ---
 
-![](https://is.gd/uVvIMS)
+![Black Hole](https://rb.gy/z0dyyw)
