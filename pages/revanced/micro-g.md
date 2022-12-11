@@ -1,19 +1,19 @@
 <h4> <p align="center"> microG </p> </h4>
 
-![](https://is.gd/3FVYMW)
+![Icon](https://rb.gy/viyvym)
 
 <p align="center"> By : inotia00 </p>
 
-![](https://is.gd/ghwVrE)
+![Version](https://rb.gy/wk2zzw)
 
 ---
 
 <p align ="center">
-<a href="https://is.gd/iIBAm2" class="btn btn-outline-success"> Download Legacy Icon </a>
+<a href="https://rb.gy/gprxec" class="btn btn-outline-success"> Download Legacy Icon </a>
 </p>
 
 <p align ="center">
-<a href="https://is.gd/KAR5Gu" class="btn btn-outline-success"> Download Google Icon </a>
+<a href="https://rb.gy/x8quqt" class="btn btn-outline-success"> Download Google Icon </a>
 </p>
 
 ---
@@ -24,4 +24,4 @@ microG GmsCore is a FLOSS (Free/Libre Open Source Software) framework to allow a
 
 ---
 
-![](https://is.gd/uVvIMS)
+![Black Hole](https://rb.gy/z0dyyw)
