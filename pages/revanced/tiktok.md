@@ -1,15 +1,15 @@
 <h4> <p align="center"> TikTok </p> </h4>
 
-![](https://is.gd/8vZuwa)
+![Icon](https://rb.gy/drpbgh)
 
 <p align="center"> By : TikTok Pte. Ltd. </p>
 
-![](https://img.shields.io/badge/dynamic/json?label=Version&color=success&labelColor=success&style=for-the-badge&query=%24%5B"com.zhiliaoapp.musically.apk"%5D&url=https%3A%2F%2Fis.gd%2F2wPvAM)
+![Version](https://rb.gy/iphadn)
 
 ---
 
 <p align ="center">
-<a href="https://is.gd/izTiiK" class="btn btn-outline-success"> Download </a>
+<a href="https://rb.gy/ffhbbd" class="btn btn-outline-success"> Download </a>
 </p>
 
 ---
@@ -20,4 +20,4 @@ TikTok is the official app for the super popular social network that lets you cr
 
 ---
 
-![](https://is.gd/uVvIMS)
+![Black Hole](https://rb.gy/z0dyyw)
