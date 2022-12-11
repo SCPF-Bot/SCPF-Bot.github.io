@@ -2,8 +2,7 @@
 
 ---
 
-#### YouTube
-#### com.google.android.youtube
+#### `YouTube`
 - Always repeats the playing video again.
 - Spoofs the YouTube or Vanced client to prevent playback issues.
 - Hides components related to comments.
@@ -54,8 +53,7 @@
 
 ---
 
-#### YouTube Music
-#### com.google.android.apps.youtube.music
+#### `YouTube Music`
 - Enables playing music in the background.
 - Adds more audio codec options. The new audio codecs usually result in better audio quality.
 - Hides the music category bar at the top of the homepage.
@@ -69,8 +67,7 @@
 
 ---
 
-#### TikTok
-#### com.zhiliaoapp.musically
+#### `TikTok`
 - Do not force login.
 - Removes download restrictions and changes the default path to download to.
 - Filters tiktok videos, removing ads, removing livestreams.
@@ -83,8 +80,7 @@
 
 ---
 
-#### Twitch
-#### tv.twitch.android.app
+#### `Twitch`
 - Blocks audio ads in streams and VODs.
 - Blocks embedded steam ads using services like TTV.lol or PurpleAdBlocker.
 - Blocks video ads in streams and VODs.
@@ -94,37 +90,32 @@
 
 ---
 
-#### Spotify
-#### com.spotify.music
+#### `Spotify`
 - Allows capturing Spotify's audio output while screen sharing or screen recording.
 - ~Removes the premium tab from the navbar.~ (WIP)
 - Applies a custom theme.
 
 ---
 
-#### Twitter
-#### com.twitter.android
+#### `Twitter`
 - Replaces the default Twitter Blue with the users Material You palette. (Android 12+)
 - Adds a monochrome icon. (Android 12+)
 - Removes ads from the Twitter timeline.
 
 ---
 
-#### Reddit
-#### com.reddit.frontpage
+#### `Reddit`
 - Removes general ads from the Reddit frontpage and subreddits.
 - Unlocks premium Reddit app icons.
 
 ---
 
-#### Nyx Music Player
-#### com.awedea.nyx
+#### `Nyx Music Player`
 - Unlocks all pro features.
 
 ---
 
-#### Icon Pack Studio
-#### ginlemon.iconpackstudio
+#### `Icon Pack Studio`
 - Unlocks all pro features.
 
 ---
