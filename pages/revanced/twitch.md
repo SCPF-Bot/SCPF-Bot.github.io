@@ -1,15 +1,15 @@
 <h4> <p align="center"> Twitch </p> </h4>
 
-![](https://is.gd/V17yUr)
+![Icon](https://rb.gy/v9sf8k)
 
 <p align="center"> By : Twitch Interactive, Inc. </p>
 
-![](https://img.shields.io/badge/dynamic/json?label=Version&color=success&labelColor=success&style=for-the-badge&query=%24%5B"tv.twitch.android.app.apk"%5D&url=https%3A%2F%2Fis.gd%2F2wPvAM)
+![Version](https://rb.gy/vwcoza)
 
 ---
 
 <p align ="center">
-<a href="https://is.gd/WuDxBS" class="btn btn-outline-success"> Download </a>
+<a href="https://rb.gy/frmulc" class="btn btn-outline-success"> Download </a>
 </p>
 
 ---
@@ -20,4 +20,4 @@ Twitch is the (new) official app for the service of the same name, which lets yo
 
 ---
 
-![](https://is.gd/uVvIMS)
+![Black Hole](https://rb.gy/z0dyyw)
