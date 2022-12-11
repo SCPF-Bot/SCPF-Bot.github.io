@@ -9,7 +9,7 @@
 ---
 
 <p align ="center">
-<a href="https://bit.ly/3hecsxV" class="btn btn-outline-success"> Download </a>
+<a href="https://rb.gy/jtu6gp" class="btn btn-outline-success"> Download </a>
 </p>
 
 ---
@@ -20,4 +20,4 @@ We created IPS with the idea that no icon pack can fit your home screen better t
 
 ---
 
-![Black Hole](https://bit.ly/3iO0taF)
+![Black Hole](https://rb.gy/z0dyyw)
