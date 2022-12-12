@@ -174,6 +174,7 @@ All the patches that are <del>crossed out</del> in the patch list are the patche
 | --- | --- |
 | `dynamic-color` | Replaces the default Twitter Blue with the users Material You palette on Android 12+. |
 | `monochrome-icon` | Adds a monochrome icon on Android 12+. |
+| `predictive-back-gesture` | Enables the new Android 13 predictive back gesture for Twitter. |
 | `timeline-ads` | Removes ads from the Twitter timeline. |
 
 ---
