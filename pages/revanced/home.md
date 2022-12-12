@@ -2,11 +2,7 @@
 
 ---
 
-<p align="center">
-<a href="https://revanced.app">
-<img src="https://rb.gy/jzhvwn">
-</a>
-</p>
+[![ReVanced](/assets/images/icons/revanced.png)](https://revanced.app)
 
 ---
 
