@@ -124,7 +124,7 @@ All the patches that are <del>crossed out</del> in the patch list are the patche
 | `minimized-playback-music` | Enables minimized playback on Kids music. |
 | `music-microg-support` | Allows YouTube Music ReVanced to run without root and under a different package name. |
 | `music-video-ads` | Removes ads in the music player. |
-| `<s>tasteBuilder-remover</s>` | Removes the "Tell us which artists you like" card from the home screen. |
+| <del>tasteBuilder-remover</del> | <del>Removes the "Tell us which artists you like" card from the home screen.</del> |
 | `upgrade-button-remover` | Removes the upgrade tab from the pivot bar. |
 
 ---
