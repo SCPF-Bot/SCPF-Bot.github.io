@@ -1,6 +1,7 @@
 ---
+layout: default
 skin: gitdev-dark
 ---
 ---
 
-{% include_cached components/indexcards.html cacheddocs=my.posts  cachedlimit=2 %}
+{% include_cached components/indexcards.html cacheddocs=site.posts  cachedlimit=2 %}
