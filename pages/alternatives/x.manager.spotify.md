@@ -1,6 +1,6 @@
 <h4> <p align="center"> xManager </p> </h4>
 
-![Icon](https://rb.gy/8exijm)
+![Icon](https://rb.gy/h4ypnm)
 
 <p align="center"> By : xManager-v2 </p>
 
