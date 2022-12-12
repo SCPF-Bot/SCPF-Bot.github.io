@@ -2,7 +2,7 @@
 
 ---
 
-[![ReVanced](/assets/images/icons/revanced.png)](https://revanced.app)
+[![ReVanced Logo](https://rb.gy/jzhvwn)](https://revanced.app)
 
 ---
 
@@ -14,37 +14,19 @@ ReVanced is an unofficial continuation of Vanced and is unaffiliated with Vanced
 
 <h4> <p align="center"> ReVanced Info </p> </h4>
 
-<p align="center">
-<a href="https://rb.gy/xxi3yf">
-<img src="https://rb.gy/4z4pje">
-</a>
-</p>
+[![ReVanced Version](https://rb.gy/4z4pje)](https://rb.gy/xxi3yf)
 
-<p align="center">
-<img src="https://rb.gy/t2gz9i">
-</p>
+![ReVanced Release](https://rb.gy/t2gz9i)
 
 ---
 
 <h4> <p align="center"> ReVanced Versions </p> </h4>
 
-<p align="center">
-<a href="https://rb.gy/tnth8d">
-<img src="https://rb.gy/b0utbo">
-</a>
-</p>
+[![ReVanced CLI Version](https://rb.gy/b0utbo)](https://rb.gy/tnth8d)
 
-<p align="center">
-<a href="https://rb.gy/amadyg">
-<img src="https://rb.gy/nlrygp">
-</a>
-</p>
+[![ReVanced Integration Version](https://rb.gy/nlrygp)](https://rb.gy/amadyg)
 
-<p align="center">
-<a href="https://rb.gy/yvmieu">
-<img src="https://rb.gy/fgkl6y">
-</a>
-</p>
+[![ReVanced Patches Version](https://rb.gy/fgkl6y)](https://rb.gy/yvmieu)
 
 ---
 
