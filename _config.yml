@@ -130,7 +130,7 @@ defaults:
       layout: "indexcategory"
       show_comments     : false
       header_type       : "base"
-      header_img        : assets/images/galaxy.forest.jpg
+      header_img        : assets/images/webpage/galaxy.forest.jpg
   -
     scope:
       path: "pages/_collections/_my.posts"
@@ -138,7 +138,7 @@ defaults:
       layout: "default"
       header_type       : "post"
       show_author       : true
-      header_img        : assets/images/red.black.hole.jpg
+      header_img        : assets/images/webpage/red.black.hole.jpg
 
 compress_html:
   clippings: all
