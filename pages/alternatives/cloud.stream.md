@@ -1,6 +1,6 @@
 <h4> <p align="center"> CloudStream </p> </h4>
 
-![Icon](https://rb.gy/3fonay)
+![Icon](https://rb.gy/176kob)
 
 <p align="center"> By : recloudstream </p>
 
