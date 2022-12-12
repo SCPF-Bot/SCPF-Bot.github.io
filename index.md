@@ -2,10 +2,10 @@
 layout: landingpage
 title: " "
 header_type: hero
-header_img: "assets/images/galaxy.violet.jpg"
+header_img: "assets/images/webpage/galaxy.violet.jpg"
 ---
 
-![Disable AdBlock](assets/images/disable.adblock.png)
+![Disable AdBlock](assets/images/webpage/disable.adblock.png)
 
 <h4> <p align="center"> Disable Your AdBlock </p> </h4>
 <p align="center">
