@@ -16,26 +16,14 @@ Hey stranger, I'm warning you. Some images and functions might not work or load 
 
 <h4> <p align="center"> Website Stats </p> </h4>
 
-<p align="center">
-<img src="https://img.shields.io/uptimerobot/ratio/7/m793149606-75dfc2f315d0952624ef0a5e?style=for-the-badge&label=Uptime%20Status&labelColor=success">
-</p>
+![Website Uptime Status](https://rb.gy/hsmjxp)
 
-<p align="center">
-<a href="https://github.com/SCP-017/repo.1/releases">
-<img src="https://img.shields.io/github/downloads/SCP-017/repo.1/total?labelColor=success&color=success&logoColor=black&label=TOTAL%20DOWNLOADS&logo=GitHub&style=for-the-badge">
-</a>
-</p>
+![Total Downloads Counter](https://rb.gy/fuq958)
 
-<p align="center">
-<a href="https://github.com/SCP-017/repo.1/releases/latest">
-<img src="https://img.shields.io/github/downloads/SCP-017/repo.1/latest/total?labelColor=success&color=success&logoColor=black&label=LATEST%20DOWNLOADS&logo=GitHub&style=for-the-badge">
-</a>
-</p>
+![Latest Downloads Counter](https://rb.gy/yqsa1y)
 
 ---
 
 <h4> <p align="center"> Total Strangers Visited </p> </h4>
 
-<p align="center">
-<img src="https://www.websitecounterfree.com/c.php?d=9&id=25674&s=40">
-</p>
+![Total Visitors Counter](https://rb.gy/fex4mx)
