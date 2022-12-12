@@ -58,7 +58,8 @@ Note:
 
 All the patches that are <del>crossed out</del> in the patch list are the patches that isn't applied in the patching process or currently are work in progress.
 
-#### `YouTube`
+<h4> <p align="center"> YouTube </p> </h4>
+
 | Patch | Description |
 | --- | --- |
 | `always-autorepeat` | Always repeats the playing video again. |
@@ -111,17 +112,20 @@ All the patches that are <del>crossed out</del> in the patch list are the patche
 
 ---
 
-#### `YouTube Music`
-- Enables playing music in the background.
-- Adds more audio codec options. The new audio codecs usually result in better audio quality.
-- Hides the music category bar at the top of the homepage.
-- Enables the option to play music without video.
-- Removes all "Get Premium" evidences from the avatar menu.
-- Enables minimized playback on Kids music.
-- Allows YouTube Music ReVanced to run without root and under a different package name.
-- Removes ads in the music player.
-- <del>Removes the "Tell us which artists you like" card from the home screen.</del>
-- Removes the upgrade tab from the pivot bar.
+<h4> <p align="center"> YouTube Music </p> </h4>
+
+| Patch | Description |
+| --- | --- |
+| `background-play` | Enables playing music in the background. |
+| `codecs-unlock` | Adds more audio codec options. The new audio codecs usually result in better audio quality. |
+| `compact-header` | Hides the music category bar at the top of the homepage. |
+| `exclusive-audio-playback` | Enables the option to play music without video. |
+| `hide-get-premium` | Removes all "Get Premium" evidences from the avatar menu. |
+| `minimized-playback-music` | Enables minimized playback on Kids music. |
+| `music-microg-support` | Allows YouTube Music ReVanced to run without root and under a different package name. |
+| `music-video-ads` | Removes ads in the music player. |
+| <del>`tasteBuilder-remover`</del> | <del>Removes the "Tell us which artists you like" card from the home screen.</del> |
+| `upgrade-button-remover` | Removes the upgrade tab from the pivot bar. |
 
 ---
 
