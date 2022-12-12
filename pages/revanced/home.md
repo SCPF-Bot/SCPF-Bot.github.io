@@ -38,6 +38,8 @@ All the patches that are <del>crossed out</del> in the patch list are the patche
 
 <h4> <p align="center"> YouTube </p> </h4>
 
+<div align="center">
+  
 | Patch | Description |
 | --- | --- |
 | `always-autorepeat` | Always repeats the playing video again. |
@@ -87,6 +89,8 @@ All the patches that are <del>crossed out</del> in the patch list are the patche
 | `tablet-mini-player` | Enables the tablet mini player layout. |
 | `theme` | Applies a custom theme. |
 | `video-ads` | Removes ads in the video player. |
+  
+</div>
 
 ---
 
