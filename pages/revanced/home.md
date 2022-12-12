@@ -2,7 +2,7 @@
 
 ---
 
-[![ReVanced Logo](https://rb.gy/jzhvwn)](https://revanced.app)
+[![ReVanced Logo](https://rb.gy/2p0zcr)](https://revanced.app)
 
 ---
 
