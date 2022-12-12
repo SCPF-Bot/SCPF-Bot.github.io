@@ -14,9 +14,9 @@ ReVanced is an unofficial continuation of Vanced and is unaffiliated with Vanced
 
 <h4> <p align="center"> ReVanced Info </p> </h4>
 
-![ReVanced Version](https://rb.gy/4z4pje)
+![Release Version](https://rb.gy/4z4pje)
 
-![ReVanced Release](https://rb.gy/t2gz9i)
+![Release Status](https://rb.gy/t2gz9i)
 
 ---
 
