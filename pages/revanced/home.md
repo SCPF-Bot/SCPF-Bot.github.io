@@ -162,8 +162,8 @@ All the patches that are <del>crossed out</del> in the patch list are the patche
 
 | Patch | Description |
 | --- | --- |
-| `disable-capture-restriction` | Allows capturing Spotify's audio output while screen sharing or screen recording. | all |
-| `hide-premium-navbar` | Removes the premium tab from the navbar. | all |
+| `disable-capture-restriction` | Allows capturing Spotify's audio output while screen sharing or screen recording. |
+| `hide-premium-navbar` | Removes the premium tab from the navbar. |
 | `spotify-theme` | Applies a custom theme. (WIP) |
 
 ---
