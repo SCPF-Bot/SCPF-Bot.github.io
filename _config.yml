@@ -116,7 +116,8 @@ defaults:
       header_img        : assets/images/webpage/galaxy.forest.jpg
   -
     scope:
-      path: "pages/_collections/_my.posts"
+      path: ""
+      type: "my.posts"
     values:
       layout: "default"
       header_type       : "post"
@@ -124,7 +125,8 @@ defaults:
       header_img        : assets/images/webpage/red.black.hole.jpg
   -
     scope:
-      path: "pages/_collections/_revanced"
+      path: ""
+      type: "revanced"
     values:
       layout: "default"
       header_type       : "post"
