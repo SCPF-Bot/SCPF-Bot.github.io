@@ -88,9 +88,6 @@ comments:
 #### Defaults (Do not modify.)
 # Collections path where you place your posts. (ex. pages/collections/_my.posts/post1.md)
 collections:
-  my.posts:
-    output: true
-    permalink: /my.posts/:name
   revanced:
     output: true
     permalink: /revanced/:name
@@ -115,15 +112,6 @@ defaults:
       show_comments     : false
       header_type       : "base"
       header_img        : assets/images/webpage/galaxy.forest.jpg
-  -
-    scope:
-      path: ""
-      type: "my.posts"
-    values:
-      layout: "default"
-      header_type       : "post"
-      show_author       : true
-      header_img        : assets/images/webpage/red.black.hole.jpg
   -
     scope:
       path: ""
