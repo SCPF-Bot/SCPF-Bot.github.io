@@ -91,6 +91,9 @@ collections:
   my.posts:
     output: true
     permalink: /my.posts/:name
+  revanced:
+    output: true
+    permalink: /revanced/:name
 
 # Collections directory path. (ex. pages/collections or yourpreferredname/yourpreferredname)
 collections_dir     : pages/_collections
