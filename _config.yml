@@ -97,6 +97,7 @@ collections:
 
 # Collections directory path. (ex. pages/collections or yourpreferredname/yourpreferredname)
 collections_dir     : pages/_collections
+permalink           : /:year:month:day_:title/
 
 defaults:
   -
