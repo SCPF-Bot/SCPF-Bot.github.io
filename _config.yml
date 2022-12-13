@@ -28,28 +28,8 @@ navbar:
     child:
      - title: Home Info
        url: /pages/revanced/home
-     - title: Icon Pack Studio
-       url: /pages/revanced/icon.pack.studio
-     - title: microG (Fork)
-       url: /pages/revanced/micro-g
-     - title: Nyx Music Player
-       url: /pages/revanced/nyx
-     - title: Reddit
-       url: /pages/revanced/reddit
-     - title: ReVanced Manager
-       url: /pages/revanced/revanced.manager
-     - title: Spotify
-       url: /pages/revanced/spotify
-     - title: TikTok
-       url: /pages/revanced/tiktok
-     - title: Twitch
-       url: /pages/revanced/twitch
-     - title: Twitter
-       url: /pages/revanced/twitter
-     - title: YouTube
-       url: /pages/revanced/youtube
-     - title: YouTube Music
-       url: /pages/revanced/youtube.music
+     - title: Home Info
+       url:  /pages/index.pages/revanced
 
   - title: Alternatives
     child:
@@ -133,7 +113,7 @@ defaults:
       header_img        : assets/images/webpage/galaxy.forest.jpg
   -
     scope:
-      path: "pages/_collections/_my.posts"
+      path: "pages/_collections"
     values:
       layout: "default"
       header_type       : "post"
