@@ -123,15 +123,6 @@ defaults:
       header_type       : "post"
       show_author       : true
       header_img        : assets/images/webpage/red.black.hole.jpg
-  -
-    scope:
-      path: ""
-      type: "revanced"
-    values:
-      layout: "default"
-      header_type       : "post"
-      show_author       : true
-      header_img        : assets/images/webpage/red.black.hole.jpg
 
 compress_html:
   clippings: all
