@@ -28,7 +28,7 @@ navbar:
     child:
      - title: Home Info
        url: /pages/revanced/home
-     - title: Home Info
+     - title: Apps
        url:  /pages/index.pages/revanced
 
   - title: Alternatives
@@ -88,9 +88,9 @@ comments:
 #### Defaults (Do not modify.)
 # Collections path where you place your posts. (ex. pages/collections/_my.posts/post1.md)
 collections:
-  revanced:
+  revanced.apps:
     output: true
-    permalink: /revanced/:name
+    permalink: /revanced.apps/:name
 
 # Collections directory path. (ex. pages/collections or yourpreferredname/yourpreferredname)
 collections_dir     : pages/_collections
@@ -115,7 +115,7 @@ defaults:
   -
     scope:
       path: ""
-      type: "revanced"
+      type: "revanced.apps"
     values:
       layout: "default"
       header_type       : "post"
