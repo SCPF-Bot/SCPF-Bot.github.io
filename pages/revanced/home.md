@@ -43,7 +43,7 @@ All the patches that are <del>crossed out</del> in the patch list are the patche
 | `always-autorepeat` | Always repeats the playing video again. |
 | `client-spoof` | Spoofs the YouTube or Vanced client to prevent playback issues. |
 | `comments` | Hides components related to comments. |
-| <del><b>custom-branding</b></del> | <del>Changes the YouTube launcher icon and name to your choice (defaults to ReVanced).</del> |
+| `custom-branding` | Changes the YouTube launcher icon and name to your choice (defaults to ReVanced). |
 | `custom-video-buffer` | Lets you change the buffers of videos. |
 | `custom-video-speed` | Adds more video speed options. |
 | `debugging` | Adds debugging options. |
