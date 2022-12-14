@@ -1,6 +1,6 @@
 ---
 title: Icon Pack Studio
-subtitle: Personalization
+subtitle: Tools
 ---
 ---
 
