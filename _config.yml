@@ -113,7 +113,7 @@ defaults:
     values:
       layout            : "indexcategory"
       index_items       : 99
-      index_sort        : "title"
+      index_sort        : title
       index_sort_asc    : true
       show_comments     : false
       header_type       : "base"
@@ -136,7 +136,6 @@ defaults:
       type: "revanced.apps"
     values:
       layout: "default"
-      last_modified_at  : 2022-12-13
       header_type       : "post"
       show_author       : true
       show_date         : true
