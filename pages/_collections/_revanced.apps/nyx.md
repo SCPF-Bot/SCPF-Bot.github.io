@@ -1,6 +1,6 @@
 ---
 title: Nyx Music Player
-subtitle: Audio
+subtitle: Multimedia
 ---
 ---
 
