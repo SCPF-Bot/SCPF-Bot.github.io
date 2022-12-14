@@ -20,9 +20,9 @@ subtitle: Lifestyle
 
 ---
 
-<p align="center"> <sub>
+<p align="center">
 Twitch is the (new) official app for the service of the same name, which lets you broadcast yourself playing video games, view other players' streams, interact with them, talk with other players, and basically do everything you usually could from your browser.
-</sub> </p>
+</p>
 
 ---
 
