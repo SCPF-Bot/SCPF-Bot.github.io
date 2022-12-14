@@ -121,8 +121,6 @@ defaults:
       type: "my.posts"
     values:
       layout: "default"
-      index_sort        : date
-      index_sort_asc    : true
       header_type       : "post"
       show_author       : true
       show_date         : true
@@ -136,8 +134,6 @@ defaults:
     values:
       layout: "default"
       last_modified_at  : 2022-12-13
-      index_sort        : title
-      index_sort_asc    : true
       header_type       : "post"
       show_author       : true
       show_date         : true
