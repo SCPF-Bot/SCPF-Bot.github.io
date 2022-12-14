@@ -1,6 +1,7 @@
 ---
 title: ReVanced Manager
 subtitle: Tools
+date: 2022-07-31
 ---
 ---
 
