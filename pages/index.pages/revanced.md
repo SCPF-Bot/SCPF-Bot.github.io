@@ -4,4 +4,3 @@ include_collection: revanced.apps
 index_sort: title
 index_sort_asc: true
 ---
-
