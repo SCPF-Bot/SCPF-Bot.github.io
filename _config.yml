@@ -58,6 +58,9 @@ navbar:
      - title: About Me
        url: /pages/info/aboutme
 
+search:
+  provider              : lunr
+
 footer:
   links:
     - label : Facebook
