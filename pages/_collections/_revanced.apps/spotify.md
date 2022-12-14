@@ -1,7 +1,7 @@
 ---
 title: Spotify
 subtitle: Multimedia
-date: 2022-12-14
+date: 2022-10-11
 ---
 ---
 
