@@ -20,9 +20,9 @@ subtitle: Multimedia
 
 ---
 
-<p align="center"> <sub>
+<p align="center">
 YouTube is the official app for the world's largest and most popular video platform. It's home to millions and millions of videos, with hundreds of thousands of new clips uploaded every day.
-</sub> </p>
+</p>
 
 ---
 
