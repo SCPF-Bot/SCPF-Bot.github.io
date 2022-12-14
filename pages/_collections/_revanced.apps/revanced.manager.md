@@ -1,7 +1,6 @@
 ---
-title: Icon Pack Studio
-subtitle: Personalization
-date: 2022-12-14
+title: ReVanced Manager
+subtitle: Tools
 ---
 ---
 
