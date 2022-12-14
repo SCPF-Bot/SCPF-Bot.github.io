@@ -110,8 +110,9 @@ defaults:
     scope:
       path: "pages/index.pages"
     values:
-      layout: "indexcategory"
-      index_items: 99
+      layout            : "indexcategory"
+      index_items       : 99
+      index_sort_asc    : true
       show_comments     : false
       header_type       : "base"
       header_img        : assets/images/webpage/galaxy.forest.jpg
