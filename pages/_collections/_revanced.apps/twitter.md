@@ -20,9 +20,9 @@ subtitle: Communication
 
 ---
 
-<p align="center"> <sub>
+<p align="center">
 The official Twitter app will allow you to keep using one of the most extensive social networks of the time in any place and at any moment, as long as you are connected to the Internet.
-</sub> </p>
+</p>
 
 ---
 

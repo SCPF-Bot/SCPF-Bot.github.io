@@ -21,9 +21,9 @@ date: 2022-12-14
 
 ---
 
-<p align="center"> <sub>
+<p align="center">
 Spotify for Android is a must-have app for users of this well-known streaming and media service. Access your account with it and listen to your favorite music and podcasts wherever you are.
-</sub> </p>
+</p>
 
 ---
 

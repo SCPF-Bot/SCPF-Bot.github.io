@@ -24,9 +24,9 @@ subtitle: Tools
 
 ---
 
-<p align="center"> <sub>
+<p align="center">
 microG GmsCore is a FLOSS (Free/Libre Open Source Software) framework to allow applications designed for Google Play Services to run on systems, where Play Services is not available.
-</sub> </p>
+</p>
 
 ---
 

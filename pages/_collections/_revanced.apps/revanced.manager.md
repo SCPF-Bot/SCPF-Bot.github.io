@@ -20,9 +20,9 @@ subtitle: Tools
 
 ---
 
-<p align="center"> <sub>
+<p align="center">
 The official ReVanced Manager.
-</sub> </p>
+</p>
 
 ---
 

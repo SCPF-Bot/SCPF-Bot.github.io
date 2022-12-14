@@ -20,9 +20,9 @@ subtitle: Tools
 
 ---
 
-<p align="center"> <sub>
+<p align="center">
 We created IPS with the idea that no icon pack can fit your home screen better than the one you create by yourself. With IPS you can create an icon pack from scratch or you can download and apply one of thousand uploaded every day by our community.
-</sub> </p>
+</p>
 
 ---
 

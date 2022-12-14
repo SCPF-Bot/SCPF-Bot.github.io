@@ -24,9 +24,9 @@ subtitle: Multimedia
 
 ---
 
-<p align="center"> <sub>
+<p align="center">
 YouTube Music is the official music app from YouTube. It lets you enjoy all the content from the world's largest online video hosting website, in an app that's specifically focused on music.
-</sub> </p>
+</p>
 
 ---
 

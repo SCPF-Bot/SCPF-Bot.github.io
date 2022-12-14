@@ -20,9 +20,9 @@ subtitle: Multimedia
 
 ---
 
-<p align="center"> <sub>
+<p align="center">
 Nyx Music Player 👻 is one of the Most Gorgeous Music Player 😍 available on Google Play. When it comes to Features 😎, Nyx Music Player provides loads of different types of features for all types of Music Lovers 💞.
-</sub> </p>
+</p>
 
 ---
 

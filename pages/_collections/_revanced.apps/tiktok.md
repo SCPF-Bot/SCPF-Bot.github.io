@@ -20,9 +20,9 @@ subtitle: Multimedia
 
 ---
 
-<p align="center"> <sub>
+<p align="center">
 TikTok is the official app for the super popular social network that lets you create and share fun videos with all your friends and followers. In order to take advantage of all that TikTok has to offer, start by setting up a user account —it'll only take a few seconds.
-</sub> </p>
+</p>
 
 ---
 
