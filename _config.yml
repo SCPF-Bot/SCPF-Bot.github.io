@@ -111,6 +111,7 @@ defaults:
       path: "pages/index.pages"
     values:
       layout: "indexcategory"
+      index_items: 99
       show_comments     : false
       header_type       : "base"
       header_img        : assets/images/webpage/galaxy.forest.jpg
@@ -120,7 +121,6 @@ defaults:
       type: "my.posts"
     values:
       layout: "default"
-      index_items: 99
       header_type       : "post"
       show_author       : true
       show_date         : true
@@ -133,7 +133,6 @@ defaults:
       type: "revanced.apps"
     values:
       layout: "default"
-      index_items: 99
       last_modified_at  : 2022-12-13
       header_type       : "post"
       show_author       : true
