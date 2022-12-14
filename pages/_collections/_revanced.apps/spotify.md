@@ -1,6 +1,6 @@
 ---
-title: Icon Pack Studio
-subtitle: Personalization
+title: Spotify
+subtitle: Multimedia
 date: 2022-12-14
 ---
 ---
