@@ -1,6 +1,7 @@
 ---
 title: Reddit
 subtitle: Communication
+date: 2022-07-26
 ---
 ---
 
