@@ -126,6 +126,7 @@ defaults:
       show_author       : true
       show_date         : true
       show_bottomnavs   : true
+      show_breadcrumb   : true
       header_img        : assets/images/webpage/red.black.hole.jpg
   -
     scope:
@@ -139,6 +140,7 @@ defaults:
       show_author       : true
       show_date         : true
       show_bottomnavs   : true
+      show_breadcrumb   : true
       header_img        : assets/images/webpage/red.black.hole.jpg
 
 compress_html:
