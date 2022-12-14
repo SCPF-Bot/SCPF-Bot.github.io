@@ -121,11 +121,12 @@ defaults:
       type: "my.posts"
     values:
       layout: "default"
+      index_sort        : "date"
       header_type       : "post"
       show_author       : true
       show_date         : true
-      show_sociallinks  : true
       show_bottomnavs   : true
+      show_breadcrumb   : true
       header_img        : assets/images/webpage/red.black.hole.jpg
   -
     scope:
@@ -133,12 +134,13 @@ defaults:
       type: "revanced.apps"
     values:
       layout: "default"
-      last_modified_at  : 2022-12-13
+      last_modified_at  : "2022-12-13"
+      index_sort        : "title"
       header_type       : "post"
       show_author       : true
       show_date         : true
-      show_sociallinks  : true
       show_bottomnavs   : true
+      show_breadcrumb   : true
       header_img        : assets/images/webpage/red.black.hole.jpg
 
 compress_html:
