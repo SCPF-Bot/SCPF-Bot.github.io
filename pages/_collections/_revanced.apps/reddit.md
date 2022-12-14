@@ -20,9 +20,9 @@ subtitle: Communication
 
 ---
 
-<p align="center"> <sub>
+<p align="center">
 The Reddit Official App is the official app of the giant Reddit, one of the largest communities of Internet users, and one of the reference sites to stay up to date with current issues. It also includes forums on almost any topic you can think of.
-</sub> </p>
+</p>
 
 ---
 
