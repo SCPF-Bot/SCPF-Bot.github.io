@@ -15,7 +15,7 @@ All the patches that are <del>crossed out</del> in the patch list are the patche
 
 <h4> <p align="center"> YouTube </p> </h4>
 
-<table style="margin-left: auto; margin-right: auto;">
+<table style="width:100%">
 <thead>
 <tr>
 <th>Patch</th>
@@ -218,7 +218,7 @@ All the patches that are <del>crossed out</del> in the patch list are the patche
 
 <h4> <p align="center"> YouTube Music </p> </h4>
 
-<table style="margin-left: auto; margin-right: auto;">
+<table style="width:100%">
 <thead>
 <tr>
 <th>Patch</th>
@@ -273,7 +273,7 @@ All the patches that are <del>crossed out</del> in the patch list are the patche
 
 <h4> <p align="center"> TikTok </p> </h4>
 
-<table style="margin-left: auto; margin-right: auto;">
+<table style="width:100%">
 <thead>
 <tr>
 <th>Patch</th>
@@ -324,7 +324,7 @@ All the patches that are <del>crossed out</del> in the patch list are the patche
 
 <h4> <p align="center"> Twitch </p> </h4>
 
-<table style="margin-left: auto; margin-right: auto;">
+<table style="width:100%">
 <thead>
 <tr>
 <th>Patch</th>
@@ -363,7 +363,7 @@ All the patches that are <del>crossed out</del> in the patch list are the patche
 
 <h4> <p align="center"> Spotify </p> </h4>
 
-<table style="margin-left: auto; margin-right: auto;">
+<table style="width:100%">
 <thead>
 <tr>
 <th>Patch</th>
@@ -390,7 +390,7 @@ All the patches that are <del>crossed out</del> in the patch list are the patche
 
 <h4> <p align="center"> Twitter </p> </h4>
 
-<table style="margin-left: auto; margin-right: auto;">
+<table style="width:100%">
 <thead>
 <tr>
 <th>Patch</th>
@@ -421,7 +421,7 @@ All the patches that are <del>crossed out</del> in the patch list are the patche
 
 <h4> <p align="center"> Reddit </p> </h4>
 
-<table style="margin-left: auto; margin-right: auto;">
+<table style="width:100%">
 <thead>
 <tr>
 <th>Patch</th>
@@ -444,7 +444,7 @@ All the patches that are <del>crossed out</del> in the patch list are the patche
 
 <h4> <p align="center"> Universal Patches </p> </h4>
 
-<table style="margin-left: auto; margin-right: auto;">
+<table style="width:100%">
 <thead>
 <tr>
 <th>Patch</th>
