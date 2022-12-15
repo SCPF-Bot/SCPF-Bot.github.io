@@ -3,7 +3,7 @@
 <h4> <p align="center"> Who? </p> </h4>
 
 <p align="center">
-I'm Angie Dela Mandevilla, I'm a househooman that finds myself staying indoors more than spending the time outdoors with so-called friends. I picked the username <code>SCP-017</code> because like that entity, I'm also contained or isolated, but by my own will, lmao, and I'm also covered with shadows, just an imaginary ones, I guess?
+I'm <code>Angie Dela Mandevilla</code>, I'm a househooman that finds myself staying indoors more than spending the time outdoors with so-called friends. I picked the username <code>SCP-017</code> because like that entity, I'm also contained or isolated, but by my own will, lmao, and I'm also covered with shadows, just an imaginary ones, I guess?
 </p>
 
 <h4> <p align="center"> What? </p> </h4>
