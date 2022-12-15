@@ -2,19 +2,19 @@
 
 <h4> <p align="center"> Who? </p> </h4>
 
-<p align="center">
+<p align="justify">
 I'm <code>Angie Dela Mandevilla</code>, I'm a househooman that finds myself staying indoors more than spending the time outdoors with so-called friends. I picked the username <code>SCP-017</code> because like that entity, I'm also contained or isolated, but by my own will, lmao, and I'm also covered with shadows, just an imaginary ones, I guess?
 </p>
 
 <h4> <p align="center"> What? </p> </h4>
 
-<p align="center">
+<p align="justify">
 This is a website or GitHub pages where you can find some useful posts, ReVanced apps, cool apps here on GitHub, any many more to come soon, I guess?
 </p>
 
 <h4> <p align="center"> Why? </p> </h4>
 
-<p align="center">
+<p align="justify">
 This is just a hobby of mine, when I'm bored or I'm doing nothing, I do some improvements or updates on my projects. I want to help or give knowledge to others even though it's just a small thing for them or not because I believe that our purpose in this life is to pass the knowledge that we know to others so it can be preserved and innovated.
 </p>
 
