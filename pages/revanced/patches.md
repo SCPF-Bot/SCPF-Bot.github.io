@@ -416,3 +416,26 @@ All the patches that are <del>crossed out</del> in the patch list are the patche
 </tr>
 </tbody>
 </table>
+
+---
+
+<h4> <p align="center"> Reddit </p> </h4>
+
+<tables tyle="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th>Patch</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>general-reddit-ads</code></td>
+<td>Removes general ads from the Reddit frontpage and subreddits.</td>
+</tr>
+<tr>
+<td><code>premium-icon-reddit</code></td>
+<td>Unlocks premium Reddit app icons.</td>
+</tr>
+</tbody>
+</table>
