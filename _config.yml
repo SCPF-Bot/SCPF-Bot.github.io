@@ -24,7 +24,7 @@ navbar:
   - title: My Posts
     url: /pages/index.pages/my.posts
 
-  - title: ReVanced
+  - title: GitHub
     child:
      - title: ReVanced Info
        url: /pages/revanced/home
@@ -32,15 +32,6 @@ navbar:
        url:  /pages/index.pages/revanced
      - title: ReVanced Patches Info
        url: /pages/revanced/patches
-
-  - title: Alternatives
-    child:
-     - title: CloudStream
-       url: /pages/alternatives/cloud.stream
-     - title: Infinity for Reddit
-       url: /pages/alternatives/infinity.for.reddit
-     - title: xManager-Spotify
-       url: /pages/alternatives/x.manager.spotify
 
   - title: Stream Music
     child:
