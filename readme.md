@@ -2,7 +2,7 @@
 
 <h4> <p align="center"> Questions and Answers </p> </h4>
 
-<table align="right" style="width:100%">
+<table style="width:100%">
 <thead>
 <tr>
 <th>Question</th>
@@ -29,9 +29,9 @@
 
 <h4> <p align="center"> Credits </p> </h4>
 
-<table align="right" style="width:100%">
+<table style="width:100%">
 <thead>
-<tr>
+<tr style="width:100%">
 <th>Name</th>
 <th>Contributions</th>
 </tr>
