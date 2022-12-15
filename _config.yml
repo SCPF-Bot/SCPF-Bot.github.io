@@ -26,11 +26,11 @@ navbar:
 
   - title: ReVanced
     child:
-     - title: Home Info
+     - title: ReVanced Info
        url: /pages/revanced/home
      - title: ReVanced Apps
        url:  /pages/index.pages/revanced
-     - title: Patches Info
+     - title: ReVanced Patches Info
        url: /pages/revanced/patches
 
   - title: Alternatives
