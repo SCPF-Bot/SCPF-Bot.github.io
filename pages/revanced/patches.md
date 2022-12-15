@@ -421,7 +421,7 @@ All the patches that are <del>crossed out</del> in the patch list are the patche
 
 <h4> <p align="center"> Reddit </p> </h4>
 
-<tables tyle="margin-left: auto; margin-right: auto;">
+<table style="margin-left: auto; margin-right: auto;">
 <thead>
 <tr>
 <th>Patch</th>
@@ -436,6 +436,32 @@ All the patches that are <del>crossed out</del> in the patch list are the patche
 <tr>
 <td><code>premium-icon-reddit</code></td>
 <td>Unlocks premium Reddit app icons.</td>
+</tr>
+</tbody>
+</table>
+
+---
+
+<h4> <p align="center"> Universal Patches </p> </h4>
+
+<table style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th>Patch</th>
+<th>Description</th>
+<th>Apps</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>unlock-pro</code></td>
+<td>Unlocks all pro features.</td>
+<td>Nyx Music Player</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Icon Pack Studio</td>
 </tr>
 </tbody>
 </table>
