@@ -2,7 +2,8 @@
 
 <h4> <p align="center"> Questions and Answers </p> </h4>
 
-<table class="center">
+<div align="center";>
+<table>
 <thead>
 <tr>
 <th>Question</th>
@@ -24,6 +25,7 @@
 </tr>
 </tbody>
 </table>
+</div>
 
 ---
 
