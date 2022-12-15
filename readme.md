@@ -29,7 +29,7 @@
 
 <h4> <p align="center"> Credits </p> </h4>
 
-<table align="center" text-align="center" border="1" cellpadding="1" cellspacing="1" style="width:100%; margin: 0px auto;">
+<table align="justify" style="width:100%">
 <thead>
 <tr>
 <th>Name</th>
@@ -59,7 +59,7 @@
 </tr>
 <tr>
 <td><a href="https://github.com/SCP-017">SCP-017</a></td>
-<td>Me, obviously, for maintaining this project which is just a hobby of mine.</td>
+<td>Me, obviously for maintaining this project which is just a hobby of mine.</td>
 </tr>
 </tbody>
 </table>
