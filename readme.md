@@ -31,7 +31,7 @@
 
 <table style="width:100%">
 <thead>
-<tr style="width:100%">
+<tr>
 <th>Name</th>
 <th>Contributions</th>
 </tr>
