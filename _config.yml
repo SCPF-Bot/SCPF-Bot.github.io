@@ -27,11 +27,11 @@ navbar:
   - title: GitHub
     child:
      - title: ReVanced Info
-       url: /pages/revanced/home
+       url: /pages/github/revanced/home
      - title: ReVanced Apps
-       url:  /pages/index.pages/revanced
+       url:  /pages/index.pages/github/revanced
      - title: ReVanced Patches Info
-       url: /pages/revanced/patches
+       url: /pages/github/revanced/patches
 
   - title: Stream Music
     child:
@@ -81,6 +81,9 @@ comments:
 #### Defaults (Do not modify.)
 # Collections path where you place your posts. (ex. pages/collections/_my.posts/post1.md)
 collections:
+  alternative.apps:
+    output: true
+    permalink: /alternative.apps/:name
   my.posts:
     output: true
     permalink: /my.posts/:name
@@ -101,13 +104,33 @@ defaults:
       show_comments     : true
   -
     scope:
-      path: "pages/index.pages"
+      path: "pages/index.pages/github"
     values:
       layout            : "indexcategory"
       index_items       : 99
       show_comments     : false
       header_type       : "base"
       header_img        : assets/images/webpage/galaxy.forest.jpg
+  -
+    scope:
+      path: "pages/index.pages/personal"
+    values:
+      layout            : "indexcategory"
+      index_items       : 99
+      show_comments     : false
+      header_type       : "base"
+      header_img        : assets/images/webpage/galaxy.forest.jpg
+  -
+    scope:
+      path: ""
+      type: "alternative.apps"
+    values:
+      layout: "default"
+      header_type       : "post"
+      show_author       : true
+      show_date         : true
+      show_breadcrumb   : true
+      header_img        : assets/images/webpage/red.black.hole.jpg
   -
     scope:
       path: ""
