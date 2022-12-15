@@ -29,7 +29,7 @@
 
 <h4> <p align="center"> Credits </p> </h4>
 
-<table align="center" border="1" cellpadding="1" cellspacing="1" style="width:100%">
+<table align="center" border="1" cellpadding="1" cellspacing="1" style="width:100%; margin: 0px auto;">
 <thead>
 <tr>
 <th>Name</th>
