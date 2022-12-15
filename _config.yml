@@ -155,6 +155,9 @@ exclude:
   - Gemfile
   - vendor
 
+include:
+  - readme
+
 markdown: kramdown
 highlighter: github
 lsi: false
