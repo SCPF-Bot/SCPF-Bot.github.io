@@ -28,8 +28,10 @@ navbar:
     child:
      - title: Home Info
        url: /pages/revanced/home
-     - title: Apps
+     - title: ReVanced Apps
        url:  /pages/index.pages/revanced
+     - title: Patches Info
+       url: /pages/revanced/patches
 
   - title: Alternatives
     child:
