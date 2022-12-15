@@ -1,22 +1,31 @@
 <h2> <p align="center"> My Private Website </p> </h2>
 
-<h4> <p align="center"> Who? </p> </h4>
+<h4> <p align="center"> Questions and Answers </p> </h4>
 
-<p align="justify">
-I'm <code>Angie Dela Mandevilla</code>, I'm a househooman that finds myself staying indoors more than spending the time outdoors with so-called friends. I picked the username <code>SCP-017</code> because like that entity, I'm also contained or isolated, but by my own will, lmao, and I'm also covered with shadows, just an imaginary ones, I guess?
-</p>
+<table style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th>Question</th>
+<th>Answer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>Who?</th>
+<td>I&#39;m <code>Angie Dela Mandevilla</code>, I&#39;m a househooman that finds myself staying indoors more than spending the time outdoors with so-called friends. I picked the username <code>SCP-017</code> because like that entity, I&#39;m also contained or isolated, but by my own will, lmao, and I&#39;m also covered with shadows, just an imaginary ones, I guess?</td>
+</tr>
+<tr>
+<th>What?</th>
+<td>This is a website or GitHub pages where you can find some useful posts, ReVanced apps, cool apps here on GitHub, any many more to come soon, I guess?</td>
+</tr>
+<tr>
+<th>Why?</th>
+<td>This is just a hobby of mine, when I&#39;m bored or I&#39;m doing nothing, I do some improvements or updates on my projects. I want to help or give knowledge to others even though it&#39;s just a small thing for them or not because I believe that our purpose in this life is to pass the knowledge that we know to others so it can be preserved and innovated.</td>
+</tr>
+</tbody>
+</table>
 
-<h4> <p align="center"> What? </p> </h4>
-
-<p align="justify">
-This is a website or GitHub pages where you can find some useful posts, ReVanced apps, cool apps here on GitHub, any many more to come soon, I guess?
-</p>
-
-<h4> <p align="center"> Why? </p> </h4>
-
-<p align="justify">
-This is just a hobby of mine, when I'm bored or I'm doing nothing, I do some improvements or updates on my projects. I want to help or give knowledge to others even though it's just a small thing for them or not because I believe that our purpose in this life is to pass the knowledge that we know to others so it can be preserved and innovated.
-</p>
+---
 
 <h4> <p align="center"> Credits </p> </h4>
 
