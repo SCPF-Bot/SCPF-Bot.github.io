@@ -169,7 +169,7 @@ All the patches that are <del>crossed out</del> in the patch list are the patche
 </tr>
 <tr>
 <td><del><code>premium-heading</code></del></td>
-<td>Shows premium branding on the home screen.</td>
+<td><del>Shows premium branding on the home screen.</del></td>
 </tr>
 <tr>
 <td><code>remember-video-quality</code></td>
@@ -407,10 +407,6 @@ All the patches that are <del>crossed out</del> in the patch list are the patche
 <td>Adds a monochrome icon on Android 12+.</td>
 </tr>
 <tr>
-<td><code>predictive-back-gesture</code></td>
-<td>Enables the new Android 13 predictive back gesture for Twitter.</td>
-</tr>
-<tr>
 <td><code>timeline-ads</code></td>
 <td>Removes ads from the Twitter timeline.</td>
 </tr>
@@ -462,6 +458,11 @@ All the patches that are <del>crossed out</del> in the patch list are the patche
 <td></td>
 <td></td>
 <td>Icon Pack Studio</td>
+</tr>
+<tr>
+<td><code>predictive-back-gesture</code></td>
+<td>Enables the new Android 13 predictive back gesture.</td>
+<td>All</td>
 </tr>
 </tbody>
 </table>
