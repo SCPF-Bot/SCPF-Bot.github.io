@@ -319,3 +319,100 @@ All the patches that are <del>crossed out</del> in the patch list are the patche
 </tr>
 </tbody>
 </table>
+
+---
+
+<h4> <p align="center"> Twitch </p> </h4>
+
+<table style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th>Patch</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>block-audio-ads</code></td>
+<td>Blocks audio ads in streams and VODs.</td>
+</tr>
+<tr>
+<td><code>block-embedded-ads</code></td>
+<td>Blocks embedded steam ads using services like TTV.lol or PurpleAdBlocker.</td>
+</tr>
+<tr>
+<td><code>block-video-ads</code></td>
+<td>Blocks video ads in streams and VODs.</td>
+</tr>
+<tr>
+<td><code>debug-mode</code></td>
+<td>Enables Twitch&#39;s internal debugging mode.</td>
+</tr>
+<tr>
+<td><code>settings</code></td>
+<td>Adds settings menu to Twitch.</td>
+</tr>
+<tr>
+<td><code>show-deleted-messages</code></td>
+<td>Shows deleted chat messages behind a clickable spoiler.</td>
+</tr>
+</tbody>
+</table>
+
+---
+
+<h4> <p align="center"> Spotify </p> </h4>
+
+<table style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th>Patch</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>disable-capture-restriction</code></td>
+<td>Allows capturing Spotify&#39;s audio output while screen sharing or screen recording.</td>
+</tr>
+<tr>
+<td><code>hide-premium-navbar</code></td>
+<td>Removes the premium tab from the navbar. (WIP)</td>
+</tr>
+<tr>
+<td><code>spotify-theme</code></td>
+<td>Applies a custom theme.</td>
+</tr>
+</tbody>
+</table>
+
+---
+
+<h4> <p align="center"> Twitter </p> </h4>
+
+<table style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th>Patch</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>dynamic-color</code></td>
+<td>Replaces the default Twitter Blue with the users Material You palette on Android 12+.</td>
+</tr>
+<tr>
+<td><code>monochrome-icon</code></td>
+<td>Adds a monochrome icon on Android 12+.</td>
+</tr>
+<tr>
+<td><code>predictive-back-gesture</code></td>
+<td>Enables the new Android 13 predictive back gesture for Twitter.</td>
+</tr>
+<tr>
+<td><code>timeline-ads</code></td>
+<td>Removes ads from the Twitter timeline.</td>
+</tr>
+</tbody>
+</table>
