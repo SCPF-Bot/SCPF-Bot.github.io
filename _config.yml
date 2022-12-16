@@ -15,9 +15,6 @@ author:
     - url: ph.server@pm.me
       icon: "fa fa-envelope"
 
-search:
-  provider: lunr
-
 navbar:
   style: "classic"
   brand:
