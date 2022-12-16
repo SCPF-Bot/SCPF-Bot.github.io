@@ -12,7 +12,7 @@
 <tbody>
 <tr>
 <th>Who?</th>
-<td>I&#39;m <code>Angie Dela Mandevilla</code>, I&#39;m a househooman that finds myself staying indoors more than spending the time outdoors with so-called friends. I picked the username <code>SCP-017</code> because like that entity, I&#39;m also contained or isolated, but by my own will, lmao, and I&#39;m also covered with shadows, just an imaginary ones, I guess?</td>
+<td>I&#39;m <code>Angie Dela Mandevilla</code>, I&#39;m a househooman that found myself staying indoors more than spending the time outdoors with so-called friends. I picked the username <code>SCP-017</code> because like that entity, I&#39;m also contained or isolated, but by my own will, lmao, and I&#39;m also covered with shadows, just an imaginary ones, I guess?</td>
 </tr>
 <tr>
 <th>What?</th>

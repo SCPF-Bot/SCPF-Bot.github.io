@@ -41,7 +41,7 @@ Be sure to add your own desired extensions to
 <h4> <p align="center"> Extensions List? </p> </h4>
 
 <p align="center">
-<a href="https://rb.gy/cmfxm7">Click here</a> or <a href="https://rb.gy/hegc6p">here</a> to view the repository extensions list.
+<a href="https://rb.gy/edmxie">Click here</a> or <a href="https://rb.gy/soc5mc">here</a> to view the repository extensions list.
 </p>
 
 ---
