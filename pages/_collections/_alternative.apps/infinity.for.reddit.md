@@ -1,3 +1,10 @@
+---
+title: Infinity For Reddit
+subtitle: Communication
+date: 2019-10-28
+---
+---
+
 <h4> <p align="center"> Infinity For Reddit </p> </h4>
 
 ![Icon](https://rb.gy/ujykqf)

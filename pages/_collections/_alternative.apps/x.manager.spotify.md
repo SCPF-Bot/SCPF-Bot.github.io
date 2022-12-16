@@ -1,3 +1,10 @@
+---
+title: xManager-Spotify
+subtitle: Tools
+date: 2021-02-08
+---
+---
+
 <h4> <p align="center"> xManager </p> </h4>
 
 ![Icon](https://rb.gy/h4ypnm)
