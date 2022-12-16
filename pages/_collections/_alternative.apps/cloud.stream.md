@@ -35,7 +35,7 @@ Be sure to add your own desired extensions to
 
 <p align="center">
 <b>Settings > Extensions > Add repository</b>.
-</sub>
+</p>
 
 ---
 
