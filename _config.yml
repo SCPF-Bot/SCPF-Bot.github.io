@@ -16,13 +16,7 @@ author:
       icon: "fa fa-envelope"
 
 search:
-  provider: algolia
-  algolia_logo: true
-
-algolia:
-  application_id        : "XVGI1D6ZC0"
-  index_name            : "SCP-017.github.io"
-  search_only_api_key   : "35f14ee82e30ae943753460b47bf8a58"
+  provider: lunr
 
 navbar:
   style: "classic"
