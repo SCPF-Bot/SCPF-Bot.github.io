@@ -21,9 +21,9 @@ date: 2019-10-28
 
 ---
 
-<p align="center"> <sub>
+<p align="center">
 A Reddit client on Android written in Java. It does not have any ads and it features a clean UI and smooth browsing experience.
-</sub> </p>
+</p>
 
 ---
 

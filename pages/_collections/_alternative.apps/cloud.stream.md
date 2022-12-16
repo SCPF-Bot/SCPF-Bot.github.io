@@ -21,20 +21,21 @@ date: 2021-04-30
 
 ---
 
-<p align="center"> <sub>
+<p align="center">
 Android app for streaming and downloading Movies, TV-Series and Anime.
-</sub> </p>
+</p>
 
 ---
 
 <h4> <p align="center"> Repository Extensions </p> </h4>
 
-<p align="center"> <sub>
+<p align="center">
 Be sure to add your own desired extensions to
-</sub> </p>
-<p align="center"> <sub>
+</p>
+
+<p align="center">
 <b>Settings > Extensions > Add repository</b>.
-</sub> </p>
+</sub>
 
 ---
 
