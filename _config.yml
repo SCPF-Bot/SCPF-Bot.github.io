@@ -32,6 +32,8 @@ navbar:
        url:  /pages/index.pages/github/revanced
      - title: ReVanced Patches Info
        url: /pages/github/revanced/patches
+     - title: Alternative Apps
+       url:  /pages/index.pages/github/alternative
 
   - title: Stream Music
     child:
