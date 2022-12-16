@@ -21,8 +21,10 @@ navbar:
     title: Home
     img: "https://avatars.githubusercontent.com/u/112224835"
   nav:
-  - title: My Posts
-    url: /pages/index.pages/my.posts
+  - title: My Contents
+    child:
+     - title: Posts
+       url: /pages/index.pages/personal/my.posts
 
   - title: GitHub
     child:
