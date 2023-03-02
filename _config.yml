@@ -1,16 +1,18 @@
 remote_theme: dieghernan/chulapa
 
-title: SCP-017
+title: SCPF-Archive
 subtitle: Private Website
 
 author:
-  name                  :      SCP-017
+  name                  :      SCP-Bot
   avatar                :      https://avatars.githubusercontent.com/u/112224835
   location              :      SCP Foundation (Site-19)
   links:                
     - url: https://fb.me/fb.me.2
       icon: "fab fa-facebook"
-    - url: https://github.com/SCP-017
+    - url: https://github.com/SCPF-Archive
+      icon: "fab fa-github"
+    - url: https://github.com/SCPF-Bot
       icon: "fab fa-github"
     - url: ph.server@pm.me
       icon: "fa fa-envelope"
@@ -19,7 +21,7 @@ navbar:
   style: "classic"
   brand:
     title: Home
-    img: "https://avatars.githubusercontent.com/u/112224835"
+    img: "https://avatars.githubusercontent.com/u/121094096"
   nav:
   - title: My Contents
     child:
