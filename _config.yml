@@ -79,7 +79,7 @@ chulapa-skin:
     font-family-base: "Ubuntu Mono"
 
 comments:
-  provider: giscus #https://giscus.app
+#  provider: giscus #https://giscus.app
 
 #  provider: disqus #https://disqus.com
 #  disqus_shortname: scp-017
