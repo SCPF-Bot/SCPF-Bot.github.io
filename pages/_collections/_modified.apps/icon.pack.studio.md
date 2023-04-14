@@ -11,7 +11,7 @@ date: 2022-11-15
 
 <p align="center"> By : Smart Launcher Team </p>
 
-![Version](https://rb.gy/atkqy8)
+![Version](https://rb.gy/dveu5)
 
 ---
 
