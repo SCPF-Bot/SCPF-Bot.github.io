@@ -11,7 +11,7 @@ date: 2022-08-14
 
 <p align="center"> By : TikTok Pte. Ltd. </p>
 
-![Version](https://rb.gy/iphadn)
+![Version](https://rb.gy/pr9tf)
 
 ---
 
