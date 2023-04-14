@@ -2,6 +2,12 @@
 title: About Us
 subtitle: Miscellaneous
 date: 2023-04-14
+layout: "default"
+header_type: "post"
+show_author: true
+show_date: true
+show_breadcrumb: true
+header_img: assets/images/webpage/red.black.hole.jpg
 ---
 ---
 
