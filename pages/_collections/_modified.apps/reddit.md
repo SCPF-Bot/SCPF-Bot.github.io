@@ -11,7 +11,7 @@ date: 2022-07-26
 
 <p align="center"> By : reddit Inc. </p>
 
-![Version](https://rb.gy/hkiiyy)
+![Version](https://rb.gy/pqezy)
 
 ---
 
