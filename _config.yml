@@ -35,7 +35,7 @@ navbar:
 
   - title: Info
     child:
-     - title: About
+     - title: About Us
        url: /pages/misc/about.us
 
 footer:
