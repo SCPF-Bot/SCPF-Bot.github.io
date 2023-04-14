@@ -24,6 +24,6 @@ Hey stranger, I'm warning you. Some images and functions might not work or load 
 
 ---
 
-<h4> <p align="center"> Total Strangers Visits </p> </h4>
+<h4> <p align="center"> Total Strangers Visited </p> </h4>
 
 ![Total Visitors Counter](https://rb.gy/fex4mx)
