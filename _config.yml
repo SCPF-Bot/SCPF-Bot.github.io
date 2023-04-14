@@ -28,10 +28,10 @@ navbar:
      - title: Posts
        url: /pages/index.pages/personal/my.posts
 
-  - title: GitHub
+  - title: Android
     child:
      - title: Apps
-       url:  /pages/index.pages/github/revanced
+       url:  /pages/index.pages/modified.apps
 
   - title: Info
     child:
