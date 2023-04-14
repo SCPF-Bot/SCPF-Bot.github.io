@@ -11,7 +11,7 @@ date: 2022-11-13
 
 <p align="center"> By : Twitch Interactive, Inc. </p>
 
-![Version](https://rb.gy/vwcoza)
+![Version](https://rb.gy/xkmc9)
 
 ---
 
