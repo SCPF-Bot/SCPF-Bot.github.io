@@ -88,16 +88,7 @@ defaults:
       show_comments     : true
   -
     scope:
-      path: "pages/index.pages/github"
-    values:
-      layout            : "indexcategory"
-      index_items       : 99
-      show_comments     : false
-      header_type       : "base"
-      header_img        : assets/images/webpage/galaxy.forest.jpg
-  -
-    scope:
-      path: "pages/index.pages/personal"
+      path: "pages/index.pages"
     values:
       layout            : "indexcategory"
       index_items       : 99
