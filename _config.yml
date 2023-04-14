@@ -71,9 +71,9 @@ collections:
   my.posts:
     output: true
     permalink: /my.posts/:name
-  revanced.apps:
+  modified.apps:
     output: true
-    permalink: /revanced.apps/:name
+    permalink: /modified.apps/:name
 
 # Collections directory path. (ex. pages/collections or yourpreferredname/yourpreferredname)
 collections_dir     : pages/_collections
@@ -109,7 +109,7 @@ defaults:
   -
     scope:
       path: ""
-      type: "revanced.apps"
+      type: "modified.apps"
     values:
       layout: "default"
       header_type       : "post"
