@@ -36,7 +36,7 @@ navbar:
   - title: Info
     child:
      - title: About
-       url: /readme
+       url: /pages/misc/about.us
 
 footer:
   links:
