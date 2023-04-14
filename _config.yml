@@ -26,7 +26,7 @@ navbar:
   - title: My Contents
     child:
      - title: Posts
-       url: /pages/index.pages/personal/my.posts
+       url: /pages/index.pages/my.posts
 
   - title: Android
     child:
