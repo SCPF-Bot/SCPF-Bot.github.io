@@ -30,7 +30,7 @@ navbar:
 
   - title: Android
     child:
-     - title: Apps
+     - title: Modified Apps
        url:  /pages/index.pages/modified.apps
 
   - title: Info
