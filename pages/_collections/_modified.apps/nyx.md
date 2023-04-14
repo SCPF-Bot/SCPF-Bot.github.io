@@ -11,7 +11,7 @@ date: 2022-11-09
 
 <p align="center"> By : Awedea! </p>
 
-![Version](https://rb.gy/hsfiiy)
+![Version](https://rb.gy/dtujn)
 
 ---
 
