@@ -11,7 +11,7 @@ date: 2022-10-11
 
 <p align="center"> By : Spotify Ltd. </p>
 
-![Version](https://rb.gy/a4dtfs)
+![Version](https://rb.gy/op50l)
 
 ---
 
