@@ -11,7 +11,7 @@ date: 2022-07-23
 
 <p align="center"> By : Twitter </p>
 
-![Version](https://rb.gy/g6p8j0)
+![Version](https://rb.gy/lckpm)
 
 ---
 
