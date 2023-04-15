@@ -1,7 +1,6 @@
 ---
 title: TikTok
 subtitle: Multimedia
-date: 2023-03-29
 ---
 ---
 
