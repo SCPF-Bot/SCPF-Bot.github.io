@@ -1,7 +1,7 @@
 ---
 title: Nova Launcher
 subtitle: Tools
-date: 2012-02-23
+date: 2023-03-29
 ---
 ---
 
@@ -16,7 +16,7 @@ date: 2012-02-23
 ---
 
 <p align ="center">
-<a href="https://rb.gy/2a1mf" class="btn btn-outline-success"> Download </a>
+<a href="https://clk.asia/JsBp0c" class="btn btn-outline-success"> Download </a>
 </p>
 
 ---
