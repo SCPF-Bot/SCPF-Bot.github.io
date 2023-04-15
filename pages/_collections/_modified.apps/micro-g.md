@@ -1,7 +1,7 @@
 ---
 title: microG
 subtitle: Tools
-date: 2022-07-18
+date: 2015-10-05
 ---
 ---
 
@@ -16,11 +16,7 @@ date: 2022-07-18
 ---
 
 <p align ="center">
-<a href="https://rb.gy/gprxec" class="btn btn-outline-success"> Download Legacy Icon </a>
-</p>
-
-<p align ="center">
-<a href="https://rb.gy/x8quqt" class="btn btn-outline-success"> Download Google Icon </a>
+<a href="https://rb.gy/gprxec" class="btn btn-outline-success"> Download </a>
 </p>
 
 ---
