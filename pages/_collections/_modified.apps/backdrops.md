@@ -1,7 +1,6 @@
 ---
 title: Backdrops - Wallpapers
 subtitle: Tools
-date: 2023-04-15
 ---
 ---
 
