@@ -1,7 +1,6 @@
 ---
 title: Reddit
 subtitle: Communication
-date: 2023-03-29
 ---
 ---
 
