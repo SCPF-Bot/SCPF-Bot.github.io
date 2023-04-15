@@ -1,7 +1,6 @@
 ---
 title: Icon Pack Studio
 subtitle: Tools
-date: 2023-03-29
 ---
 ---
 
