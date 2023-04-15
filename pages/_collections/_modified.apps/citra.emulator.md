@@ -1,7 +1,6 @@
 ---
 title: Citra Emulator
 subtitle: Games
-date: 2023-04-15
 ---
 ---
 
