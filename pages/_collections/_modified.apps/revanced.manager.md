@@ -1,7 +1,7 @@
 ---
 title: ReVanced Manager
 subtitle: Tools
-date: 2022-07-31
+date: 2023-03-29
 ---
 ---
 
@@ -16,7 +16,7 @@ date: 2022-07-31
 ---
 
 <p align ="center">
-<a href="https://rb.gy/bavxw5" class="btn btn-outline-success"> Download </a>
+<a href="https://clk.asia/2J2vB" class="btn btn-outline-success"> Download </a>
 </p>
 
 ---
