@@ -1,7 +1,6 @@
 ---
 title: microG
 subtitle: Tools
-date: 2023-04-15
 ---
 ---
 
