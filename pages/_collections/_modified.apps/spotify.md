@@ -1,7 +1,7 @@
 ---
 title: Spotify
 subtitle: Multimedia
-date: 2022-10-11
+date: 2023-03-29
 ---
 ---
 
@@ -16,7 +16,7 @@ date: 2022-10-11
 ---
 
 <p align ="center">
-<a href="https://rb.gy/eonik5" class="btn btn-outline-success"> Download </a>
+<a href="https://clk.asia/bTgPC" class="btn btn-outline-success"> Download </a>
 </p>
 
 ---
