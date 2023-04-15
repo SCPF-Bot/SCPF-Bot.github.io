@@ -1,7 +1,7 @@
 ---
 title: TikTok
 subtitle: Multimedia
-date: 2022-08-14
+date: 2023-03-29
 ---
 ---
 
@@ -16,7 +16,7 @@ date: 2022-08-14
 ---
 
 <p align ="center">
-<a href="https://rb.gy/ffhbbd" class="btn btn-outline-success"> Download </a>
+<a href="https://clk.asia/MbWr" class="btn btn-outline-success"> Download </a>
 </p>
 
 ---
