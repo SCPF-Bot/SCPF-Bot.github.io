@@ -15,7 +15,7 @@ subtitle: Communication
 ---
 
 <p align ="center">
-<a href="https://clk.asia/Yz0qx4" class="btn btn-outline-success"> Download </a>
+<a href="https://clk.asia/Yz0qx4" class="btn btn-outline-success"> Download ARM64-V8A </a>
 </p>
 
 ---
