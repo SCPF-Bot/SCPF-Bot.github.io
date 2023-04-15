@@ -1,7 +1,7 @@
 ---
 title: Hex Editor
 subtitle: Tools
-date: 2016-02-08
+date: 2023-03-29
 ---
 ---
 
@@ -16,7 +16,7 @@ date: 2016-02-08
 ---
 
 <p align ="center">
-<a href="https://rb.gy/emz73" class="btn btn-outline-success"> Download </a>
+<a href="https://clk.asia/Yf51j" class="btn btn-outline-success"> Download </a>
 </p>
 
 ---
