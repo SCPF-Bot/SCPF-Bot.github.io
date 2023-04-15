@@ -1,7 +1,7 @@
 ---
 title: Icon Pack Studio
 subtitle: Tools
-date: 2017-05-05
+date: 2023-03-29
 ---
 ---
 
@@ -16,7 +16,7 @@ date: 2017-05-05
 ---
 
 <p align ="center">
-<a href="https://rb.gy/jtu6gp" class="btn btn-outline-success"> Download </a>
+<a href="https://clk.asia/8hgaZ" class="btn btn-outline-success"> Download </a>
 </p>
 
 ---
