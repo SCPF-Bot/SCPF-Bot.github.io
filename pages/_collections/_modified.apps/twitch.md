@@ -1,7 +1,7 @@
 ---
 title: Twitch
 subtitle: Lifestyle
-date: 2022-11-13
+date: 2023-03-29
 ---
 ---
 
@@ -16,7 +16,7 @@ date: 2022-11-13
 ---
 
 <p align ="center">
-<a href="https://rb.gy/frmulc" class="btn btn-outline-success"> Download </a>
+<a href="https://clk.asia/3Z15lgy" class="btn btn-outline-success"> Download </a>
 </p>
 
 ---
