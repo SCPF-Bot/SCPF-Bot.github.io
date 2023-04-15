@@ -1,7 +1,6 @@
 ---
 title: TickTick
 subtitle: Tools
-date: 2023-03-29
 ---
 ---
 
