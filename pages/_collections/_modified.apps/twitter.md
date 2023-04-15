@@ -1,7 +1,6 @@
 ---
 title: Twitter
 subtitle: Communication
-date: 2023-03-29
 ---
 ---
 
