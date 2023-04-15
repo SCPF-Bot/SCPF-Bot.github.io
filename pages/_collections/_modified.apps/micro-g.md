@@ -9,7 +9,7 @@ date: 2023-03-29
 
 ![Icon](https://rb.gy/viyvym)
 
-<p align="center"> By : inotia00 </p>
+<p align="center"> By : microG (inotia00) </p>
 
 ![Version](https://rb.gy/wk2zzw)
 
