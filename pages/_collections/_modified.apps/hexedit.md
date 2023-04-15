@@ -1,7 +1,7 @@
 ---
 title: Hex Editor
 subtitle: Tools
-date: 2022-11-15
+date: 2020-08-10
 ---
 ---
 
