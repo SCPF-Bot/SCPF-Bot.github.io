@@ -107,7 +107,7 @@ defaults:
       show_breadcrumb   : true
       header_img        : assets/images/webpage/red.black.hole.jpg
       index_sort        : "date"
-      index_sort_asc    : true
+      index_sort_asc    : false
   -
     scope:
       path: ""
@@ -120,7 +120,7 @@ defaults:
       show_breadcrumb   : true
       header_img        : assets/images/webpage/red.black.hole.jpg
       index_sort        : "title"
-      index_sort_asc    : true
+      index_sort_asc    : false
 
 compress_html:
   clippings: all
