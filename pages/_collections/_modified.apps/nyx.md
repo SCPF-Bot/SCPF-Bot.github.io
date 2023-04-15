@@ -1,7 +1,6 @@
 ---
 title: Nyx Music Player
 subtitle: Multimedia
-date: 2023-03-29
 ---
 ---
 
