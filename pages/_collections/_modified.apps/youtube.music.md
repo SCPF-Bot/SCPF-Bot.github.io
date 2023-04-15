@@ -1,7 +1,7 @@
 ---
 title: YouTube Music
 subtitle: Multimedia
-date: 2022-05-07
+date: 2023-03-29
 ---
 ---
 
@@ -16,11 +16,19 @@ date: 2022-05-07
 ---
 
 <p align ="center">
-<a href="https://rb.gy/0egmxw" class="btn btn-outline-success"> Download ARM-V7A </a>
+<a href="https://clk.asia/PqpVgeJ" class="btn btn-outline-success"> Download ARM64-V8A </a>
 </p>
 
 <p align ="center">
-<a href="https://rb.gy/xo85av" class="btn btn-outline-success"> Download ARM64-V8A </a>
+<a href="https://clk.asia/koEO" class="btn btn-outline-success"> Download ARM-V7A </a>
+</p>
+
+<p align ="center">
+<a href="https://clk.asia/qCYCkIaB" class="btn btn-outline-success"> Download X86-64 </a>
+</p>
+
+<p align ="center">
+<a href="https://clk.asia/IeqAX" class="btn btn-outline-success"> Download X86 </a>
 </p>
 
 ---
