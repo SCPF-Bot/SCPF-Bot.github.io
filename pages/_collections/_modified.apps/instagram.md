@@ -1,6 +1,6 @@
 ---
 title: Instagram
-subtitle: Tools
+subtitle: Communication
 ---
 ---
 
@@ -10,7 +10,7 @@ subtitle: Tools
 
 <p align="center"> By : Instagram </p>
 
-![Version](https://rb.gy/wk2zzw)
+![Version](https://rb.gy/f2v4c)
 
 ---
 
