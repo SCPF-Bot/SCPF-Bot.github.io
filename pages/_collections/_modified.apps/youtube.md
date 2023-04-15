@@ -1,7 +1,6 @@
 ---
 title: YouTube
 subtitle: Multimedia
-date: 2023-03-29
 ---
 ---
 
