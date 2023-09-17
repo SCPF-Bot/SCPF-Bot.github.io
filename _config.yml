@@ -138,9 +138,6 @@ defaults:
       layout: "default"
       header_type       : "post"
       show_author       : true
-      #author:
-        #name:           : "Lovely Angel Cadeliña"
-        #avatar:         : /assets/images/webpage/lovely.avatar.jpg
       show_breadcrumb   : true
       header_img        : /assets/images/webpage/web.versions.jpg
 
