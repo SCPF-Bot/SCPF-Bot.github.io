@@ -22,13 +22,13 @@ So, Web 3.0 is like a supercharged version of the internet, where we can do more
 ## Where's 3.0?
 Honestly, I can't demonstrate the web 3.0 here because this is just a static webpage. To experience Web 3.0 or to see how Web 3.0 webpage work, you can visit the following:
 - [**Spotify**](https://spotify.com)
-  - A website that uses AI (artificial intelligence) to make or recommend playlists based on your recently played songs)
+  - A website that uses AI (artificial intelligence) to make or recommend playlists based on your recently played songs.
 - [**Theb.AI**](https://theb.ai)
-  - A website that can offer you a conversation with an AI or generate images using the power of an AI)
+  - A website that can offer you a conversation with an AI or generate images using the power of an AI.
 - [**MST**](https://mst.ai/home)
   - A free art generator online using the power of artificial intelligence to generate arts based on the text input of the users.
 - [**Storj**](https://storj.io)
-  - A website that offers you a more secured and more accessible cloud storage by making it decentralized and also uses the S3 technology for better accessibility).
+  - A website that offers you a more secured and more accessible cloud storage by making it decentralized and also uses the S3 technology for better accessibility.
 
 ---
 
