@@ -1,4 +1,4 @@
 ---
 title: Web Versions
-include_collection: etech
+include_collection: e.tech
 ---
