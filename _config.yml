@@ -32,10 +32,14 @@ navbar:
     child:
      - title: Modified Apps
        url:  /pages/index.pages/modified.apps
+
   - title: E-Tech (Web Versions)
     child:
      - title: Web 1.0
-       url: /pages/_collections/_e.tech/page.001.md
+       url: /pages/_collections/_e.tech/page.001
+     - title: Web 2.0
+       url: /pages/_collections/_e.tech/page.002
+
   - title: Info
     child:
      - title: About Us
@@ -65,8 +69,8 @@ chulapa-skin:
 comments:
 #  provider: giscus #https://giscus.app
 
-#  provider: disqus #https://disqus.com
-#  disqus_shortname: scp-017
+provider: disqus #https://disqus.com
+disqus_shortname: scp-017
 
 #### Defaults (Do not modify.)
 # Collections path where you place your posts. (ex. pages/collections/_my.posts/post1.md)
