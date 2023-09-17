@@ -33,14 +33,10 @@ navbar:
      - title: Modified Apps
        url:  /pages/index.pages/modified.apps
 
-  - title: E-Tech (Web Versions)
+  - title: E-Tech
     child:
-     - title: Web 1.0
-       url: /pages/e.tech/page.001
-     - title: Web 2.0
-       url: /pages/e.tech/page.002
-     - title: Web 3.0
-       url: /pages/e.tech/page.003
+     - title: Web Versions
+       url: /pages/index.pages/web.versions
 
   - title: Info
     child:
@@ -84,6 +80,9 @@ collections:
   modified.apps:
     output: true
     permalink: /modified.apps/:name
+  web.versions:
+    output: true
+    permalink: /web.versions/:name
 
 # Collections directory path. (ex. pages/collections or yourpreferredname/yourpreferredname)
 collections_dir     : pages/_collections
@@ -131,6 +130,20 @@ defaults:
       header_img        : assets/images/webpage/red.black.hole.jpg
       index_sort        : "title"
       index_sort_asc    : false
+  -
+    scope:
+      path: ""
+      type: "web.versions"
+    values:
+      layout: "default"
+      header_type       : "post"
+      show_author       : true
+      author:
+        name:           : "Lovely Angel Cadeliña"
+        avatar:         : /assets/images/webpage/lovely.avatar.jpg
+      show_date         : true
+      show_breadcrumb   : true
+      header_img        : /assets/images/webpage/web.versions.jpg
 
 compress_html:
   clippings: all
