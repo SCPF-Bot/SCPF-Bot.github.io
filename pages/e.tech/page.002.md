@@ -1,6 +1,7 @@
 ---
 title: Web 2.0
 subtitle: A webpage that offers more so that users can interact more to the website and other users.
+layout: landingpage
 show_comments: true
 ---
 ---
