@@ -4,6 +4,10 @@ subtitle: A website that has limited interaction to people.
 header_type: post
 layout: default
 show_comments: false
+show_author: true
+show_date: true
+show_breadcrumb: true
+header_img: assets/images/webpage/red.black.hole.jpg
 ---
 ---
 
