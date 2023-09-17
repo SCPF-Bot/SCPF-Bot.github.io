@@ -6,7 +6,7 @@ show_comments: true
 ---
 ---
 
-### Disqus?
-Feel free to use the comment section to say what you want to say to others.
+### Giscus?
+Feel free to use the comment section to say what you want to say to others. The comments section requires a GitHub account, feel free to sign up [**here**](https://github.com/signup).
 
 > This webpage is an example of Web 2.0.
