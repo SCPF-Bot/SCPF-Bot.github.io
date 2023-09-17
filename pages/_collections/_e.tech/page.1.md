@@ -1,6 +1,7 @@
 ---
 title: Web 1.0
 subtitle: Limited Interaction
+show_comments: false
 ---
 ---
 
