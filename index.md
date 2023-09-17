@@ -2,6 +2,7 @@
 layout: landingpage
 title: " "
 header_type: hero
+show_comments: true
 header_img: "assets/images/webpage/galaxy.violet.jpg"
 ---
 
