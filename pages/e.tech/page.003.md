@@ -28,7 +28,7 @@ Another cool thing about Web 3.0 is that it will make it easier for devices or t
 So, Web 3.0 is like a supercharged version of the internet, where we can do more, have more control over our data, and connect different devices and things. It's going to be a lot of fun!
 
 # Where 3.0?
-Honest, I can't demonstrate the web 3.0 here because this is just a static webpage. To experience Web 3.0 or to see how Web 3.0 webpage works, you can visit [**Spotify**](https://spotify.com) (a website that uses AI (artificial intelligence) to make or recommend playlists based on your recently played songs), [**Theb.AI**](https://theb.ai) (a website that can offer you a conversation with an AI or generate images using the power of an AI), or [**Storj**](https://storj.io) (a website that offers you a more secured and more accessible cloud storage by making it decentralized and also uses the S3 technology for better accessibility).
+Honestly, I can't demonstrate the web 3.0 here because this is just a static webpage. To experience Web 3.0 or to see how Web 3.0 webpage works, you can visit [**Spotify**](https://spotify.com) (a website that uses AI (artificial intelligence) to make or recommend playlists based on your recently played songs), [**Theb.AI**](https://theb.ai) (a website that can offer you a conversation with an AI or generate images using the power of an AI), or [**Storj**](https://storj.io) (a website that offers you a more secured and more accessible cloud storage by making it decentralized and also uses the S3 technology for better accessibility).
 
 ---
 
