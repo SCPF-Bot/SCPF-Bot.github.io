@@ -141,7 +141,7 @@ defaults:
       show_breadcrumb   : true
       header_img        : assets/images/webpage/web.versions.jpg
       index_sort        : "title"
-      index_sort_asc    : false
+      index_sort_asc    : true
 
 compress_html:
   clippings: all
