@@ -4,6 +4,10 @@ subtitle: A webpage that offers more so that users can interact more to the webs
 header_type: post
 layout: default
 show_comments: true
+show_author: true
+show_date: true
+show_breadcrumb: true
+header_img: assets/images/webpage/red.black.hole.jpg
 ---
 ---
 
