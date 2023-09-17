@@ -1,6 +1,6 @@
 ---
 title: Web 3.0
-subtitle: A webpage that aims for the better and more smarter use of the internet.
+subtitle: Smarter Internet
 ---
 ---
 
