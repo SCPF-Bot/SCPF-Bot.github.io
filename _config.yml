@@ -90,7 +90,7 @@ defaults:
     scope:
       path: ""
     values:
-      layout: "minimal"
+      layout: "default"
       include_on_search : false
       show_comments     : true
   -
