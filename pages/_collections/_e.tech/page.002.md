@@ -8,3 +8,4 @@ show_comments: true
 ### Discus?
 Feel free to use the comment section to say what you want to say to others.
 
+> This webpage is an example of Web 2.0.
