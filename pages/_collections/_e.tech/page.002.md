@@ -1,6 +1,6 @@
 ---
 title: Web 2.0
-subtitle: A webpage that offers more so that users can interact more to the website and other users.
+subtitle: More Interactions
 ---
 ---
 
