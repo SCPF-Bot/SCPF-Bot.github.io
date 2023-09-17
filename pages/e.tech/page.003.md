@@ -3,11 +3,15 @@ title: Web 3.0
 subtitle: A webpage that aims for the better and more smarter use of the internet.
 header_type: post
 layout: default
-show_comments: true
+show_comments: false
 ---
 ---
 
 # What's Web 3.0?
+
+{% include snippets/video.html id="0tZFQs7qBfQ" provider="youtube" %}
+
+> Watch the video above if you don't mind.
 
 Web 3.0 is the next stage of the internet. Just like how the internet we know today (Web 2.0) made it easy for us to read and share information, Web 3.0 is going to make the internet even more exciting!
 
