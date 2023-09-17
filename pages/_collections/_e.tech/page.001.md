@@ -10,6 +10,4 @@ _Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
 ## Can't do anything?
 ![Cant Interact](https://add.pics/images/2023/09/17/cant.interact.jpeg)
 
-> This webpage is an example of Web 1.0.
-
-![Black Hole](https://rb.gy/z0dyyw)
+> This webpage is an example of Web 1.0 because this webpage limits interaction and presents information in a one-way format, with users passively consuming content.
