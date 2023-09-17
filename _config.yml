@@ -67,10 +67,10 @@ chulapa-skin:
     font-family-base: "Ubuntu Mono"
 
 comments:
-  provider: welcomments
-  website_id: "BZUEPtIl7wLiqcpTdJQRIw2Bg"
-# provider: disqus #https://disqus.com
-# disqus_shortname: scpf-archive
+  #provider: welcomments
+  #website_id: "BZUEPtIl7wLiqcpTdJQRIw2Bg"
+  provider: disqus #https://disqus.com
+  disqus_shortname: scpf-archive
 
 #### Defaults (Do not modify.)
 # Collections path where you place your posts. (ex. pages/collections/_my.posts/post1.md)
