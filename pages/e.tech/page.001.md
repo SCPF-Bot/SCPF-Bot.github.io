@@ -1,7 +1,7 @@
 ---
 title: Web 1.0
 subtitle: A website that has limited interaction to people.
-header: post
+header_type: post
 layout: default
 show_comments: false
 ---
