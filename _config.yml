@@ -70,7 +70,7 @@ comments:
 #  provider: giscus #https://giscus.app
 
 provider: disqus #https://disqus.com
-disqus_shortname: scp-017
+disqus_shortname: scpf-archive
 
 #### Defaults (Do not modify.)
 # Collections path where you place your posts. (ex. pages/collections/_my.posts/post1.md)
