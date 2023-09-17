@@ -80,9 +80,9 @@ collections:
   modified.apps:
     output: true
     permalink: /modified.apps/:name
-  web.versions:
+  etech:
     output: true
-    permalink: /web.versions/:name
+    permalink: /etech/:name
 
 # Collections directory path. (ex. pages/collections or yourpreferredname/yourpreferredname)
 collections_dir     : pages/_collections
