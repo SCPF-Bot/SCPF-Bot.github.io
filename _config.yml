@@ -39,6 +39,8 @@ navbar:
        url: /pages/e.tech/page.001
      - title: Web 2.0
        url: /pages/e.tech/page.002
+     - title: Web 3.0
+       url: /pages/e.tech/page.003
 
   - title: Info
     child:
