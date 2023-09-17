@@ -1,6 +1,7 @@
 ---
 title: Web 1.0
 subtitle: A website that has limited interaction to people.
+layout: minimal
 ---
 ---
 
