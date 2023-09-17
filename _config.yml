@@ -32,7 +32,10 @@ navbar:
     child:
      - title: Modified Apps
        url:  /pages/index.pages/modified.apps
-
+  - title: E-Tech (Web Versions)
+    child:
+     - title: Web 1.0
+       url: /pages/_collections/_e.tech/page.001.md
   - title: Info
     child:
      - title: About Us
