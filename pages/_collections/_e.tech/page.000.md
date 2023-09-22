@@ -30,4 +30,7 @@ Web 2.0 is the current version of the internet that we use today. It is much mor
 Web 3.0 is the next version of the internet that is currently being developed. It is sometimes referred to as the "Semantic Web" because it will be able to understand and interpret the meaning of information on the internet. Web 3.0 will be even more personalized than Web 2.0 and will be able to provide users with more accurate and relevant information. It will also be more secure and private, as it will use advanced encryption and authentication technologies.
 
 ## Summarization
+
+![Summarization](/assets/images/webpage/An 06_st.ayaka.one.png)
+
 In summary, the internet has gone through three major versions: Web 1.0, Web 2.0, and Web 3.0. Web 1.0 was a basic version that only allowed users to view static web pages. Web 2.0 is the current version of the internet that is much more interactive and allows users to create and share content. Web 3.0 is the next version of the internet that is currently being developed and will be even more personalized, secure, and private than Web 2.0. As technology continues to evolve, it will be interesting to see what the future holds for the internet and its users.
