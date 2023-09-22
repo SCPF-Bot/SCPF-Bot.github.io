@@ -139,6 +139,17 @@ defaults:
       header_type       : "hero"
       show_author       : true
       show_breadcrumb   : true
+      breadcrumb_list   :
+        - label         : Home
+          url           : /pages/index.pages/web.versions
+        - label         : Introduction
+          url           : /pages/_collections/_e.tech/page.3.md
+        - label         : Web 1.0
+          url           : /pages/_collections/_e.tech/page.2.md
+        - label         : Web 2.0
+          url           : /pages/_collections/_e.tech/page.1.md
+        - label         : Web 3.0
+          url           : /pages/_collections/_e.tech/page.0.md
       show_bottomnavs   : true
       index_sort_desc   : true
 
