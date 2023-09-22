@@ -133,7 +133,7 @@ defaults:
   -
     scope:
       path: ""
-      type: "web.versions"
+      type: "e.tech"
     values:
       layout: "default"
       header_type       : "post"
