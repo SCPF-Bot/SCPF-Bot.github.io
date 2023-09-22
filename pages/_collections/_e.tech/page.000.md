@@ -7,6 +7,8 @@ header_img: assets/images/webpage/Airi 13_st.ayaka.one.png
 ## Web Versions?
 **Learn more about Web 1, 2, and 3.**
 
+![Web VS](/assets/images/webpage/Web-10-vs-Web-20-vs-Web-30-768.webp)
+
 ## Introduction
 
 ![Introduction](/assets/images/webpage/Akito 09_st.ayaka.one.png)
