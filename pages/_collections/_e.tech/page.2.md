@@ -1,6 +1,7 @@
 ---
 title: Web 2.0
 subtitle: More Interactions
+header_img: assets/images/webpage/Honami 17_st.ayaka.one.png
 ---
 ---
 
