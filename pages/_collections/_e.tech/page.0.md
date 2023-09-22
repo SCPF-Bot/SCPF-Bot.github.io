@@ -1,6 +1,7 @@
 ---
 title: Understanding Web Versions
 subtitle: Learn more about Web 1, 2, and 3.
+header_img: assets/images/webpage/Airi 13_st.ayaka.one.png
 ---
 ---
 
