@@ -142,6 +142,12 @@ defaults:
       show_author       : true
       show_breadcrumb   : true
       show_bottomnavs   : true
+      author            :
+        name            : Lovely Angel Cadeliña
+        avatar          : https://add.pics/images/2023/09/22/received_626448672939394.jpeg
+        links           :                
+          - url         : https://github.com/facebook
+            icon        : "fab fa-facebook"
 
 compress_html:
   clippings: all
