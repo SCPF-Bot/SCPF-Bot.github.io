@@ -6,15 +6,27 @@ header_img: assets/images/webpage/Airi 13_st.ayaka.one.png
 ---
 
 ## Introduction
+
+![Introduction](/assets/images/webpage/Akito 09_st.ayaka.one.png)
+
 The internet has come a long way since it was first introduced. Over time, the way we use the internet has changed and evolved. These changes are often referred to as "web versions." There are currently three web versions: Web 1.0, Web 2.0, and Web 3.0.
 
 ## Web 1.0
+
+![Web 1.0](/assets/images/webpage/Emu 14_st.ayaka.one.png)
+
 Web 1.0 was the first version of the internet. It was a very basic version that only allowed users to view static web pages. These web pages were created by developers and could not be edited by users. Web 1.0 was mostly used for reading information and was not very interactive. It was like reading a book, but on a computer screen.
 
 ## Web 2.0
+
+![Web 2.0](/assets/images/webpage/Honami 17_st.ayaka.one.png)
+
 Web 2.0 is the current version of the internet that we use today. It is much more interactive than Web 1.0 and allows users to create and share content. Web 2.0 includes social media platforms, blogs, and other websites that allow users to interact with each other. Web 2.0 is also more personalized, as it allows users to customize their experience and receive recommendations based on their interests.
 
 ## Web 3.0
+
+![Web 3.0](/assets/images/webpage/Shiho 12_st.ayaka.one.png)
+
 Web 3.0 is the next version of the internet that is currently being developed. It is sometimes referred to as the "Semantic Web" because it will be able to understand and interpret the meaning of information on the internet. Web 3.0 will be even more personalized than Web 2.0 and will be able to provide users with more accurate and relevant information. It will also be more secure and private, as it will use advanced encryption and authentication technologies.
 
 ## Summarization
