@@ -146,7 +146,7 @@ defaults:
         name            : Lovely Angel Cadeliña
         avatar          : https://add.pics/images/2023/09/22/received_626448672939394.jpeg
         links           :                
-          - url         : https://github.com/facebook
+          - url         : https://www.facebook.com/lovely.cadelina.92
             icon        : "fab fa-facebook"
 
 compress_html:
