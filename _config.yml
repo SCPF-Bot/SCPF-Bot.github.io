@@ -136,7 +136,7 @@ defaults:
       type: "e.tech"
     values:
       layout: "default"
-      header_type       : "post"
+      header_type       : "hero"
       show_author       : true
       show_breadcrumb   : true
       index_sort_desc   : true
