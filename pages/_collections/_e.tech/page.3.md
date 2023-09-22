@@ -1,6 +1,7 @@
 ---
 title: Web 3.0
 subtitle: Smarter Internet
+header_img: assets/images/webpage/Shiho 12_st.ayaka.one.png
 ---
 ---
 
