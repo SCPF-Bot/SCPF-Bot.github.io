@@ -104,7 +104,7 @@ defaults:
       show_comments     : false
       header_type       : "base"
       header_img        : assets/images/webpage/galaxy.forest.jpg
-      index_sort        : "date"
+      #index_sort        : "date"
       index_sort_asc    : false
   -
     scope:
