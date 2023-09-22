@@ -5,7 +5,7 @@ header_img: assets/images/webpage/Shiho 12_st.ayaka.one.png
 ---
 ---
 
-# What's Web 3.0?
+## What's Web 3.0?
 Watch the video below if you don't mind. It'll help you to understand more about the Web 3.0.
 
 {% include snippets/video.html id="0tZFQs7qBfQ" provider="youtube" %}
@@ -21,6 +21,9 @@ Another cool thing about Web 3.0 is that it will make it easier for devices or t
 So, Web 3.0 is like a supercharged version of the internet, where we can do more, have more control over our data, and connect different devices and things. It's going to be a lot of fun!
 
 ## Where's 3.0?
+
+![Where 3.0](/assets/images/webpage/800jkt.jpg)
+
 Honestly, I can't demonstrate the web 3.0 here because this is just a static webpage. To experience Web 3.0 or to see how Web 3.0 webpage work, you can visit the following:
 - [**Spotify**](https://spotify.com)
   - A website that uses AI (artificial intelligence) to make or recommend playlists based on your recently played songs.
