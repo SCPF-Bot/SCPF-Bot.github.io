@@ -92,7 +92,7 @@ collections:
   e.tech:
     output: true
     permalink: /e.tech/:name
-  diary.2025.05:
+  diary/2025/05:
     output: true
     permalink: /diary/2025/05/:name
 
@@ -166,7 +166,7 @@ defaults:
   -
     scope:
       path: ""
-      type: "diary.2025.05"
+      type: "diary/2025/05"
     values:
       layout: "default"
       header_type       : "hero"
