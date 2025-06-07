@@ -92,9 +92,9 @@ collections:
   e.tech:
     output: true
     permalink: /e.tech/:name
-  diary:
+  diary.2025:
     output: true
-    permalink: /diary/:name
+    permalink: /diary.2025/:name
 
 # Collections directory path. (ex. pages/collections or yourpreferredname/yourpreferredname)
 collections_dir     : pages/_collections
@@ -165,7 +165,7 @@ defaults:
   -
     scope:
       path: ""
-      type: "diary"
+      type: "diary.2025"
     values:
       layout: "default"
       header_type       : "hero"
@@ -173,8 +173,7 @@ defaults:
       show_date         : false
       show_breadcrumb   : false
       header_img        : assets/images/webpage/red.black.hole.jpg
-      index_sort        : "title"
-      index_sort_asc    : false
+      index_sort        : "date"
 
 # Miscellaneous options.
 compress_html:
