@@ -17,6 +17,7 @@ author:
     - url: ph.server@pm.me
       icon: "fa fa-envelope"
 
+# Navigation Bar contents.
 navbar:
   style: "classic"
   brand:
@@ -63,14 +64,17 @@ footer:
       url   : ph.server@pm.me
   copyright: © 2022 by SCPF-Bot
 
+# Font URL for Google fonts.
 googlefonts:
  - url: https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap
 
+# Theme Skins.
 chulapa-skin: 
   skin: gitdev-dark
   vars:
     font-family-base: "Ubuntu Mono"
 
+# Comments provider for the webpage.
 comments:
   provider: giscus #https://giscus.app
   #provider: welcomments
@@ -100,6 +104,8 @@ collections:
 # Collections directory path. (ex. pages/collections or yourpreferredname/yourpreferredname)
 collections_dir     : pages/_collections
 
+# Note: Defaults for page customizations. Used for layouts and design for all or specific collection pages (Ex. Edits the layout and design of all the pages of my.posts collection directory to specified strings.
+# Please consider reading note before editing.
 defaults:
   -
     scope:
@@ -188,6 +194,7 @@ defaults:
       index_sort        : "title"
       index_sort_asc    : false
 
+# Miscellaneous options.
 compress_html:
   clippings: all
   blanklines: true
