@@ -94,7 +94,7 @@ collections:
     permalink: /e.tech/:name
   diary:
     output: true
-    permalink: /diary/:id_conf
+    permalink: /diary/:name
 
 # Collections directory path. (ex. pages/collections or yourpreferredname/yourpreferredname)
 collections_dir     : pages/_collections
@@ -173,6 +173,8 @@ defaults:
       show_author       : false
       show_date         : false
       show_breadcrumb   : false
+      index_sort        : "title"
+      index_sort_asc    : false
       header_img        : assets/images/webpage/red.black.hole.jpg
 
 # Miscellaneous options.
