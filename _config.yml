@@ -170,11 +170,6 @@ defaults:
     values:
       layout: "default"
       header_type       : "hero"
-      show_author       : false
-      show_date         : false
-      show_breadcrumb   : false
-      index_sort        : "id_conf"
-      index_sort_asc    : true
       header_img        : assets/images/webpage/red.black.hole.jpg
 
 # Miscellaneous options.
