@@ -169,7 +169,7 @@ defaults:
             icon        : "fab fa-facebook"
   -
     scope:
-      path: ""
+      path: "pages/index.pages/diary.2025.05"
       type: "diary.2025.05"
     values:
       layout: "default"
@@ -182,7 +182,7 @@ defaults:
       index_sort_asc    : false
   -
     scope:
-      path: ""
+      path: "pages/index.pages/diary.2025.06"
       type: "diary.2025.06"
     values:
       layout: "default"
