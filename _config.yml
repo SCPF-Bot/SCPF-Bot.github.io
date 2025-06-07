@@ -42,9 +42,9 @@ navbar:
   - title: Diary - 2025
     child:
      - title: May
-       url: /pages/index.pages/diary.2025.05.md
+       url: /pages/index.pages/diary.2025.05
      - title: June
-       url: /pages/index.pages/diary.2025.06.md
+       url: /pages/index.pages/diary.2025.06
 
   - title: Info
     child:
