@@ -38,6 +38,13 @@ navbar:
      - title: Web Versions
        url: /pages/index.pages/web.versions
 
+  - title: Diary - 2025
+    child:
+     - title: May
+       url: /pages/index.pages/diary.2025.05.md
+     - title: June
+       url: /pages/index.pages/diary.2025.06.md
+
   - title: Info
     child:
      - title: About Us
@@ -86,6 +93,9 @@ collections:
   diary.2025.05:
     output: true
     permalink: /diary/2025/05/:name
+  diary.2025.06:
+    output: true
+    permalink: /diary/2025/06/:name
 
 # Collections directory path. (ex. pages/collections or yourpreferredname/yourpreferredname)
 collections_dir     : pages/_collections
@@ -154,7 +164,20 @@ defaults:
   -
     scope:
       path: ""
-      type: "diary"
+      type: "diary.2025.05"
+    values:
+      layout: "default"
+      header_type       : "post"
+      show_author       : true
+      show_date         : true
+      show_breadcrumb   : true
+      header_img        : assets/images/webpage/red.black.hole.jpg
+      index_sort        : "title"
+      index_sort_asc    : false
+  -
+    scope:
+      path: ""
+      type: "diary.2025.06"
     values:
       layout: "default"
       header_type       : "post"
