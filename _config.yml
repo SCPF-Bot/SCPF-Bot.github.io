@@ -92,7 +92,7 @@ collections:
   e.tech:
     output: true
     permalink: /e.tech/:name
-  diary.2025.05:
+  diary:
     output: true
     permalink: /diary/:name
 
