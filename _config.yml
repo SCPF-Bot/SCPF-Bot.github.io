@@ -92,9 +92,9 @@ collections:
   e.tech:
     output: true
     permalink: /e.tech/:name
-  diary.2025:
+  diary.2025.05:
     output: true
-    permalink: /diary.2025/:name
+    permalink: /diary/2025/05/:name
 
 # Collections directory path. (ex. pages/collections or yourpreferredname/yourpreferredname)
 collections_dir     : pages/_collections
@@ -166,7 +166,7 @@ defaults:
   -
     scope:
       path: ""
-      type: "diary.2025"
+      type: "diary.2025.05"
     values:
       layout: "default"
       header_type       : "hero"
