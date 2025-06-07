@@ -39,12 +39,10 @@ navbar:
      - title: Web Versions
        url: /pages/index.pages/web.versions
 
-  - title: Diary - 2025
+  - title: Diary
     child:
-     - title: May
-       url: /pages/index.pages/diary.2025.05
-     - title: June
-       url: /pages/index.pages/diary.2025.06
+     - title: Diary
+       url: /pages/index.pages/diary
 
   - title: Info
     child:
@@ -96,10 +94,7 @@ collections:
     permalink: /e.tech/:name
   diary.2025.05:
     output: true
-    permalink: /diary/2025/05/:name
-  diary.2025.06:
-    output: true
-    permalink: /diary/2025/06/:name
+    permalink: /diary/:name
 
 # Collections directory path. (ex. pages/collections or yourpreferredname/yourpreferredname)
 collections_dir     : pages/_collections
@@ -169,21 +164,8 @@ defaults:
             icon        : "fab fa-facebook"
   -
     scope:
-      path: "pages/index.pages/diary.2025.05"
-      type: "diary.2025.05"
-    values:
-      layout: "default"
-      header_type       : "post"
-      show_author       : true
-      show_date         : true
-      show_breadcrumb   : true
-      header_img        : assets/images/webpage/red.black.hole.jpg
-      index_sort        : "title"
-      index_sort_asc    : false
-  -
-    scope:
-      path: "pages/index.pages/diary.2025.06"
-      type: "diary.2025.06"
+      path: ""
+      type: "diary"
     values:
       layout: "default"
       header_type       : "post"
