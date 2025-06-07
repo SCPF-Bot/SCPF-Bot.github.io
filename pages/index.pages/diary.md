@@ -1,4 +1,4 @@
 ---
 title: Diary
-include_collection: diary/2025/05
+include_collection: diary
 ---
