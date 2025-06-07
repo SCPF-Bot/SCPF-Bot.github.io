@@ -99,7 +99,7 @@ collections:
 # Collections directory path. (ex. pages/collections or yourpreferredname/yourpreferredname)
 collections_dir     : pages/_collections
 
-# Note: Defaults for page customizations. Used for layouts and design for all or specific collection pages (Ex. Edits the layout and design of all the pages of my.posts collection directory to specified strings.
+# Note: Defaults for page customizations. Used for layouts and design for all or specific collection pages (Ex. Edits the layout and design of all the pages of my.posts collection directory to specified strings.)
 # Please consider reading note before editing.
 defaults:
   -
@@ -168,12 +168,11 @@ defaults:
       type: "diary"
     values:
       layout: "default"
-      header_type       : "post"
-      show_author       : true
+      header_type       : "hero"
+      show_author       : false
       show_date         : false
       show_breadcrumb   : false
       header_img        : assets/images/webpage/red.black.hole.jpg
-      index_sort        : "name"
       index_sort_asc    : false
 
 # Miscellaneous options.
