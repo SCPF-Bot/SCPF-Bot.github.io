@@ -171,9 +171,9 @@ defaults:
       header_type       : "post"
       show_author       : true
       show_date         : false
-      show_breadcrumb   : true
+      show_breadcrumb   : false
       header_img        : assets/images/webpage/red.black.hole.jpg
-      index_sort        : "title"
+      index_sort        : "name"
       index_sort_asc    : false
 
 # Miscellaneous options.
