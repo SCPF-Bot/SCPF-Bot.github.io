@@ -168,12 +168,12 @@ defaults:
       type: "diary.2025"
     values:
       layout: "default"
-      header_type       : "post"
+      header_type       : "hero"
       show_author       : false
       show_date         : false
       show_breadcrumb   : false
       header_img        : assets/images/webpage/red.black.hole.jpg
-      index_sort_asc    : false
+      index_sort        : "id"
 
 # Miscellaneous options.
 compress_html:
