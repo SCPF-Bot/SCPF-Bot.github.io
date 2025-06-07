@@ -173,7 +173,7 @@ defaults:
       show_author       : false
       show_date         : false
       show_breadcrumb   : false
-      index_sort        : "title"
+      index_sort        : "id_conf"
       index_sort_asc    : false
       header_img        : assets/images/webpage/red.black.hole.jpg
 
