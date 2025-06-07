@@ -173,8 +173,6 @@ defaults:
       show_date         : false
       show_breadcrumb   : false
       header_img        : assets/images/webpage/red.black.hole.jpg
-      index_sort        : "day.id"
-      index_sort_asc    : true
 
 # Miscellaneous options.
 compress_html:
