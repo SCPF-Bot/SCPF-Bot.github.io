@@ -168,7 +168,7 @@ defaults:
       type: "diary.2025"
     values:
       layout: "default"
-      header_type       : "hero"
+      header_type       : "post"
       show_author       : false
       show_date         : false
       show_breadcrumb   : false
