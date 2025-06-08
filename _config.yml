@@ -182,14 +182,6 @@ defaults:
         links           :                
           - url         : https://www.facebook.com/lovely.cadelina.92
             icon        : "fab fa-facebook"
-  -
-    scope:
-      path: "pages/_collections/_diary.index.2025"
-    values:
-      layout            : "default"
-      show_comments:    : false
-      header_type       : "hero"
-      header_img        : assets/images/webpage/red.black.hole.jpg
 
 # Miscellaneous options.
 compress_html:
