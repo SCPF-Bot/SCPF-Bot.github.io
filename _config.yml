@@ -184,8 +184,7 @@ defaults:
             icon        : "fab fa-facebook"
   -
     scope:
-      path: ""
-      type: "diary.index.2025"
+      path: "pages/_collections/_diary.index.2025"
     values:
       layout            : "default"
       show_comments:    : false
