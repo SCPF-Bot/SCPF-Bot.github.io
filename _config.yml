@@ -42,7 +42,7 @@ navbar:
   - title: Diary
     child:
      - title: Diary
-       url: /pages/index.pages/diary
+       url: /pages/index.pages/diary.index
 
   - title: Info
     child:
@@ -92,12 +92,12 @@ collections:
   e.tech:
     output: true
     permalink: /e.tech/:name
-  diary:
-    output: true
-    permalink: /diary/:name
   diary.index:
     output: true
     permalink: /diary.index/:name
+  diary.index.2025:
+    output: true
+    permalink: /diary.index.2025/:name
 
 # Collections directory path. (ex. pages/collections or yourpreferredname/yourpreferredname)
 collections_dir     : pages/_collections
@@ -167,7 +167,7 @@ defaults:
   -
     scope:
       path: ""
-      type: "diary"
+      type: "diary.index"
     values:
       layout: "default"
       header_type       : "hero"
