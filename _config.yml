@@ -95,6 +95,9 @@ collections:
   diary:
     output: true
     permalink: /diary/:name
+  diary.index:
+    output: true
+    permalink: /diary.index/:name
 
 # Collections directory path. (ex. pages/collections or yourpreferredname/yourpreferredname)
 collections_dir     : pages/_collections
