@@ -1,6 +1,6 @@
 ---
 title: Diary Day
-include_collection: diary.index.2025.05
+include_collection: diary.index.2025
 layout: "indexcategory"
 index_items: 99
 show_comments: false
