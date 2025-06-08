@@ -41,7 +41,7 @@ navbar:
 
   - title: Diary
     child:
-     - title: Diary
+     - title: Diary Index
        url: /pages/index.pages/diary.index
 
   - title: Info
