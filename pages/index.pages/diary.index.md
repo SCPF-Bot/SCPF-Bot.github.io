@@ -1,4 +1,4 @@
 ---
 title: Diary Index
-include_collection: diary.index.year
+include_collection: diary.index
 ---
