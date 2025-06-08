@@ -43,6 +43,8 @@ navbar:
     child:
      - title: Diary Index
        url: /pages/index.pages/diary.index
+     - title: Gallery
+       url: /pages/misc/gallery
 
   - title: Info
     child:
