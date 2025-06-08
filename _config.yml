@@ -147,7 +147,7 @@ defaults:
       path: ""
       type: "my.posts"
     values:
-      layout: "default"
+      layout            : "default"
       header_type       : "post"
       show_author       : true
       show_breadcrumb   : true
@@ -159,7 +159,7 @@ defaults:
       path: ""
       type: "modified.apps"
     values:
-      layout: "default"
+      layout            : "default"
       header_type       : "post"
       show_author       : true
       show_breadcrumb   : true
@@ -171,7 +171,7 @@ defaults:
       path: ""
       type: "e.tech"
     values:
-      layout: "default"
+      layout            : "default"
       header_type       : "hero"
       show_author       : true
       show_breadcrumb   : true
@@ -182,6 +182,15 @@ defaults:
         links           :                
           - url         : https://www.facebook.com/lovely.cadelina.92
             icon        : "fab fa-facebook"
+  -
+    scope:
+      path: ""
+      type: "diary.index.2025"
+    values:
+      layout            : "default"
+      show_comments:    : false
+      header_type       : "hero"
+      header_img        : assets/images/webpage/red.black.hole.jpg
 
 # Miscellaneous options.
 compress_html:
