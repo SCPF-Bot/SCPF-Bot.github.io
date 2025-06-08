@@ -146,6 +146,7 @@ defaults:
       header_img        : assets/images/webpage/galaxy.forest.jpg
       #index_sort        : "title"
       index_sort_asc    : true
+      show_date         : false
   -
     scope:
       path: ""
