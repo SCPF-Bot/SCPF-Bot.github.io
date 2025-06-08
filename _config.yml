@@ -95,6 +95,24 @@ collections:
   diary.index:
     output: true
     permalink: /diary.index/:name
+  diary.index.2019:
+    output: true
+    permalink: /diary.index.2019/:name
+  diary.index.2020:
+    output: true
+    permalink: /diary.index.2020/:name
+  diary.index.2021:
+    output: true
+    permalink: /diary.index.2021/:name
+  diary.index.2022:
+    output: true
+    permalink: /diary.index.2022/:name
+  diary.index.2023:
+    output: true
+    permalink: /diary.index.2023/:name
+  diary.index.2024:
+    output: true
+    permalink: /diary.index.2024/:name
   diary.index.2025:
     output: true
     permalink: /diary.index.2025/:name
