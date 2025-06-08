@@ -16,4 +16,4 @@ https://picsum.photos/seed/50/750/325,
 https://picsum.photos/seed/60/600,
 https://picsum.photos/seed/70/700/500" %}
 
-{% include_cached snippets/masonry.html external=externalgallery random=true %}
+{% include_cached snippets/masonry.html external=externalgallery random="true" %}
