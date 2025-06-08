@@ -81,7 +81,8 @@ comments:
   #disqus_shortname: scpf-archive
 
 #### Defaults (Do not modify.)
-# Collections path where you place your posts. (ex. pages/collections/_my.posts/post1.md)
+# Collections path where you place your posts.
+# (Ex. pages/collections/_my.posts/post1.md)
 collections:
   my.posts:
     output: true
@@ -117,10 +118,13 @@ collections:
     output: true
     permalink: /diary.index.2025/:name
 
-# Collections directory path. (ex. pages/collections or yourpreferredname/yourpreferredname)
+# Collections directory path.
+# (Ex. pages/collections or yourpreferredname/yourpreferredname)
 collections_dir     : pages/_collections
 
-# Note: Defaults for page customizations. Used for layouts and design for all or specific collection pages (Ex. Edits the layout and design of all the pages of my.posts collection directory to specified strings.)
+# Note: Defaults for page customizations.
+# Used for layouts and design for all or specific collection pages.
+# (Ex. Edits the layout and design of all the pages of my.posts collection directory to specified strings.)
 # Please consider reading note before editing.
 defaults:
   -
