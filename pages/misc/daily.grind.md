@@ -1,4 +1,4 @@
-# Daily To-Do List 🗓️
+# Daily To-Do List ⏳
 
 | **Time**  | **To-do List**           |
 | --------- | ------------------------- |
@@ -33,6 +33,8 @@
 | **21:00** | 🛁 Take Half Bath         |
 | **21:20** | 🎥 Watch Tutorials        |
 | **21:30** | 📖 Read Books             |
+| **21:40** | 🖤 Write Diary            |
+| **21:55** | 🖤 Visit Her Facebook     |
 | **22:00** | 😴 Sleep                  |
 | **23:00** | 😴 Sleep                  |
 | **24:00** | 😴 Sleep                  |
