@@ -45,6 +45,8 @@ navbar:
        url: /pages/index.pages/diary.index
      - title: Gallery
        url: /pages/misc/gallery
+     - title: Daily Grind
+       url: /pages/misc/daily.grind
 
   - title: Info
     child:
