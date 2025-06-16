@@ -78,7 +78,7 @@ chulapa-skin:
 
 # Comments provider for the webpage.
 comments:
-  provider: giscus #https://giscus.app
+  #provider: giscus #https://giscus.app
   #provider: welcomments
   #website_id: "JmOHDoyWDZURoAoxETF4oNUl2"
   #provider: disqus #https://disqus.com
