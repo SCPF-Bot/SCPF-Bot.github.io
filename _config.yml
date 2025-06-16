@@ -1,5 +1,6 @@
 remote_theme: dieghernan/chulapa
 
+baseurl: /home
 title: SCPF-Archive
 subtitle: Private Website
 
