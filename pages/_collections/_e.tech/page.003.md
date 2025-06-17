@@ -1,7 +1,7 @@
 ---
 title: Web 3.0
 subtitle: Smarter Internet
-header_img: assets/images/webpage/Shiho 12_st.ayaka.one.png
+header_img: assets/images/000.005.png
 ---
 ---
 
@@ -21,8 +21,6 @@ Another cool thing about Web 3.0 is that it will make it easier for devices or t
 So, Web 3.0 is like a supercharged version of the internet, where we can do more, have more control over our data, and connect different devices and things. It's going to be a lot of fun!
 
 ## Where's 3.0?
-
-![Where 3.0](/assets/images/webpage/800jkt.jpg)
 
 Honestly, I can't demonstrate the web 3.0 here because this is just a static webpage. To experience Web 3.0 or to see how Web 3.0 webpage work, you can visit the following:
 - [**Spotify**](https://spotify.com)
