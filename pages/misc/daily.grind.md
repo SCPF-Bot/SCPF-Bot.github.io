@@ -1,4 +1,4 @@
-# Daily To-Do List ⏳
+# Sunday To-Do List ⏳
 
 | **Time**  | **To-do List**           |
 | --------- | ------------------------- |
