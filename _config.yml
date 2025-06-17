@@ -24,15 +24,6 @@ navbar:
     title: Home
     img: "https://avatars.githubusercontent.com/u/112224835"
   nav:
-  - title: My Contents
-    child:
-     - title: Posts
-       url: /pages/index.pages/my.posts
-
-  - title: Android
-    child:
-     - title: Modified Apps
-       url:  /pages/index.pages/modified.apps
 
   - title: E-Tech
     child:
@@ -88,12 +79,6 @@ comments:
 # Collections path where you place your posts.
 # (Ex. pages/collections/_my.posts/post1.md)
 collections:
-  my.posts:
-    output: true
-    permalink: /my.posts/:name
-  modified.apps:
-    output: true
-    permalink: /modified.apps/:name
   e.tech:
     output: true
     permalink: /e.tech/:name
@@ -151,30 +136,6 @@ defaults:
       #index_sort        : "title"
       index_sort_asc    : true
       show_date         : false
-  -
-    scope:
-      path: ""
-      type: "my.posts"
-    values:
-      layout            : "default"
-      header_type       : "post"
-      show_author       : true
-      show_breadcrumb   : true
-      header_img        : assets/images/webpage/red.black.hole.jpg
-      index_sort        : "date"
-      index_sort_asc    : false
-  -
-    scope:
-      path: ""
-      type: "modified.apps"
-    values:
-      layout            : "default"
-      header_type       : "post"
-      show_author       : true
-      show_breadcrumb   : true
-      header_img        : assets/images/webpage/red.black.hole.jpg
-      index_sort        : "title"
-      index_sort_asc    : false
   -
     scope:
       path: ""
