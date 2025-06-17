@@ -1,5 +1,6 @@
 ---
 title: Web Versions
+layout: indexcategory
 include_collection: e.tech
 header_img: assets/images/000.007.png
 layout: "default"
