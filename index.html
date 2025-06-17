@@ -5,14 +5,25 @@ header_type: "splash"
 header_img: assets/images/main.003.jpeg
 ---
 
-<a href="https://visit.com" style="text-decoration:none;">
-<div style="width:140px;height:140px;padding:0;background:rgba(128,128,128,0.5);border-radius:0;color:#fff;text-align:center;cursor:pointer;margin:0 auto;display:flex;align-items:center;justify-content:center;">
-Click Here
-</div>
-</a>
-
-<a href="https://visit.com" style="text-decoration:none;">
-<div style="width:140px;height:140px;padding:0;background:rgba(128,128,128,0.5);border-radius:0;color:#fff;text-align:center;cursor:pointer;margin:0 auto;display:flex;align-items:center;justify-content:center;">
-Click Here 2
-</div>
-</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+    body {margin:0;min-height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;background:#f0f0f0;}
+    .widget {
+      width:80vw;max-width:320px;aspect-ratio:1/1;margin:12px 0;
+      display:flex;justify-content:center;align-items:center;
+      border-radius:20px;background:rgba(0,0,0,0.14);backdrop-filter:blur(2px);
+      font-size:1.3em;font-family:sans-serif;text-decoration:none;color:#222;box-shadow:0 2px 12px #0002;
+      transition:background 0.2s;
+    }
+    .widget:active {background:rgba(0,0,0,0.28);}
+  </style>
+</head>
+<body>
+  <a class="widget" href="https://scpf-bot.github.io/pages/index.pages/web.versions">E-Tech</a>
+  <a class="widget" href="https://scpf-bot.github.io/pages/index.pages/diary.index">Diary Index</a>
+  <a class="widget" href="https://scpf-bot.github.io/pages/misc/day.off">Day Off</a>
+</body>
+</html>
