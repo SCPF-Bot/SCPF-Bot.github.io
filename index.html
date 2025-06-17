@@ -8,23 +8,41 @@ header_img: assets/images/main.003.jpeg
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<style>
-.widget{
-  width:80vw;max-width:280px;aspect-ratio:1/1;
-  margin:10vw auto;
-  border-radius:20px;
-  background:rgba(0,0,0,.15);
-  display:flex;align-items:center;justify-content:center;
-  font-size:1.5rem;font-family:sans-serif;
-  color:#222;text-decoration:none;
-  transition:background .2s;
-  box-shadow:0 2px 12px rgba(0,0,0,.08);
-}
-.widget:active{background:rgba(0,0,0,.28);}
-</style>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <style>
+    .widget {
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      width:min(80vw,300px);height:min(80vw,300px);
+      margin:auto;
+      border-radius:20px;
+      background:#fff;
+      color:#111;
+      font:700 1.5rem sans-serif;
+      box-shadow:0 2px 8px #0002;
+      transition:.2s;
+      user-select:none;
+      cursor:pointer;
+      text-decoration:none;
+    }
+    @media (prefers-color-scheme: dark) {
+      .widget{background:#222;color:#fff;}
+    }
+    /* Adaptive color based on parent background */
+    body {
+      background: #eee;
+    }
+    body:has(.dark-bg) .widget {
+      background: #222; color: #fff;
+    }
+    body:not(:has(.dark-bg)) .widget {
+      background: #fff; color: #111;
+    }
+  </style>
 </head>
 <body>
-<a href="https://link.tree" class="widget">Click Me</a>
+  <a href="https://link.tree" class="widget">Click Me</a>
+<div class="dark-bg"></div>
 </body>
 </html>
