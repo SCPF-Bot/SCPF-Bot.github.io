@@ -141,6 +141,69 @@ defaults:
       index_sort_asc    : false
       show_date         : false
 
+  -
+    scope:
+      path: "pages/_collections/_diary.index.2019"
+    values:
+      header_type       : "hero"
+      header_img        : assets/images/main.003.jpeg
+      show_comments     : false
+      show_date         : false
+
+  -
+    scope:
+      path: "pages/_collections/_diary.index.2020"
+    values:
+      header_type       : "hero"
+      header_img        : assets/images/main.003.jpeg
+      show_comments     : false
+      show_date         : false
+
+  -
+    scope:
+      path: "pages/_collections/_diary.index.2021"
+    values:
+      header_type       : "hero"
+      header_img        : assets/images/main.003.jpeg
+      show_comments     : false
+      show_date         : false
+
+  -
+    scope:
+      path: "pages/_collections/_diary.index.2022"
+    values:
+      header_type       : "hero"
+      header_img        : assets/images/main.003.jpeg
+      show_comments     : false
+      show_date         : false
+
+  -
+    scope:
+      path: "pages/_collections/_diary.index.2023"
+    values:
+      header_type       : "hero"
+      header_img        : assets/images/main.003.jpeg
+      show_comments     : false
+      show_date         : false
+
+  -
+    scope:
+      path: "pages/_collections/_diary.index.2024"
+    values:
+      header_type       : "hero"
+      header_img        : assets/images/main.003.jpeg
+      show_comments     : false
+      show_date         : false
+
+  -
+    scope:
+      path: "pages/_collections/_diary.index.2025"
+    values:
+      header_type       : "hero"
+      header_img        : assets/images/main.003.jpeg
+      show_comments     : false
+      show_date         : false
+
 # Miscellaneous options.
 compress_html:
   clippings: all
