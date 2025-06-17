@@ -17,7 +17,7 @@ header_img: assets/images/main.003.jpeg
       width:min(80vw,300px);height:min(80vw,300px);
       margin:auto;
       border-radius:20px;
-      background:#fff;
+      background:#fff url('https://cdn0.iconfinder.com/data/icons/news-and-magazine/512/blog-1024.png') center/60% no-repeat;
       color:#111;
       font:700 1.5rem sans-serif;
       box-shadow:0 2px 8px #0002;
@@ -25,24 +25,40 @@ header_img: assets/images/main.003.jpeg
       user-select:none;
       cursor:pointer;
       text-decoration:none;
+      position:relative;
+      overflow:hidden;
+    }
+    .widget span {
+      background:rgba(255,255,255,.82);
+      padding:.5em 1.2em;
+      border-radius:1em;
+      z-index:1;
+      position:relative;
+      font-size:1.2em;
+      box-shadow:0 1px 6px #0001;
     }
     @media (prefers-color-scheme: dark) {
-      .widget{background:#222;color:#fff;}
+      .widget{
+        background:#222 url('https://cdn0.iconfinder.com/data/icons/news-and-magazine/512/blog-1024.png') center/60% no-repeat;
+        color:#fff;
+      }
+      .widget span {background:rgba(34,34,34,.82);}
     }
-    /* Adaptive color based on parent background */
-    body {
-      background: #eee;
-    }
+    body {background:#eee;}
     body:has(.dark-bg) .widget {
-      background: #222; color: #fff;
+      background:#222 url('https://cdn0.iconfinder.com/data/icons/news-and-magazine/512/blog-1024.png') center/60% no-repeat;
+      color:#fff;
     }
+    body:has(.dark-bg) .widget span {background:rgba(34,34,34,.82);}
     body:not(:has(.dark-bg)) .widget {
-      background: #fff; color: #111;
+      background:#fff url('https://cdn0.iconfinder.com/data/icons/news-and-magazine/512/blog-1024.png') center/60% no-repeat;
+      color:#111;
     }
+    body:not(:has(.dark-bg)) .widget span {background:rgba(255,255,255,.82);}
   </style>
 </head>
 <body>
-  <a href="https://link.tree" class="widget">Click Me</a>
-<div class="dark-bg"></div>
+  <a href="https://link.tree" class="widget"><span>Click Me</span></a>
+  <div class="dark-bg"></div>
 </body>
 </html>
