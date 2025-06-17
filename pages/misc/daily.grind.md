@@ -1,4 +1,4 @@
-# Sunday To-Do List ⏳
+# Day Off To-Do List ⏳
 
 | **Time**  | **To-do List**           |
 | --------- | ------------------------- |
