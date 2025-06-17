@@ -1,6 +1,8 @@
 ---
 title: Web Versions
 layout: indexcategory
+index_sort: "name"
+index_sort_asc: false
 include_collection: e.tech
 header_img: assets/images/000.007.png
 header_type: "hero"
