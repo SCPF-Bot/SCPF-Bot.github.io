@@ -1,6 +1,6 @@
 ---
 title: Understanding Web Versions
-header_img: assets/images/webpage/Airi 13_st.ayaka.one.png
+header_img: assets/images/000.007.png
 ---
 ---
 
