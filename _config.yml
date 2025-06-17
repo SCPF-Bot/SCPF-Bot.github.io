@@ -124,6 +124,7 @@ defaults:
       include_on_search : false
       show_comments     : true
       show_date         : false
+
   -
     scope:
       path: "pages/index.pages"
@@ -134,6 +135,20 @@ defaults:
       #index_sort        : "title"
       index_sort_asc    : true
       show_date         : false
+
+  -
+    scope:
+      path: "pages/_collections/_diary.index"
+    values:
+      layout            : "indexcategory"
+      index_items       : 99
+      header_type       : "base"
+      header_img        : assets/images/main.002.jpeg
+      show_comments     : false
+      index_sort        : "name"
+      index_sort_asc    : false
+      show_date         : false
+
   -
     scope:
       path: ""
