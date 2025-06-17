@@ -34,13 +34,8 @@ navbar:
     child:
      - title: Diary Index
        url: /pages/index.pages/diary.index
-     - title: Daily Grind
-       url: /pages/misc/daily.grind
-
-  - title: Info
-    child:
-     - title: About Us
-       url: /pages/misc/about.us
+     - title: Day Off
+       url: /pages/misc/day.off
 
 footer:
   links:
