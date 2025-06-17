@@ -1,11 +1,6 @@
 ---
 layout: landingpage
 title: " "
+header_type: "splash"
+header_img: assets/images/main.003
 ---
-
-![Disable AdBlock](assets/images/000.009.png)
-
-<h4> <p align="center"> Disable Your AdBlock </p> </h4>
-<p align="center">
-Hey stranger, I'm warning you. Some images and functions might not work or load as intended if your AdBlocker is activated on this website.
-</p>
