@@ -127,17 +127,6 @@ defaults:
 
   -
     scope:
-      path: "pages/index.pages"
-    values:
-      layout            : "indexcategory"
-      index_items       : 99
-      show_comments     : false
-      #index_sort        : "title"
-      index_sort_asc    : true
-      show_date         : false
-
-  -
-    scope:
       path: "pages/_collections/_diary.index"
     values:
       layout            : "indexcategory"
@@ -148,23 +137,6 @@ defaults:
       index_sort        : "name"
       index_sort_asc    : false
       show_date         : false
-
-  -
-    scope:
-      path: ""
-      type: "e.tech"
-    values:
-      layout            : "default"
-      header_type       : "hero"
-      show_author       : true
-      show_breadcrumb   : true
-      show_bottomnavs   : true
-      author            :
-        name            : Lovely Angel Cadeliña
-        avatar          : assets/images/main.001.jpeg
-        links           :                
-          - url         : https://www.facebook.com/lovely.cadelina.92
-            icon        : "fab fa-facebook"
 
 # Miscellaneous options.
 compress_html:
