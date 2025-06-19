@@ -1,6 +1,7 @@
 ---
 title: Web 3.0
 subtitle: Smarter Internet
+header_type: "hero"
 header_img: assets/images/000.005.png
 ---
 ---
