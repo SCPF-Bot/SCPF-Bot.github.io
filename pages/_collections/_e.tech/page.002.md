@@ -1,8 +1,17 @@
 ---
 title: Web 2.0
 subtitle: More Interactions
-header_type: "post"
+header_type: "hero"
 header_img: assets/images/000.004.png
+show_author: true
+show_breadcrumb: true
+show_bottomnavs: true
+author:
+  name: Lovely Angel Cadeliña
+  avatar: assets/images/main.001.jpeg
+  links:                
+    - url: https://www.facebook.com/lovely.cadelina.92
+      icon: "fab fa-facebook"
 ---
 ---
 
