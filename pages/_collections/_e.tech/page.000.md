@@ -1,7 +1,6 @@
 ---
 title: Understanding Web Versions
-layout: "post"
-header_type: "hero"
+header_type: "post"
 header_img: assets/images/000.007.png
 ---
 ---
