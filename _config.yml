@@ -78,9 +78,6 @@ collections:
   diary.index.2019:
     output: true
     permalink: /diary.index.2019/:name
-    header_type: "hero"
-    header_img: assets/images/webpage/red.black.hole.jpg
-    show_comments: false
   diary.index.2020:
     output: true
     permalink: /diary.index.2020/:name
