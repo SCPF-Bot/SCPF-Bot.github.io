@@ -1,5 +1,6 @@
 ---
-title: 2019
+title: 2 0 1 9
+subtitle: Click the date below to view contents...
 layout: indexcategory
 header_type: "hero"
 header_img: "assets/images/main.002.jpeg"
