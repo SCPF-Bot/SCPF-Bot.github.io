@@ -1,6 +1,7 @@
 ---
 title: Web 2.0
 subtitle: More Interactions
+header_type: "hero"
 header_img: assets/images/000.004.png
 ---
 ---
