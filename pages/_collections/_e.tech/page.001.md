@@ -2,6 +2,7 @@
 title: Web 1.0
 subtitle: Limited Interaction
 show_comments: false
+header_type: "hero"
 header_img: assets/images/000.003.png
 ---
 ---
