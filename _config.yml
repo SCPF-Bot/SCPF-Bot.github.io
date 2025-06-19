@@ -75,9 +75,6 @@ collections:
   e.tech:
     output: true
     permalink: /e.tech/:name
-  diary.index:
-    output: true
-    permalink: /diary.index/:name
   diary.index.2019:
     output: true
     permalink: /diary.index.2019/:name
@@ -119,19 +116,6 @@ defaults:
       layout: "default"
       include_on_search : false
       show_comments     : true
-      show_date         : false
-
-  -
-    scope:
-      path: "pages/_collections/_diary.index"
-    values:
-      layout            : "indexcategory"
-      index_items       : 99
-      header_type       : "base"
-      header_img        : assets/images/main.002.jpeg
-      show_comments     : false
-      index_sort        : "name"
-      index_sort_asc    : false
       show_date         : false
 
   -
