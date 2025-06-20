@@ -21,21 +21,27 @@ author:
 navbar:
   style: "classic"
   brand:
-    title: Home
+    title: SCPF-Bot
     img: "https://avatars.githubusercontent.com/u/112224835"
   nav:
+
+  - title: Home
+    url: /index
 
   - title: E-Tech
     child:
      - title: Web Versions
        url: /pages/index.pages/web.versions
 
-  - title: Diary
+  - title: My Life
     child:
      - title: Diary Index
        url: /pages/index.pages/diary.index
      - title: Day Off
        url: /pages/misc/day.off
+
+  - title: Special Thanks
+    url: /pages/misc/special.thanks
 
 footer:
   links:
