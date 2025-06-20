@@ -33,12 +33,12 @@ navbar:
      - title: Web Versions
        url: /pages/index.pages/web.versions
 
-  - title: My Life
+  - title: Babii
     child:
      - title: Diary Index
        url: /pages/index.pages/diary.index
-     - title: Day Off
-       url: /pages/misc/day.off
+     - title: To-Do List
+       url: /pages/misc/to.do.list
 
   - title: Special Thanks
     url: /pages/misc/special.thanks
