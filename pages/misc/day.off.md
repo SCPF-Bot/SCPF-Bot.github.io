@@ -1,4 +1,9 @@
-# Day Off To-Do List ⏳
+---
+title: To-Do List ⏳
+header_type: "hero"
+header_img: assets/images/main.003.jpeg
+show_comments: false
+---
 
 | **Time**  | **To-do List**           | **Time**  | **To-do List**           |
 | --------- | ------------------------- | --------- | ------------------------- |
