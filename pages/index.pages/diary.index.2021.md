@@ -9,4 +9,4 @@ include_collection: diary.index.2021
 ---
 ---
 
-![grabify.org.image.tracker](https://grabify.org/061219.jpeg)
+![](https://grabify.link/TT2ICC.jpeg)
