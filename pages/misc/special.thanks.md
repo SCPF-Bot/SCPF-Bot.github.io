@@ -29,7 +29,7 @@ For files compression of my website...
 
 ---
 
-### Grabify.ORG
+### Grabify.LINK
 
 For the IP logger used in my website...
 
