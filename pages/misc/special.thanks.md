@@ -26,3 +26,11 @@ For the Jekyll Theme of my website...
 For files compression of my website...
 
 ![000.013](/assets/images/000.013.jpeg)
+
+---
+
+### Grabify
+
+For the IP logger used in my website...
+
+![000.014](/assets/images/000.014.jpeg)
