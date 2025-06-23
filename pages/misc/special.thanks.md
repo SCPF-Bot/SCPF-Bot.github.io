@@ -5,7 +5,7 @@ header_img: assets/images/main.003.jpeg
 ---
 ---
 
-### Fonts Awesome
+### Font Awesome
 
 For the icons used in my website...
 
