@@ -35,6 +35,24 @@ main.002.jpeg
 
 Please consider double checking such actions before altering those files...
 
+---
+
+#### Videos Directory
+
+For the videos directory, it's pretty straightforward because you can use it in any directories that you want...
+- Just follow the example below:
+
 ```
 collection.directory-collection.name-attachment.number.extension
+
+diary.index.2025-2025.06.12-001.mp4
+
+diary.index.2025-2019.06.12-001.mkv
+diary.index.2025-2019.06.12-002.mp4
 ```
+
+#### Note
+
+- Please be sure to compress the video first before uploading...
+- Backup some important videos or original videos in repository package release page...
+- Backup important videos at Google Drive...
