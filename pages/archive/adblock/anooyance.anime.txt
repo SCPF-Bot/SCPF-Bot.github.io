@@ -1,0 +1,27 @@
+[Adblock Plus 2.0]
+! Version: 1.0
+! Title:Anime Annoyance
+! Last modified: 
+! Expires: 
+! Homepage: https://hianime.to
+! Websites: hianimez.to animekai.cc
+!
+!
+!
+hianime.to##.deslide-wrap
+hianime.to###anime-trending
+hianime.to##.intro-app
+hianime.to##.share-buttons-home.share-buttons
+hianime.to###anime-featured
+hianime.to##section.block_area_home.block_area:nth-of-type(2)
+hianime.to##section.block_area_home.block_area:nth-of-type(3)
+hianime.to##.block_area-connecting.block_area_sidebar.block_area
+hianime.to##.block_area-realtime.block_area_sidebar.block_area
+!
+!
+!
+animekai.to##.swiper-backface-hidden.swiper-android.swiper-horizontal.swiper-initialized.alist-group.swiper
+animekai.to##footer
+animekai.to##.entity-section
+animekai.to##.hide-bg-mobile.sidebar-section
+!
