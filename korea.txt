@@ -7,6 +7,8 @@ Top Tourist Attractions in South Korea:
 6. Haeinsa Temple (Gyeongsangnam-do)  
 7. Haeundae Beach (Busan)  
 
+---
+
 Must-Try Korean Dishes:
 1. Kimchi: A staple in Korean cuisine, kimchi is a fermented vegetable dish, typically made with napa cabbage and radishes, seasoned with chili pepper, garlic, ginger, and other spices.  
 2. Bibimbap: This mixed rice dish is topped with a variety of vegetables, meat (often beef), a fried egg, and gochujang (Korean chili paste), making it both colorful and nutritious.  
@@ -16,8 +18,9 @@ Must-Try Korean Dishes:
 6. Sundubu-jjigae: A spicy soft tofu stew that includes uncurdled tofu, vegetables, and sometimes seafood or meat. It is served bubbling hot and often accompanied by rice.  
 7. Japchae: Stir-fried glass noodles made from sweet potato starch, japchae is mixed with vegetables, meat, and a sweet soy sauce, resulting in a flavorful and satisfying dish.  
 
-6-Day Itinerary for Exploring South Korea:
+---
 
+6-Day Itinerary for Exploring South Korea:
 Day 1: Arrival in Seoul  
 - Morning: Arrive in Seoul and check into your hotel.  
 - Afternoon: Visit Gyeongbokgung Palace to explore its beautiful architecture and catch the changing of the guard ceremony.  
@@ -54,10 +57,13 @@ Day 6: Busan and Departure
 - Evening: Return to Seoul for your departure flight or spend the night in Busan if your schedule allows.  
 - Dinner: Have a final meal of Japchae before heading to the airport.  
 
+---
+
 Note: This itinerary offers a mix of cultural experiences, natural beauty, and delicious Korean cuisine, ensuring a memorable trip to South Korea!
 
-Expenses:
+---
 
+Expenses:
 1. Accommodation: 
 - Average hotel cost per night: 4,000 PHP
 - Total for 5 nights: 20,000 PHP
