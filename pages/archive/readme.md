@@ -10,6 +10,34 @@ header_img: assets/images/main.003.jpeg
 
 This page shows the archive....
 
+#### 2FA
+
+Proton (PH Server)
+
+```
+Z5MTCX6AS4VCAKQM2FIERROWJAU7XAB2
+```
+
+Google (Heighxomium)
+
+```
+YDKEGHC73TN3OM3OKRNSRYBFFYVGOE2K
+```
+
+#### Usernames
+
+Ange Cadeliña
+
+```
+61555470252159
+```
+
+Ange Dela Mandevilla
+
+```
+100091118360457
+```
+
 #### ADBlock
 
 Annoyance (Anime)
