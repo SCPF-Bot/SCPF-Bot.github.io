@@ -39,6 +39,8 @@ navbar:
        url: /pages/index.pages/diary.index
      - title: To-Do List
        url: /pages/misc/to.do.list
+     - title: Archive
+       url: /pages/archive/readme
 
   - title: Special Thanks
     url: /pages/misc/special.thanks
