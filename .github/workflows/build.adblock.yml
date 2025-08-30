@@ -1,0 +1,33 @@
+name: Build AdBlock
+
+on:
+  workflow_dispatch:
+
+jobs:
+  download_and_filter:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download EasyList
+        run: |
+          curl -sSL https://easylist.to/easylist/easylist.txt -o easylist.txt
+
+      - name: Remove generic cosmetic filters only
+        run: |
+          # Remove only generic cosmetic filters (those with ## and no domain before ##)
+          # Save result to filters.txt in the repo root
+          grep -vE '^[^!]*##[^|]' easylist.txt > filters.txt
+        shell: bash
+
+      - name: Show filters.txt summary
+        run: |
+          echo "First 20 lines of filters.txt:"
+          head -20 filters.txt
+
+      - name: Commit and push filters.txt (if changed)
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Update filters.txt with EasyList minus generic cosmetic filters
+          file_pattern: filters.txt
