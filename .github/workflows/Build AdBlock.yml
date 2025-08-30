@@ -19,16 +19,16 @@ jobs:
 
       - name: Remove generic cosmetic filters only
         run: |
-          grep -vE '^[^!]*##[^|]' easylist.txt > pages/archive/adblock/filters.txt
+          grep -vE '^[^!]*##[^|]' easylist.txt > pages/archive/adblock/easylist.filters.txt
         shell: bash
 
-      - name: Show filters.txt summary
+      - name: Show changes summary
         run: |
-          echo "First 20 lines of filters.txt:"
-          head -20 pages/archive/adblock/filters.txt
+          echo "First 20 lines of AdBlock Filter:"
+          head -20 pages/archive/adblock/easylist.filters.txt
 
       - name: Commit and push filters.txt (if changed)
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: Update filters.txt with EasyList minus generic cosmetic filters
-          file_pattern: pages/archive/adblock/filters.txt
+          file_pattern: pages/archive/adblock/easylist.filters.txt
