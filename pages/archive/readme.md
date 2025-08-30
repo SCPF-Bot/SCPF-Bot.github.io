@@ -40,6 +40,12 @@ Ange Dela Mandevilla
 
 #### ADBlock
 
+Easy List (Removed Generic)
+
+```
+https://github.com/SCPF-Bot/SCPF-Bot.github.io/raw/refs/heads/main/pages/archive/adblock/easylist.filters.txt
+```
+
 Annoyance (Anime)
 
 ```
