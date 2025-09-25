@@ -21,7 +21,6 @@ jobs:
       - name: Sort and remove duplicate filters
         run: |
           cat ublock.filters.txt >> easylist.txt
-          sort easylist.txt | uniq > easylist.temp.txt && mv easylist.temp.txt easylist.txt
 
       - name: Remove generic cosmetic filters only
         run: |
