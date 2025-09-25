@@ -16,6 +16,8 @@ jobs:
       - name: Download EasyList
         run: |
           curl -sSL https://easylist.to/easylist/easylist.txt -o easylist.txt
+          curl -sSL https://cdn.statically.io/gh/uBlockOrigin/uAssetsCDN/main/filters/filters.min.txt -o ublock.filters.txt
+          cat ublock.filters.txt >> easylist.txt
 
       - name: Remove generic cosmetic filters only
         run: |
