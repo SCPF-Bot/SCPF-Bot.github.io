@@ -21,11 +21,11 @@ jobs:
       - name: Sort and remove duplicate filters
         run: |
           cat ublock.filters.txt >> easylist.txt
+          awk '!seen[$0]++' easylist.txt > easylist.final.txt
 
       - name: Remove generic cosmetic filters only
         run: |
-          grep -vE '^[^!]*##[^|]' easylist.txt > pages/archive/adblock/easylist.filters.txt
-        shell: bash
+          grep -vE '^[^!]*##[^|]' easylist.final.txt > pages/archive/adblock/easylist.filters.txt
 
       - name: Show changes summary
         run: |
