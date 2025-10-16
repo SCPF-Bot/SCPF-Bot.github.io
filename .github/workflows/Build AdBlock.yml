@@ -17,7 +17,6 @@ jobs:
         run: |
           curl -sSL https://easylist.to/easylist/easylist.txt -o easylist.txt
           curl -sSL https://cdn.statically.io/gh/uBlockOrigin/uAssetsCDN/main/filters/filters.min.txt -o ublock.filters.txt
-          curl -sSL https://mcpe-planet.com/wp-content/uploads/2025/09/minecraft-1-21-111.apk -o mcpe.apk
 
       - name: Sort and remove duplicate filters
         run: |
@@ -26,8 +25,8 @@ jobs:
 
       - name: Remove generic cosmetic filters only
         run: |
-          grep -vE '^[^!]*##[^|]' easylist.final.txt > pages/archive/adblock/easylist.filters.txt
-          mv mcpe.apk > pages/archive/mcpe.apk
+          #grep -vE '^[^!]*##[^|]' easylist.final.txt > pages/archive/adblock/easylist.filters.txt
+          mv easylist.final.txt > pages/archive/adblock/easylist.filters.txt
 
       - name: Show changes summary
         run: |
@@ -39,9 +38,3 @@ jobs:
         with:
           commit_message: Update filters.txt with EasyList minus generic cosmetic filters
           file_pattern: pages/archive/adblock/easylist.filters.txt
-
-      - name: Commit and push filters.txt (if changed)
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: Update filters.txt with EasyList minus generic cosmetic filters
-          file_pattern: pages/archive/mcpe.apk
