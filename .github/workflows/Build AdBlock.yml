@@ -26,7 +26,7 @@ jobs:
       - name: Remove generic cosmetic filters only
         run: |
           # grep -vE '^[^!]*##[^|]' easylist.final.txt > pages/archive/adblock/easylist.filters.txt
-          mv easylist.final.txt > pages/archive/adblock/easylist.filters.txt
+          mv easylist.final.txt pages/archive/adblock/easylist.filters.txt
 
       - name: Show changes summary
         run: |
