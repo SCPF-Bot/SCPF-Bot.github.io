@@ -16,11 +16,13 @@ jobs:
       - name: Download EasyList
         run: |
           curl -sSL https://easylist.to/easylist/easylist.txt -o easylist.txt
-          curl -sSL https://cdn.statically.io/gh/uBlockOrigin/uAssetsCDN/main/filters/filters.min.txt -o ublock.filters.txt
+          curl -sSL https://easylist-downloads.adblockplus.org/advblock.txt -o easylist.ru.txt
+          curl -sSL https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&showintro=1&mimetype=plaintext -o pete.lowe.txt
 
       - name: Sort and remove duplicate filters
         run: |
-          cat ublock.filters.txt >> easylist.txt
+          cat easylist.ru.txt >> easylist.txt
+          cat pete.lowe.txt >> easylist.txt
           awk '!seen[$0]++' easylist.txt > easylist.final.txt
 
       - name: Remove generic cosmetic filters only
