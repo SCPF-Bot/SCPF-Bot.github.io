@@ -21,12 +21,6 @@ jobs:
         run: |
           awk '!seen[$0]++' raw.filters.txt > pages/archive/adblock/filters.txt
 
-      - name: Upload merged filter list
-        uses: actions/upload-artifact@v3
-        with:
-          name: adblock_filters.txt
-          path: adblock_filters.txt
-
       - name: Commit and push filters.txt (if changed)
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
