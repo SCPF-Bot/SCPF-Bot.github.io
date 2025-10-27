@@ -19,7 +19,8 @@ jobs:
 
       - name: Remove duplicate lines
         run: |
-          awk '!seen[$0]++' raw.filters.txt > pages/archive/adblock/filters.txt
+          awk '!seen[$0]++' raw.filters.txt > raw.filters.txt
+          mv raw.filters.txt pages/archive/adblock/filters.txt
 
       - name: Commit and push filters.txt (if changed)
         uses: stefanzweifel/git-auto-commit-action@v5
