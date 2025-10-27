@@ -17,9 +17,11 @@ jobs:
         run: |
           curl -sSL https://easylist.to/easylist/easylist.txt -o easylist.txt
           curl -sSL https://easylist-downloads.adblockplus.org/advblock.txt -o easylist.ru.txt
+          curl -sSL https://github.com/uBlockOrigin/uAssetsCDN/blob/main/filters/filters.min.txt -o ublock.txt
 
       - name: Sort and remove duplicate filters
         run: |
+          cat ublock.txt >> easylist.ru.txt
           cat easylist.ru.txt >> easylist.txt
           awk '!seen[$0]++' easylist.txt > easylist.final.txt
 
