@@ -4,39 +4,31 @@ on:
   workflow_dispatch:
 
 jobs:
-  download_and_filter:
+  merge-filters:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Ensure target directory exists
-        run: mkdir -p pages/archive/adblock
-
-      - name: Download EasyList
+      - name: Download filter lists
         run: |
-          curl -sSL https://easylist.to/easylist/easylist.txt -o easylist.txt
-          curl -sSL https://easylist-downloads.adblockplus.org/advblock.txt -o easylist.ru.txt
-          curl -sSL https://github.com/uBlockOrigin/uAssetsCDN/blob/main/filters/filters.min.txt -o ublock.txt
+          wget -q -O 1.txt https://raw.githubusercontent.com/uBlockOrigin/uAssetsCDN/refs/heads/main/filters/filters.min.txt
+          wget -q -O 2.txt https://easylist.to/easylist/easylist.txt
+          wget -q -O 3.txt https://raw.githubusercontent.com/uBlockOrigin/uAssetsCDN/refs/heads/main/filters/unbreak.txt
 
-      - name: Sort and remove duplicate filters
+      - name: Merge filter lists
         run: |
-          cat ublock.txt >> easylist.ru.txt
-          cat easylist.ru.txt >> easylist.txt
-          awk '!seen[$0]++' easylist.txt > easylist.final.txt
+          cat 1.txt 2.txt 3.txt > raw.filters.txt
 
-      - name: Remove generic cosmetic filters only
+      - name: Remove duplicate lines
         run: |
-          # grep -vE '^[^!]*##[^|]' easylist.final.txt > pages/archive/adblock/easylist.filters.txt
-          mv easylist.final.txt pages/archive/adblock/easylist.filters.txt
+          awk '!seen[$0]++' raw.filters.txt > pages/archive/adblock/filters.txt
 
-      - name: Show changes summary
-        run: |
-          echo "First 20 lines of AdBlock Filter:"
-          head -20 pages/archive/adblock/easylist.filters.txt
+      - name: Upload merged filter list
+        uses: actions/upload-artifact@v3
+        with:
+          name: adblock_filters.txt
+          path: adblock_filters.txt
 
       - name: Commit and push filters.txt (if changed)
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: Update filters.txt with EasyList minus generic cosmetic filters
-          file_pattern: pages/archive/adblock/easylist.filters.txt
+          file_pattern: pages/archive/adblock/filters.txt
