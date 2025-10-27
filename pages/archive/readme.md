@@ -40,7 +40,7 @@ Ange Dela Mandevilla
 
 #### ADBlock
 
-Easy List (Removed Generic)
+Easy List + uBlock
 
 ```
 https://github.com/SCPF-Bot/SCPF-Bot.github.io/raw/refs/heads/main/pages/archive/adblock/filters.txt
