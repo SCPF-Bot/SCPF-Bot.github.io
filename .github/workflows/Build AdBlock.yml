@@ -7,23 +7,30 @@ jobs:
   merge-filters:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
       - name: Download filter lists
         run: |
-          wget -q -O 1.txt https://raw.githubusercontent.com/uBlockOrigin/uAssetsCDN/refs/heads/main/filters/filters.min.txt
+          wget -q -O 1.txt https://raw.githubusercontent.com/uBlockOrigin/uAssetsCDN/main/filters/filters.min.txt
           wget -q -O 2.txt https://easylist.to/easylist/easylist.txt
-          wget -q -O 3.txt https://raw.githubusercontent.com/uBlockOrigin/uAssetsCDN/refs/heads/main/filters/unbreak.txt
+          wget -q -O 3.txt https://raw.githubusercontent.com/uBlockOrigin/uAssetsCDN/main/filters/unbreak.txt
 
       - name: Merge filter lists
         run: |
           cat 1.txt 2.txt 3.txt > raw.filters.txt
 
-      - name: Remove duplicate lines
+      - name: Remove duplicate lines and prepare destination
         run: |
-          awk '!seen[$0]++' raw.filters.txt > raw.filters.txt
-          mv raw.filters.txt pages/archive/adblock/filters.txt
+          mkdir -p pages/archive/adblock
+          # write deduplicated contents to a temp file to avoid overwriting input
+          awk '!seen[$0]++' raw.filters.txt > raw.filters.tmp
+          mv raw.filters.tmp pages/archive/adblock/filters.txt
 
       - name: Commit and push filters.txt (if changed)
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: Update filters.txt with EasyList minus generic cosmetic filters
           file_pattern: pages/archive/adblock/filters.txt
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
