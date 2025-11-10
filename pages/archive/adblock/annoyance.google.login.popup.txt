@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Version: 1.0
-! Title:Google Login
+! Title:Google Login Pop-up
 ! Last modified: 
 ! Expires: 
 ! Homepage: 
