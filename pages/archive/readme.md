@@ -58,6 +58,12 @@ SnapInsta
 https://github.com/SCPF-Bot/SCPF-Bot.github.io/raw/refs/heads/main/pages/archive/adblock/annoyance.snapinsta.txt
 ```
 
+Google Login Pop-up
+
+```
+https://github.com/SCPF-Bot/SCPF-Bot.github.io/raw/refs/heads/main/pages/archive/adblock/annoyance.google.login.popup.txt
+```
+
 #### Backup
 
 Sulat ni Ange para kay Lovely Angel Cadeliña nuong Oct 28 2023
