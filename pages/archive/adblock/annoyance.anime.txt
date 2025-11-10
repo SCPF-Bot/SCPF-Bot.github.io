@@ -20,8 +20,8 @@ hianime.to##.block_area-realtime.block_area_sidebar.block_area
 !
 !
 !
-animekai.to##.swiper-backface-hidden.swiper-android.swiper-horizontal.swiper-initialized.alist-group.swiper
-animekai.to##footer
-animekai.to##.entity-section
-animekai.to##.hide-bg-mobile.sidebar-section
+anikai.to##.swiper-backface-hidden.swiper-android.swiper-horizontal.swiper-initialized.alist-group.swiper
+anikai.to##footer
+anikai.to##.entity-section
+anikai.to##.hide-bg-mobile.sidebar-section
 !
