@@ -1,6 +1,10 @@
-Starting from absolute zero in the Philippines is a brutal, uphill battle that demands not just hard work but a complete shift in mindset. It requires putting pride aside, seizing every opportunity, and committing to a long, tough journey. This isn't a fluffy motivational talk; it's a realistic, step-by-step battle plan.
+### Introduction
 
-## 💡 Phase 1: The Mindset & Immediate Survival (Day 1)
+Starting from absolute zero in the Philippines is a brutal, uphill battle that demands not just hard work but a complete shift in mindset. It requires putting pride aside, seizing every opportunity, and committing to a long, tough journey. This isn't a fluffy motivational talk; it's a realistic, step-by-step battle plan...
+
+---
+
+### 💡 Phase 1: The Mindset & Immediate Survival (Day 1)
 
 Before making a single peso, you must win the mental war. This stage is about survival and laying the groundwork.
 
@@ -16,7 +20,7 @@ Before making a single peso, you must win the mental war. This stage is about su
   - **Step 1: Get a Barangay Clearance/Certificate**. This is your foundational ID. Head to your local Barangay Hall and get a Certificate of Indigency or Residency. This single document is the key to many government programs.
   - **Step 2: Visit Key Government Offices**. With your Barangay Certificate, visit your local Public Employment Service Office (PESO) and the nearest DOLE, DSWD, and TESDA offices. Ask about all available programs: TUPAD, DILP (livelihood grants), JobStart, 4Ps, and free skills training. You are there to find out what you qualify for, not to beg.
 
-## 💰 Phase 2: Building a Financial Foundation (Months 1-6)
+### 💰 Phase 2: Building a Financial Foundation (Months 1-6)
 
 This stage is about moving from hand-to-mouth survival to building a small but stable financial base. You are not looking for a career; you are looking for a reliable income stream.
 
@@ -36,7 +40,7 @@ This stage is about moving from hand-to-mouth survival to building a small but s
   - **Online English Tutor**: Platforms like RareJob, 51Talk, and Native Camp are always hiring. You don't always need a degree or teaching certificate to get started.
   - **Data Entry & Transcription**: These are beginner-friendly roles that require attention to detail and a good internet connection. Full-time roles can pay ₱20,000 - ₱30,000/month.
 
-## 📈 Phase 3: Scaling Up & Achieving Stability (Years 1-5)
+### 📈 Phase 3: Scaling Up & Achieving Stability (Years 1-5)
 
 You have a stable (though modest) income. Now, the focus shifts to discipline, strategy, and growth.
 
