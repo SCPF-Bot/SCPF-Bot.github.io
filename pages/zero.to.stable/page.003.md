@@ -1,6 +1,6 @@
 ## Phase 3: Scaling Up & Achieving Stability (Years 1–5)
 
-Phase 3 is a war against inflation and time itself. You've built a stable, modest income (₱15,000–₱25,000/month) and a small emergency fund. But stability is a trap if you let it become complacency. ~~Stability is a trap~~ ***Stability is a trap*** if you let it become complacency. Inflation in the Philippines is running at *4–4.5%* in 2026. Basic commodities like rice are up 7.5%, fish up 9%, and electricity up a staggering 15.5%. <u>If your income isn't growing faster than inflation, you're getting poorer every single month.</u>
+Phase 3 is a war against inflation and time itself. You've built a stable, modest income (₱15,000–₱25,000/month) and a small emergency fund. ***Stability is a trap*** if you let it become complacency. Inflation in the Philippines is running at *4–4.5%* in 2026. Basic commodities like rice are up 7.5%, fish up 9%, and electricity up a staggering 15.5%. <u>If your income isn't growing faster than inflation, you're getting poorer every single month.</u>
 
 ---
 
