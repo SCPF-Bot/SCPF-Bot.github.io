@@ -1,6 +1,6 @@
 ## Phase 1: The Absolute Hardest Part
 
-This isn't about grand plans or long-term goals yet; it's about ~~comfort~~ *brute-force survival* and securing the most basic foothold. Every single action you take in this phase must serve one of two purposes: **keeping you alive today**, and **building the foundation to earn a single peso tomorrow**.
+This isn't about grand plans or long-term goals yet; it's about *brute-force survival* and securing the most basic foothold. Every single action you take in this phase must serve one of two purposes: **keeping you alive today**, and **building the foundation to earn a single peso tomorrow**.
 
 ### Secure Shelter
 
