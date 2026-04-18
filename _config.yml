@@ -42,6 +42,17 @@ navbar:
      - title: Archive
        url: /pages/archive/readme
 
+  - title: Zero to Stable
+    child:
+     - title: Introduction
+       url: /pages/zero.to.stable/page.000
+     - title: Phase 1
+       url: /pages/zero.to.stable/page.001
+     - title: Phase 2
+       url: /pages/zero.to.stable/page.002
+     - title: Phase 3
+       url: /pages/zero.to.stable/page.003
+
   - title: Special Thanks
     url: /pages/misc/special.thanks
 
