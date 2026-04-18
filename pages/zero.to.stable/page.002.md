@@ -1,8 +1,8 @@
 ## Phase 2: Building a Financial Foundation (Months 1-6)
 
-You've survived Phase 1. You've secured a place to sleep, and you might have a few pesos from TUPAD or odd jobs. Now you're entering the most dangerous phase of this journey—the one where ~~most people get stuck or give up~~ ***most people get stuck or give up***.
+You've survived Phase 1. You've secured a place to sleep, and you might have a few pesos from TUPAD or odd jobs. Now you're entering the most dangerous phase of this journey—the one where ***most people get stuck or give up***.
 
-The brutal truth about Phase 2 is this: **you are not building a career. You are building a platform.** Your only goal is to establish a *reliable, legal income stream*—no matter how small or unglamorous—that gives you enough breathing room to stop worrying about your next meal and start thinking about tomorrow.
+The brutal truth about Phase 2 is this: **You are not building a career, you are building a platform**. Your only goal is to establish a *reliable, legal income stream* no matter how small or unglamorous that gives you enough breathing room to stop worrying about your next meal and start thinking about tomorrow.
 
 ---
 
