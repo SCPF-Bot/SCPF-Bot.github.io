@@ -98,7 +98,9 @@ This journey is ***incredibly difficult***, and there are no guarantees. However
 
 ---
 
-<a href="https://scpf-bot.github.io/pages/zero.to.stable/page.000" style="text-decoration: none; color: inherit;">
+<a href="https://scpf-bot.github.io/pages/zero.to.stable/page.000" 
+   style="display: block; text-decoration: none; color: inherit;" 
+   target="_blank" rel="noopener noreferrer">
   <div class="text-center my-4 py-5 px-3 border border-primary chulapa-overlay-img" style="background-color: #212529; color: #f8f9fa; border-radius: 1rem;">
     <p><i class="fas fa-money-bill-trend-up fa-6x"></i></p>
     <h2 class="font-weight-light py-3">Zero to Stable</h2>
