@@ -112,3 +112,5 @@ This journey is ***incredibly difficult***, and there are no guarantees. However
     <p class="lead font-weight-light py-2">Click to view my Zero to Stable guide...</p>
   </div>
 </a>
+
+{% include series_nav_enhanced.html %}
