@@ -95,3 +95,13 @@ Once you have a stable job and an emergency fund, you can start thinking about l
 ## Notes
 
 This journey is ***incredibly difficult***, and there are no guarantees. However, by following these steps, you can systematically move from *surviving* to *striving*, **one hard‑fought peso at a time**...
+
+---
+
+<a href="https://scpf-bot.github.io/pages/zero.to.stable/page.000" style="text-decoration: none; color: inherit;">
+  <div class="text-center my-4 py-5 px-3 border border-primary chulapa-overlay-img" style="background-color: #212529; color: #f8f9fa; border-radius: 1rem;">
+    <p><i class="fas fa-money-bill-trend-up fa-6x"></i></p>
+    <h2 class="font-weight-light py-3">Zero to Stable</h2>
+    <p class="lead font-weight-light py-2">Click to view my Zero to Stable guide...</p>
+  </div>
+</a>
