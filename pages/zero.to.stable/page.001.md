@@ -72,3 +72,5 @@ Let's be brutally honest. This phase will likely last ***1 to 6 months***. Durin
 | **Months 2–6** | Repeated applications for TUPAD or stable work |
 
 Your only focus is to push through these months, day by day, and emerge on the other side with a stable – even if tiny – source of income...
+
+{% include series_nav_enhanced.html %}
