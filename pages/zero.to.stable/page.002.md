@@ -1,3 +1,8 @@
+---
+title: "Phase 2"
+---
+---
+
 ## Phase 2: Building a Financial Foundation (Months 1-6)
 
 You've survived Phase 1. You've secured a place to sleep, and you might have a few pesos from TUPAD or odd jobs. Now you're entering the most dangerous phase of this journey—the one where ***most people get stuck or give up***.
