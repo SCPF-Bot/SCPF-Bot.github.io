@@ -26,3 +26,4 @@ for src in pages/_collections/diary.index.20*/_posts; do
 done
 
 echo "Restructure complete"
+
