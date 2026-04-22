@@ -20,7 +20,7 @@ jobs:
 
       - name: Append series_nav include to files in target directories
         run: |
-          INCLUDE_LINE="{% include series_nav.html %}"
+          INCLUDE_LINE="{% include series.navigation.html %}"
           LIST_FILE="$GITHUB_WORKSPACE/assets/paths/list.txt"
           
           if [ ! -f "$LIST_FILE" ]; then
