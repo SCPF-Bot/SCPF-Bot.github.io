@@ -35,6 +35,7 @@ jobs:
           cp -r "$SOURCE_DIR/_includes" "$TARGET_DIR/"
           cp -r "$SOURCE_DIR/_layouts" "$TARGET_DIR/"
           cp -r "$SOURCE_DIR/_sass" "$TARGET_DIR/"
+          cp -r "$SOURCE_DIR/assets" "$TARGET_DIR/"
 
       - name: Commit and push changes
         run: |
