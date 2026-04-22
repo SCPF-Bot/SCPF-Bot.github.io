@@ -1,8 +1,3 @@
----
-title: "Phase 2"
----
----
-
 ## Phase 2: Building a Financial Foundation (Months 1-6)
 
 You've survived Phase 1. You've secured a place to sleep, and you might have a few pesos from TUPAD or odd jobs. Now you're entering the most dangerous phase of this journey—the one where ***most people get stuck or give up***.
@@ -179,5 +174,3 @@ By the end of Month 6, you should have a **1-month emergency buffer** and a clea
 You will be tired. You will be tempted to spend your first paycheck on a small luxury—a nice meal, a new shirt, a night out. ***Do not do this.*** Every peso you spend on anything beyond absolute necessity is a peso stolen from your future self.
 
 <u>Your only goal in Phase 2 is to build a financial platform stable enough to survive a crisis.</u> Once you have that, you can begin Phase 3—scaling up, investing, and achieving true financial stability. But for now, keep your head down, work relentlessly, and remember that this phase is temporary. It is a bridge, not a home...
-
-{% include series.navigation.html %}
