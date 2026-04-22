@@ -117,32 +117,50 @@ collections:
     permalink: /diary.index.2025/:name
 
 # Collections directory path.
-# (Ex. pages/collections or yourpreferredname/yourpreferredname)
-collections_dir     : pages/_collections
+collections_dir: pages/_collections
 
-# Note: Defaults for page customizations.
-# Used for layouts and design for all or specific collection pages.
-# (Ex. Edits the layout and design of all the pages of my.posts collection directory to specified strings.)
-# Please consider reading note before editing.
+# Defaults for page customizations.
 defaults:
+  # Global fallback
   -
     scope:
       path: ""
     values:
       layout: "default"
-      include_on_search : false
-      show_comments     : true
-      show_date         : false
+      include_on_search: false
+      show_comments: true
+      show_date: false
 
+  # Diary collections (all years) - uses series layout
   -
     scope:
       path: "pages/_collections/_diary.index."
     values:
-      layout            : "series"
-      header_type       : "hero"
-      header_img        : assets/images/main.003.jpeg
-      show_comments     : false
-      show_date         : false
+      layout: "series"
+      header_type: "hero"
+      header_img: assets/images/main.003.jpeg
+      show_comments: false
+      show_date: false
+
+  # E-Tech collection - uses series layout
+  -
+    scope:
+      path: "pages/_collections/_e.tech"
+    values:
+      layout: "series"
+      header_type: "hero"          # optional, adjust as needed
+      header_img: assets/images/main.003.jpeg
+      show_comments: false
+      show_date: false
+
+  # Zero to Stable (regular directory) - uses series layout
+  -
+    scope:
+      path: "pages/zero.to.stable"
+    values:
+      layout: "series"
+      show_date: false
+      # You can add header_type or other customizations here
 
 # Miscellaneous options.
 compress_html:
