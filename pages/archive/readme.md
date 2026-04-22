@@ -40,24 +40,6 @@ Ange Dela Mandevilla
 
 #### ADBlock
 
-Easy List + uBlock
-
-```
-https://github.com/SCPF-Bot/SCPF-Bot.github.io/raw/refs/heads/main/pages/archive/adblock/filters.txt
-```
-
-Annoyance (Anime)
-
-```
-https://github.com/SCPF-Bot/SCPF-Bot.github.io/raw/refs/heads/main/pages/archive/adblock/annoyance.anime.txt
-```
-
-SnapInsta
-
-```
-https://github.com/SCPF-Bot/SCPF-Bot.github.io/raw/refs/heads/main/pages/archive/adblock/annoyance.snapinsta.txt
-```
-
 Google Login Pop-up
 
 ```
