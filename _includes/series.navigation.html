@@ -1,14 +1,11 @@
 {% comment %}
-  Enhanced series navigation for pages with numbered filenames (e.g., page.000.md).
-  Sorts by numeric value extracted from filename.
-  Displays "Page X of Y" and previous/next links with Chulapa styling.
+  Series navigation that orders files alphabetically by filename (GitHub style).
+  Includes all .md and .html files in the series directory.
+  Displays "Page X of Y" and previous/next links.
   
   Usage:
-    - Include this snippet in a layout or page.
-    - Set the directory either by:
-        * Passing a parameter: {% include series_nav.html series_dir="/my/series/" %}
-        * Or relying on current page's directory: page.dir (used if series_dir not provided)
-    - Files should be named like page.XXX.md (XXX = zero-padded number) inside that directory.
+    {% include series_nav.html %}
+    or with custom directory: {% include series_nav.html series_dir="/my-series/" %}
 {% endcomment %}
 
 {% comment %} Determine the series base directory {% endcomment %}
@@ -18,29 +15,27 @@
   {% assign series_base = page.dir %}
 {% endif %}
 
-{% comment %} Ensure trailing slash for consistent matching {% endcomment %}
+{% comment %} Ensure trailing slash {% endcomment %}
 {% unless series_base ends_with '/' %}
   {% assign series_base = series_base | append: '/' %}
 {% endunless %}
 
-{% comment %} Collect all pages under the series directory {% endcomment %}
-{% assign series_pages = site.pages | where_exp: "p", "p.path contains series_base" %}
+{% comment %} Collect all .md and .html pages under the series directory {% endcomment %}
+{% assign all_pages = site.pages | where_exp: "p", "p.path contains series_base" %}
+{% assign series_pages = "" | split: "" %}
 
-{% comment %} Extract numeric order from filename (e.g., page.000 -> 0) {% endcomment %}
-{% assign pages_with_order = "" | split: "" %}
-{% for p in series_pages %}
-  {% assign filename_parts = p.name | split: "." %}
-  {% if filename_parts.size >= 2 and filename_parts[0] == "page" %}
-    {% assign num_str = filename_parts[1] %}
-    {% assign num = num_str | plus: 0 %}
-    {% assign p_data = p | merge: { "order": num, "display_name": p.title | default: p.name } %}
-    {% assign pages_with_order = pages_with_order | push: p_data %}
+{% for p in all_pages %}
+  {% assign ext = p.name | split: "." | last %}
+  {% if ext == "md" or ext == "html" %}
+    {% assign series_pages = series_pages | push: p %}
   {% endif %}
 {% endfor %}
 
-{% assign sorted = pages_with_order | sort: "order" %}
+{% comment %} Sort alphabetically by filename (GitHub order) {% endcomment %}
+{% assign sorted = series_pages | sort: "name" %}
 
-{% comment %} Find current page index in the sorted series {% endcomment %}
+{% comment %} Find current page index {% endcomment %}
+{% assign current_index = nil %}
 {% for p in sorted %}
   {% if p.path == page.path %}
     {% assign current_index = forloop.index0 %}
@@ -51,13 +46,14 @@
   {% endif %}
 {% endfor %}
 
-{% if total > 1 %}
+{% comment %} Show navigation only if more than one page {% endcomment %}
+{% if total > 1 and current_index != nil %}
 <div class="series-nav mt-4 pt-3 border-top">
   <div class="d-flex justify-content-between align-items-center flex-wrap">
     <div class="series-nav-prev">
       {% if prev_index >= 0 %}
         <a href="{{ sorted[prev_index].url }}" class="btn btn-outline-primary">
-          <i class="fas fa-arrow-left"></i> {{ sorted[prev_index].display_name }}
+          <i class="fas fa-arrow-left"></i> {{ sorted[prev_index].title | default: sorted[prev_index].name }}
         </a>
       {% else %}
         <span class="btn btn-outline-secondary disabled"><i class="fas fa-arrow-left"></i> Previous</span>
@@ -71,7 +67,7 @@
     <div class="series-nav-next">
       {% if next_index < total %}
         <a href="{{ sorted[next_index].url }}" class="btn btn-outline-primary">
-          {{ sorted[next_index].display_name }} <i class="fas fa-arrow-right"></i>
+          {{ sorted[next_index].title | default: sorted[next_index].name }} <i class="fas fa-arrow-right"></i>
         </a>
       {% else %}
         <span class="btn btn-outline-secondary disabled">Next <i class="fas fa-arrow-right"></i></span>
