@@ -36,7 +36,10 @@ jobs:
           cp -r "$SOURCE_DIR/_layouts" "$TARGET_DIR/"
           cp -r "$SOURCE_DIR/_sass" "$TARGET_DIR/"
           cp -r "$SOURCE_DIR/assets" "$TARGET_DIR/"
-          cp -r "$SOURCE_DIR/.github/workflows" "$TARGET_DIR/"
+          
+          # Copy .github/workflows (properly handles the hidden .github folder)
+          mkdir -p "$TARGET_DIR/.github"
+          cp -r "$SOURCE_DIR/.github/workflows" "$TARGET_DIR/.github/"
 
       - name: Commit and push changes
         run: |
