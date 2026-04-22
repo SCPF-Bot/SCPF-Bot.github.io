@@ -180,4 +180,4 @@ You will be tired. You will be tempted to spend your first paycheck on a small l
 
 <u>Your only goal in Phase 2 is to build a financial platform stable enough to survive a crisis.</u> Once you have that, you can begin Phase 3—scaling up, investing, and achieving true financial stability. But for now, keep your head down, work relentlessly, and remember that this phase is temporary. It is a bridge, not a home...
 
-{% include series_nav_enhanced.html %}
+{% include series.navigation.html %}
