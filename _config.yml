@@ -17,18 +17,22 @@ author:
     - url: ph.server@pm.me
       icon: "fa fa-envelope"
 
+# Navigation Bar contents.
 navbar:
   style: "classic"
   brand:
     title: SCPF-Bot
     img: "https://avatars.githubusercontent.com/u/112224835"
   nav:
+
   - title: Home
     url: /index
+
   - title: E-Tech
     child:
      - title: Web Versions
        url: /pages/index.pages/web.versions
+
   - title: Babii
     child:
      - title: Diary Index
@@ -37,6 +41,7 @@ navbar:
        url: /pages/misc/to.do.list
      - title: Archive
        url: /pages/archive/readme
+
   - title: Zero to Stable
     child:
      - title: Introduction
@@ -47,6 +52,7 @@ navbar:
        url: /pages/zero.to.stable/page.002
      - title: Phase 3
        url: /pages/zero.to.stable/page.003
+
   - title: Special Thanks
     url: /pages/misc/special.thanks
 
@@ -63,99 +69,142 @@ footer:
       url   : ph.server@pm.me
   copyright: © 2022 by SCPF-Bot
 
+# Font URL for Google fonts.
 googlefonts:
  - url: https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap
 
+# Theme Skins.
 chulapa-skin: 
   skin: gitdev-dark
   vars:
     font-family-base: "Ubuntu Mono"
 
+# Comments provider for the webpage.
 comments:
-  # provider: giscus etc. (kept as is)
+  #provider: giscus #https://giscus.app
+  #provider: welcomments
+  #website_id: "JmOHDoyWDZURoAoxETF4oNUl2"
+  #provider: disqus #https://disqus.com
+  #disqus_shortname: scpf-archive
 
-# COLLECTIONS (optimized with YAML anchors)
+#### Defaults (Do not modify.)
+# Collections path where you place your posts.
+# (Ex. pages/collections/_my.posts/post1.md)
 collections:
   e.tech:
     output: true
     permalink: /e.tech/:name
-
-  # Base anchor for diary collections
-  diary_base: &diary_collection
-    output: true
-    permalink: /diary.index.:year/:name   # will be overridden per year
-
   diary.index.2019:
-    <<: *diary_collection
+    output: true
     permalink: /diary.index.2019/:name
   diary.index.2020:
-    <<: *diary_collection
+    output: true
     permalink: /diary.index.2020/:name
   diary.index.2021:
-    <<: *diary_collection
+    output: true
     permalink: /diary.index.2021/:name
   diary.index.2022:
-    <<: *diary_collection
+    output: true
     permalink: /diary.index.2022/:name
   diary.index.2023:
-    <<: *diary_collection
+    output: true
     permalink: /diary.index.2023/:name
   diary.index.2024:
-    <<: *diary_collection
+    output: true
     permalink: /diary.index.2024/:name
   diary.index.2025:
-    <<: *diary_collection
+    output: true
     permalink: /diary.index.2025/:name
 
-collections_dir: pages/_collections
+# Collections directory path.
+# (Ex. pages/collections or yourpreferredname/yourpreferredname)
+collections_dir     : pages/_collections
 
-# DEFAULTS (optimized with YAML anchors)
+# Note: Defaults for page customizations.
+# Used for layouts and design for all or specific collection pages.
+# (Ex. Edits the layout and design of all the pages of my.posts collection directory to specified strings.)
+# Please consider reading note before editing.
 defaults:
-  - scope:
+  -
+    scope:
       path: ""
     values:
       layout: "default"
-      include_on_search: false
-      show_comments: true
-      show_date: false
+      include_on_search : false
+      show_comments     : true
+      show_date         : false
 
-  # Apply series layout to all diary index collections
-  - scope:
+  # --- APPLY SERIES NAVIGATION TO ALL DIARY INDEX COLLECTIONS ---
+  -
+    scope:
       path: "pages/_collections/_diary.index."
     values:
       layout: "series"
 
-  # Base anchor for diary year overrides
-  diary_year_defaults: &diary_defaults
-    values:
-      header_type: "hero"
-      header_img: assets/images/main.003.jpeg
-      show_comments: false
-      show_date: false
-
-  - scope:
+  -
+    scope:
       path: "pages/_collections/_diary.index.2019"
-    <<: *diary_defaults
-  - scope:
-      path: "pages/_collections/_diary.index.2020"
-    <<: *diary_defaults
-  - scope:
-      path: "pages/_collections/_diary.index.2021"
-    <<: *diary_defaults
-  - scope:
-      path: "pages/_collections/_diary.index.2022"
-    <<: *diary_defaults
-  - scope:
-      path: "pages/_collections/_diary.index.2023"
-    <<: *diary_defaults
-  - scope:
-      path: "pages/_collections/_diary.index.2024"
-    <<: *diary_defaults
-  - scope:
-      path: "pages/_collections/_diary.index.2025"
-    <<: *diary_defaults
+    values:
+      header_type       : "hero"
+      header_img        : assets/images/main.003.jpeg
+      show_comments     : false
+      show_date         : false
 
-# Miscellaneous (unchanged)
+  -
+    scope:
+      path: "pages/_collections/_diary.index.2020"
+    values:
+      header_type       : "hero"
+      header_img        : assets/images/main.003.jpeg
+      show_comments     : false
+      show_date         : false
+
+  -
+    scope:
+      path: "pages/_collections/_diary.index.2021"
+    values:
+      header_type       : "hero"
+      header_img        : assets/images/main.003.jpeg
+      show_comments     : false
+      show_date         : false
+
+  -
+    scope:
+      path: "pages/_collections/_diary.index.2022"
+    values:
+      header_type       : "hero"
+      header_img        : assets/images/main.003.jpeg
+      show_comments     : false
+      show_date         : false
+
+  -
+    scope:
+      path: "pages/_collections/_diary.index.2023"
+    values:
+      header_type       : "hero"
+      header_img        : assets/images/main.003.jpeg
+      show_comments     : false
+      show_date         : false
+
+  -
+    scope:
+      path: "pages/_collections/_diary.index.2024"
+    values:
+      header_type       : "hero"
+      header_img        : assets/images/main.003.jpeg
+      show_comments     : false
+      show_date         : false
+
+  -
+    scope:
+      path: "pages/_collections/_diary.index.2025"
+    values:
+      header_type       : "hero"
+      header_img        : assets/images/main.003.jpeg
+      show_comments     : false
+      show_date         : false
+
+# Miscellaneous options.
 compress_html:
   clippings: all
   blanklines: true
