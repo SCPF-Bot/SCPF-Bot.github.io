@@ -1,0 +1,65 @@
+name: Add Series Navigation
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'pages/_collections/**'
+      - 'assets/paths/list.txt'
+  workflow_dispatch:
+
+jobs:
+  add-nav:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Append series_nav include to files in target directories
+        run: |
+          INCLUDE_LINE="{% include series_nav.html %}"
+          LIST_FILE="$GITHUB_WORKSPACE/assets/paths/list.txt"
+          
+          if [ ! -f "$LIST_FILE" ]; then
+            echo "List file $LIST_FILE not found. Skipping."
+            exit 0
+          fi
+          
+          # Read each non-empty line from the list file
+          while IFS= read -r target_dir || [ -n "$target_dir" ]; do
+            # Trim whitespace and skip empty lines or comments (#)
+            target_dir=$(echo "$target_dir" | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')
+            if [ -z "$target_dir" ] || [[ "$target_dir" == \#* ]]; then
+              continue
+            fi
+            
+            # Convert to absolute path
+            abs_target_dir="$GITHUB_WORKSPACE/$target_dir"
+            echo "Processing directory: $abs_target_dir"
+            
+            if [ ! -d "$abs_target_dir" ]; then
+              echo "Directory $abs_target_dir does not exist. Skipping."
+              continue
+            fi
+            
+            find "$abs_target_dir" -type f \( -name "*.md" -o -name "*.html" \) -print0 | while IFS= read -r -d '' file; do
+              if ! grep -qF "$INCLUDE_LINE" "$file"; then
+                echo "Adding to $file"
+                tail -c1 "$file" | read -r _ || echo >> "$file"
+                echo "$INCLUDE_LINE" >> "$file"
+              else
+                echo "Already present in $file"
+              fi
+            done
+          done < "$LIST_FILE"
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --staged --quiet || git commit -m "Add series navigation to target directories from list"
+          git push
