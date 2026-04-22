@@ -1,60 +1,32 @@
 {%- comment %}
-  Usage example:
-  {% include series_navigation.html series_dir="/my-series" %}
-  
-  If series_dir is omitted, it defaults to the current page's directory.
-  The component sorts pages by their file path (alphabetical).
-  You can override sorting by adding an `order` front matter variable.
+  Simple series navigation for sibling pages in the same directory.
+  Only .md and .html files are considered.
+  Sorted alphabetically by filename.
+  Disabled buttons keep layout consistent.
+  FontAwesome icons used for arrows.
 {% endcomment -%}
 
-{%- assign series_dir = include.series_dir | default: page.dir -%}
-{%- unless series_dir ends_with '/' %}{% assign series_dir = series_dir | append: '/' %}{% endunless -%}
-
-{%- comment %} Gather all pages under series_dir, filter by extension, and sort {% endcomment -%}
-{%- assign all_series_pages = site.pages 
-    | where_exp: "p", "p.url contains series_dir"
-    | where_exp: "p", "p.url != series_dir"  # exclude the directory itself if it's a page
+{%- assign current_dir = page.dir -%}
+{%- assign siblings = site.pages 
+    | where: "dir", current_dir
     | where_exp: "p", "p.path matches '\\.(md|html)$'"
-    | sort: "path" -%}
+    | sort: "name" -%}
 
-{%- comment %} Optional: resort by front matter `order` if needed {% endcomment -%}
-{%- assign sorted_pages = "" | split: "" -%}
-{%- assign unordered = all_series_pages -%}
-{%- for i in (0..unordered.size) -%}
-  {%- assign smallest = nil -%}
-  {%- assign smallest_index = nil -%}
-  {%- for p in unordered -%}
-    {%- assign order = p.order | default: 999999 -%}
-    {%- if smallest == nil or order < smallest -%}
-      {%- assign smallest = order -%}
-      {%- assign smallest_page = p -%}
-      {%- assign smallest_index = forloop.index0 -%}
+{%- if siblings.size > 0 -%}
+  {%- assign current_index = nil -%}
+  {%- for sibling in siblings -%}
+    {%- if sibling.url == page.url -%}
+      {%- assign current_index = forloop.index0 -%}
+      {%- break -%}
     {%- endif -%}
   {%- endfor -%}
-  {%- if smallest_page -%}
-    {%- assign sorted_pages = sorted_pages | push: smallest_page -%}
-    {%- assign unordered = unordered | pop: smallest_index -%}
-  {%- endif -%}
-{%- endfor -%}
-{%- if sorted_pages.size == 0 -%}{%- assign sorted_pages = all_series_pages -%}{%- endif -%}
 
-{%- comment %} Find current page index {% endcomment -%}
-{%- assign current_index = nil -%}
-{%- for p in sorted_pages -%}
-  {%- if p.url == page.url -%}
-    {%- assign current_index = forloop.index0 -%}
-    {%- break -%}
-  {%- endif -%}
-{%- endfor -%}
-
-{%- assign total_pages = sorted_pages.size -%}
-{%- if total_pages > 0 -%}
   <div class="d-flex flex-wrap gap-2 justify-content-between align-items-center mt-4 mb-4">
-    {%- comment %} Previous button (disabled if first page) {% endcomment -%}
+    {%- comment %} Previous button {% endcomment -%}
     {%- if current_index > 0 -%}
-      {%- assign prev_page = sorted_pages[current_index | minus: 1] -%}
-      <a href="{{ prev_page.url | relative_url }}" class="btn btn-outline-primary rounded-2">
-        <i class="fas fa-arrow-left"></i> Previous: {{ prev_page.title | default: prev_page.name }}
+      {%- assign prev = siblings[current_index | minus: 1] -%}
+      <a href="{{ prev.url | relative_url }}" class="btn btn-outline-primary rounded-2">
+        <i class="fas fa-arrow-left"></i> Previous: {{ prev.title | default: prev.name }}
       </a>
     {%- else -%}
       <span class="btn btn-outline-secondary rounded-2 disabled" aria-disabled="true">
@@ -64,14 +36,14 @@
 
     {%- comment %} Page counter {% endcomment -%}
     <span class="text-muted">
-      Page {{ current_index | plus: 1 }} of {{ total_pages }}
+      Page {{ current_index | plus: 1 }} of {{ siblings.size }}
     </span>
 
-    {%- comment %} Next button (disabled if last page) {% endcomment -%}
-    {%- if current_index < total_pages | minus: 1 -%}
-      {%- assign next_page = sorted_pages[current_index | plus: 1] -%}
-      <a href="{{ next_page.url | relative_url }}" class="btn btn-outline-primary rounded-2">
-        Next: {{ next_page.title | default: next_page.name }} <i class="fas fa-arrow-right"></i>
+    {%- comment %} Next button {% endcomment -%}
+    {%- if current_index < siblings.size | minus: 1 -%}
+      {%- assign next = siblings[current_index | plus: 1] -%}
+      <a href="{{ next.url | relative_url }}" class="btn btn-outline-primary rounded-2">
+        Next: {{ next.title | default: next.name }} <i class="fas fa-arrow-right"></i>
       </a>
     {%- else -%}
       <span class="btn btn-outline-secondary rounded-2 disabled" aria-disabled="true">
