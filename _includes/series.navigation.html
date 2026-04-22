@@ -2,10 +2,6 @@
   Series navigation that orders files alphabetically by filename (GitHub style).
   Includes all .md and .html files in the series directory.
   Displays "Page X of Y" and previous/next links.
-  
-  Usage:
-    {% include series_nav.html %}
-    or with custom directory: {% include series_nav.html series_dir="/my-series/" %}
 {% endcomment %}
 
 {% comment %} Determine the series base directory {% endcomment %}
@@ -15,8 +11,9 @@
   {% assign series_base = page.dir %}
 {% endif %}
 
-{% comment %} Ensure trailing slash {% endcomment %}
-{% unless series_base ends_with '/' %}
+{% comment %} Ensure trailing slash using slice instead of ends_with {% endcomment %}
+{% assign last_char = series_base | slice: -1, 1 %}
+{% unless last_char == '/' %}
   {% assign series_base = series_base | append: '/' %}
 {% endunless %}
 
