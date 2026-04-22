@@ -1,0 +1,49 @@
+name: Sync Chulapa Directories
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * 0'
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout target repository
+        uses: actions/checkout@v4
+        with:
+          path: ${{ github.workspace }}/target
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Checkout source repository (dieghernan/chulapa)
+        uses: actions/checkout@v4
+        with:
+          repository: dieghernan/chulapa
+          ref: main
+          path: ${{ github.workspace }}/source
+
+      - name: Copy directories from source to target
+        run: |
+          # Use absolute paths
+          TARGET_DIR="${{ github.workspace }}/target"
+          SOURCE_DIR="${{ github.workspace }}/source"
+          
+          # Remove existing directories in target
+          rm -rf "$TARGET_DIR/_data" "$TARGET_DIR/_includes" "$TARGET_DIR/_layouts" "$TARGET_DIR/_sass"
+          
+          # Copy fresh directories from source
+          cp -r "$SOURCE_DIR/_data" "$TARGET_DIR/"
+          cp -r "$SOURCE_DIR/_includes" "$TARGET_DIR/"
+          cp -r "$SOURCE_DIR/_layouts" "$TARGET_DIR/"
+          cp -r "$SOURCE_DIR/_sass" "$TARGET_DIR/"
+
+      - name: Commit and push changes
+        run: |
+          cd "${{ github.workspace }}/target"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add _data _includes _layouts _sass
+          git diff --quiet && git diff --staged --quiet || git commit -m "Sync theme directories from dieghernan/chulapa"
+          git push
