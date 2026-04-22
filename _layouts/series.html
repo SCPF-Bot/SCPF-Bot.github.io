@@ -4,4 +4,12 @@ layout: default
 
 {{ content }}
 
-{% include series_nav.html %}
+{% comment %} 
+  Automatically determine series_dir from the collection path.
+  Assuming page.path looks like: pages/_collections/_diary.index.202X/filename.md
+{% endcomment %}
+{% assign path_parts = page.path | split: "/" %}
+{% assign collection_folder = path_parts[1] | append: "/" | append: path_parts[2] %}
+{% assign series_dir = "/" | append: collection_folder | append: "/" %}
+
+{% include series-nav.html series_dir=series_dir %}
