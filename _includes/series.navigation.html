@@ -1,7 +1,7 @@
 {% comment %}
-  Series navigation – alphabetical (GitHub style) with page counter.
-  Supports nested subdirectories, .md/.html only, disabled buttons at ends.
-  Uses FontAwesome icons (fallback to HTML arrows).
+  Series navigation that orders files alphabetically by filename (GitHub style).
+  Includes all .md and .html files in the series directory.
+  Displays "Page X of Y" and previous/next links.
 {% endcomment %}
 
 {% comment %} Determine the series base directory {% endcomment %}
@@ -11,13 +11,13 @@
   {% assign series_base = page.dir %}
 {% endif %}
 
-{% comment %} Ensure trailing slash {% endcomment %}
+{% comment %} Ensure trailing slash using slice instead of ends_with {% endcomment %}
 {% assign last_char = series_base | slice: -1, 1 %}
 {% unless last_char == '/' %}
   {% assign series_base = series_base | append: '/' %}
 {% endunless %}
 
-{% comment %} Collect all .md and .html pages under the series directory (including nested) {% endcomment %}
+{% comment %} Collect all .md and .html pages under the series directory {% endcomment %}
 {% assign all_pages = site.pages | where_exp: "p", "p.path contains series_base" %}
 {% assign series_pages = "" | split: "" %}
 
@@ -30,61 +30,46 @@
 
 {% comment %} Sort alphabetically by filename (GitHub order) {% endcomment %}
 {% assign sorted = series_pages | sort: "name" %}
-{% assign total = sorted.size %}
 
 {% comment %} Find current page index {% endcomment %}
 {% assign current_index = nil %}
 {% for p in sorted %}
   {% if p.path == page.path %}
     {% assign current_index = forloop.index0 %}
+    {% assign total = sorted.size %}
+    {% assign prev_index = current_index | minus: 1 %}
+    {% assign next_index = current_index | plus: 1 %}
     {% break %}
   {% endif %}
 {% endfor %}
 
-{% comment %} Show navigation only if more than one page and current page is in the list {% endcomment %}
+{% comment %} Show navigation only if more than one page {% endcomment %}
 {% if total > 1 and current_index != nil %}
-  {% assign prev_index = current_index | minus: 1 %}
-  {% assign next_index = current_index | plus: 1 %}
-
-  <div class="d-flex flex-wrap gap-2 justify-content-between align-items-center mt-4 mb-4">
-    {% comment %} Previous button (disabled if first) {% endcomment %}
-    <div class="series-prev">
+<div class="series-nav mt-4 pt-3 border-top">
+  <div class="d-flex justify-content-between align-items-center flex-wrap">
+    <div class="series-nav-prev">
       {% if prev_index >= 0 %}
-        <a href="{{ sorted[prev_index].url | relative_url }}" class="btn btn-outline-primary rounded-2">
+        <a href="{{ sorted[prev_index].url }}" class="btn btn-outline-primary">
           <i class="fas fa-arrow-left"></i> {{ sorted[prev_index].title | default: sorted[prev_index].name }}
         </a>
       {% else %}
-        <span class="btn btn-outline-secondary rounded-2 disabled">
-          <i class="fas fa-arrow-left"></i> Previous
-        </span>
+        <span class="btn btn-outline-secondary disabled"><i class="fas fa-arrow-left"></i> Previous</span>
       {% endif %}
     </div>
 
-    {% comment %} Page counter (visible on all screen sizes) {% endcomment %}
-    <div class="text-muted small">
+    <div class="series-nav-pages text-muted small">
       Page {{ current_index | plus: 1 }} of {{ total }}
     </div>
 
-    {% comment %} Next button (disabled if last) {% endcomment %}
-    <div class="series-next">
+    <div class="series-nav-next">
       {% if next_index < total %}
-        <a href="{{ sorted[next_index].url | relative_url }}" class="btn btn-outline-primary rounded-2">
+        <a href="{{ sorted[next_index].url }}" class="btn btn-outline-primary">
           {{ sorted[next_index].title | default: sorted[next_index].name }} <i class="fas fa-arrow-right"></i>
         </a>
       {% else %}
-        <span class="btn btn-outline-secondary rounded-2 disabled">
-          Next <i class="fas fa-arrow-right"></i>
-        </span>
+        <span class="btn btn-outline-secondary disabled">Next <i class="fas fa-arrow-right"></i></span>
       {% endif %}
     </div>
   </div>
-
-  {% comment %} Fallback for sites without FontAwesome: replace icons with HTML entities {% endcomment %}
-  <style>
-    .fas.fa-arrow-left, .fas.fa-arrow-right {
-      font-family: inherit;
-    }
-    .fas.fa-arrow-left:before { content: "← "; }
-    .fas.fa-arrow-right:before { content: " →"; }
-  </style>
+</div>
 {% endif %}
