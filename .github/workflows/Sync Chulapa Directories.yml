@@ -29,10 +29,7 @@ jobs:
           # Use absolute paths
           TARGET_DIR="${{ github.workspace }}/target"
           SOURCE_DIR="${{ github.workspace }}/source"
-          
-          # Remove existing directories in target
-          rm -rf "$TARGET_DIR/_data" "$TARGET_DIR/_includes" "$TARGET_DIR/_layouts" "$TARGET_DIR/_sass"
-          
+
           # Copy fresh directories from source
           cp -r "$SOURCE_DIR/_data" "$TARGET_DIR/"
           cp -r "$SOURCE_DIR/_includes" "$TARGET_DIR/"
