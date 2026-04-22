@@ -117,47 +117,85 @@ collections:
     permalink: /diary.index.2025/:name
 
 # Collections directory path.
-collections_dir: pages/_collections
+# (Ex. pages/collections or yourpreferredname/yourpreferredname)
+collections_dir     : pages/_collections
 
-# Defaults for page customizations.
+# Note: Defaults for page customizations.
+# Used for layouts and design for all or specific collection pages.
+# (Ex. Edits the layout and design of all the pages of my.posts collection directory to specified strings.)
+# Please consider reading note before editing.
 defaults:
-  # Global fallback
   -
     scope:
       path: ""
     values:
       layout: "default"
-      include_on_search: false
-      show_comments: true
-      show_date: false
+      include_on_search : false
+      show_comments     : true
+      show_date         : false
 
-  # Diary collections (all years) - uses series layout
   -
     scope:
-      path: "pages/_collections/_diary.index."
+      path: "pages/_collections/_diary.index.2019"
     values:
-      header_type: "hero"
-      header_img: assets/images/main.003.jpeg
-      show_comments: false
-      show_date: false
+      header_type       : "hero"
+      header_img        : assets/images/main.003.jpeg
+      show_comments     : false
+      show_date         : false
 
-  # E-Tech collection - uses series layout
   -
     scope:
-      path: "pages/_collections/_e.tech"
+      path: "pages/_collections/_diary.index.2020"
     values:
-      header_type: "hero"          # optional, adjust as needed
-      header_img: assets/images/main.003.jpeg
-      show_comments: false
-      show_date: false
+      header_type       : "hero"
+      header_img        : assets/images/main.003.jpeg
+      show_comments     : false
+      show_date         : false
 
-  # Zero to Stable (regular directory) - uses series layout
   -
     scope:
-      path: "pages/zero.to.stable"
+      path: "pages/_collections/_diary.index.2021"
     values:
-      show_date: false
-      # You can add header_type or other customizations here
+      header_type       : "hero"
+      header_img        : assets/images/main.003.jpeg
+      show_comments     : false
+      show_date         : false
+
+  -
+    scope:
+      path: "pages/_collections/_diary.index.2022"
+    values:
+      header_type       : "hero"
+      header_img        : assets/images/main.003.jpeg
+      show_comments     : false
+      show_date         : false
+
+  -
+    scope:
+      path: "pages/_collections/_diary.index.2023"
+    values:
+      header_type       : "hero"
+      header_img        : assets/images/main.003.jpeg
+      show_comments     : false
+      show_date         : false
+
+  -
+    scope:
+      path: "pages/_collections/_diary.index.2024"
+    values:
+      header_type       : "hero"
+      header_img        : assets/images/main.003.jpeg
+      show_comments     : false
+      show_date         : false
+
+  -
+    scope:
+      path: "pages/_collections/_diary.index.2025"
+    values:
+      header_type       : "hero"
+      header_img        : assets/images/main.003.jpeg
+      show_comments     : false
+      show_date         : false
 
 # Miscellaneous options.
 compress_html:
