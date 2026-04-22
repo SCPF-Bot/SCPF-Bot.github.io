@@ -1,8 +1,3 @@
----
-title: "Introduction"
----
----
-
 # Zero to Stable Introduction
 
 Starting from ***absolute zero*** in the Philippines is a **brutal, uphill battle** that demands not just hard work but a *complete shift in mindset*. It requires putting ~~pride~~ aside, seizing **every** opportunity, and committing to a long, tough journey. This isn't a fluffy motivational talk; it's a **realistic, step‑by‑step battle plan**...
@@ -102,5 +97,3 @@ Once you have a stable job and an emergency fund, you can start thinking about l
 This journey is ***incredibly difficult***, and there are no guarantees. However, by following these steps, you can systematically move from *surviving* to *striving*, **one hard‑fought peso at a time**...
 
 ---
-
-{% include series.navigation.html %}
