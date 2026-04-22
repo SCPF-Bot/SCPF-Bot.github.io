@@ -1,0 +1,34 @@
+.ais-SearchBox-input {
+    @extend .form-control;
+    @extend .rounded;
+}
+
+.ais-Hits-list {
+    padding: 0;
+    list-style: none;
+}
+
+.ais-Hits {
+    ol {
+        padding: 0;
+        list-style: none;
+    }
+
+    li {
+        list-style: none;
+    }
+}
+
+.ais-Hits {
+    padding: 0;
+}
+
+.ais-Highlight {
+    background-color: $warning;
+    font-style: initial;
+    font-family: inherit;
+}
+
+.ais-Hits-item {
+    list-style: none;
+}
