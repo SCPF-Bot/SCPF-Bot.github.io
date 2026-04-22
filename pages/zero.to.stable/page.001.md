@@ -1,8 +1,3 @@
----
-title: "Phase 1"
----
----
-
 ## Phase 1: The Absolute Hardest Part
 
 This isn't about grand plans or long-term goals yet; it's about *brute-force survival* and securing the most basic foothold. Every single action you take in this phase must serve one of two purposes: **keeping you alive today**, and **building the foundation to earn a single peso tomorrow**.
@@ -72,5 +67,3 @@ Let's be brutally honest. This phase will likely last ***1 to 6 months***. Durin
 | **Months 2–6** | Repeated applications for TUPAD or stable work |
 
 Your only focus is to push through these months, day by day, and emerge on the other side with a stable – even if tiny – source of income...
-
-{% include series.navigation.html %}
