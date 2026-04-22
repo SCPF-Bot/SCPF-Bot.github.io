@@ -1,75 +1,29 @@
-{% comment %}
-  Series navigation that orders files alphabetically by filename (GitHub style).
-  Includes all .md and .html files in the series directory.
-  Displays "Page X of Y" and previous/next links.
-{% endcomment %}
+{%- assign current_dir = page.dir -%}
+{%- assign siblings = site.pages | where: "dir", current_dir | sort: "name" -%}
 
-{% comment %} Determine the series base directory {% endcomment %}
-{% if include.series_dir %}
-  {% assign series_base = include.series_dir %}
-{% else %}
-  {% assign series_base = page.dir %}
-{% endif %}
-
-{% comment %} Ensure trailing slash using slice instead of ends_with {% endcomment %}
-{% assign last_char = series_base | slice: -1, 1 %}
-{% unless last_char == '/' %}
-  {% assign series_base = series_base | append: '/' %}
-{% endunless %}
-
-{% comment %} Collect all .md and .html pages under the series directory {% endcomment %}
-{% assign all_pages = site.pages | where_exp: "p", "p.path contains series_base" %}
-{% assign series_pages = "" | split: "" %}
-
-{% for p in all_pages %}
-  {% assign ext = p.name | split: "." | last %}
-  {% if ext == "md" or ext == "html" %}
-    {% assign series_pages = series_pages | push: p %}
-  {% endif %}
-{% endfor %}
-
-{% comment %} Sort alphabetically by filename (GitHub order) {% endcomment %}
-{% assign sorted = series_pages | sort: "name" %}
-
-{% comment %} Find current page index {% endcomment %}
-{% assign current_index = nil %}
-{% for p in sorted %}
-  {% if p.path == page.path %}
-    {% assign current_index = forloop.index0 %}
-    {% assign total = sorted.size %}
-    {% assign prev_index = current_index | minus: 1 %}
-    {% assign next_index = current_index | plus: 1 %}
-    {% break %}
-  {% endif %}
-{% endfor %}
-
-{% comment %} Show navigation only if more than one page {% endcomment %}
-{% if total > 1 and current_index != nil %}
-<div class="series-nav mt-4 pt-3 border-top">
-  <div class="d-flex justify-content-between align-items-center flex-wrap">
-    <div class="series-nav-prev">
-      {% if prev_index >= 0 %}
-        <a href="{{ sorted[prev_index].url }}" class="btn btn-outline-primary">
-          <i class="fas fa-arrow-left"></i> {{ sorted[prev_index].title | default: sorted[prev_index].name }}
-        </a>
-      {% else %}
-        <span class="btn btn-outline-secondary disabled"><i class="fas fa-arrow-left"></i> Previous</span>
-      {% endif %}
-    </div>
-
-    <div class="series-nav-pages text-muted small">
-      Page {{ current_index | plus: 1 }} of {{ total }}
-    </div>
-
-    <div class="series-nav-next">
-      {% if next_index < total %}
-        <a href="{{ sorted[next_index].url }}" class="btn btn-outline-primary">
-          {{ sorted[next_index].title | default: sorted[next_index].name }} <i class="fas fa-arrow-right"></i>
-        </a>
-      {% else %}
-        <span class="btn btn-outline-secondary disabled">Next <i class="fas fa-arrow-right"></i></span>
-      {% endif %}
-    </div>
+{%- if siblings.size > 1 -%}
+  {%- assign current_index = nil -%}
+  
+  {%- for sibling in siblings -%}
+    {%- if sibling.url == page.url -%}
+      {%- assign current_index = forloop.index0 -%}
+      {%- break -%}
+    {%- endif -%}
+  {%- endfor -%}
+  
+  <div class="d-flex flex-wrap gap-2 justify-content-between mt-4 mb-4">
+    {%- if current_index > 0 -%}
+      {%- assign prev = siblings[current_index | minus: 1] -%}
+      <a href="{{ prev.url | relative_url }}" class="btn btn-outline-primary rounded-2">
+        &larr; Previous: {{ prev.title | default: prev.name }}
+      </a>
+    {%- endif -%}
+    
+    {%- if current_index < siblings.size | minus: 1 -%}
+      {%- assign next = siblings[current_index | plus: 1] -%}
+      <a href="{{ next.url | relative_url }}" class="btn btn-outline-primary rounded-2 ms-auto">
+        Next: {{ next.title | default: next.name }} &rarr;
+      </a>
+    {%- endif -%}
   </div>
-</div>
-{% endif %}
+{%- endif -%}
