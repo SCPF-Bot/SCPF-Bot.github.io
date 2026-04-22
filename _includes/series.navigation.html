@@ -1,24 +1,46 @@
 {% comment %}
-  Enhanced series navigation for zero.to.stable pages.
-  Sorts by numeric value extracted from filename (e.g., page.000 → 0).
+  Enhanced series navigation for pages with numbered filenames (e.g., page.000.md).
+  Sorts by numeric value extracted from filename.
   Displays "Page X of Y" and previous/next links with Chulapa styling.
+  
+  Usage:
+    - Include this snippet in a layout or page.
+    - Set the directory either by:
+        * Passing a parameter: {% include series_nav.html series_dir="/my/series/" %}
+        * Or relying on current page's directory: page.dir (used if series_dir not provided)
+    - Files should be named like page.XXX.md (XXX = zero-padded number) inside that directory.
 {% endcomment %}
 
-{% assign series_pages = site.pages | where_exp: "p", "p.path contains '/zero.to.stable/'" %}
+{% comment %} Determine the series base directory {% endcomment %}
+{% if include.series_dir %}
+  {% assign series_base = include.series_dir %}
+{% else %}
+  {% assign series_base = page.dir %}
+{% endif %}
 
-{% comment %} Extract numeric order from filename (page.XXX) {% endcomment %}
+{% comment %} Ensure trailing slash for consistent matching {% endcomment %}
+{% unless series_base ends_with '/' %}
+  {% assign series_base = series_base | append: '/' %}
+{% endunless %}
+
+{% comment %} Collect all pages under the series directory {% endcomment %}
+{% assign series_pages = site.pages | where_exp: "p", "p.path contains series_base" %}
+
+{% comment %} Extract numeric order from filename (e.g., page.000 -> 0) {% endcomment %}
 {% assign pages_with_order = "" | split: "" %}
 {% for p in series_pages %}
-  {% assign filename = p.name | split: "." | first %}  {% comment %} "page" {% endcomment %}
-  {% assign num_str = p.name | replace: "page.", "" | replace: ".md", "" %} {% comment %} "000" etc {% endcomment %}
-  {% assign num = num_str | plus: 0 %}
-  {% assign p_data = p | merge: { "order": num, "display_name": p.title | default: p.name } %}
-  {% assign pages_with_order = pages_with_order | push: p_data %}
+  {% assign filename_parts = p.name | split: "." %}
+  {% if filename_parts.size >= 2 and filename_parts[0] == "page" %}
+    {% assign num_str = filename_parts[1] %}
+    {% assign num = num_str | plus: 0 %}
+    {% assign p_data = p | merge: { "order": num, "display_name": p.title | default: p.name } %}
+    {% assign pages_with_order = pages_with_order | push: p_data %}
+  {% endif %}
 {% endfor %}
 
 {% assign sorted = pages_with_order | sort: "order" %}
 
-{% comment %} Find current page index {% endcomment %}
+{% comment %} Find current page index in the sorted series {% endcomment %}
 {% for p in sorted %}
   {% if p.path == page.path %}
     {% assign current_index = forloop.index0 %}
