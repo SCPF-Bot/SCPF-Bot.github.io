@@ -103,4 +103,4 @@ This journey is ***incredibly difficult***, and there are no guarantees. However
 
 ---
 
-{% include series_nav_enhanced.html %}
+{% include series.navigation.html %}
