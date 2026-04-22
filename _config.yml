@@ -71,7 +71,7 @@ chulapa-skin:
   vars:
     font-family-base: "Ubuntu Mono"
 
-# Comments provider for the webpage. (Original – kept exactly as you had)
+# Comments provider for the webpage.
 comments:
   #provider: giscus #https://giscus.app
   #provider: welcomments
@@ -108,7 +108,7 @@ collections:
 
 collections_dir: pages/_collections
 
-# DEFAULTS (consolidated for all diary years)
+# DEFAULTS
 defaults:
   # Global defaults for all pages
   - scope:
@@ -119,15 +119,27 @@ defaults:
       show_comments: true
       show_date: false
 
-  # Single scope for ALL diary index collections (2019-2025 and any future year)
+  # --- SERIES NAVIGATION FOR DIARY INDEX (2019-2025 and future) ---
   - scope:
       path: "pages/_collections/_diary.index."
     values:
-      layout: "series"               # Enables series navigation
-      header_type: "hero"            # Shared header settings
+      layout: "series"
+      header_type: "hero"
       header_img: assets/images/main.003.jpeg
       show_comments: false
       show_date: false
+
+  # --- SERIES NAVIGATION FOR WEB VERSIONS (e.tech collection) ---
+  - scope:
+      path: "pages/_collections/_e.tech"
+    values:
+      layout: "series"
+
+  # --- SERIES NAVIGATION FOR ZERO TO STABLE ---
+  - scope:
+      path: "pages/zero.to.stable"
+    values:
+      layout: "series"
 
 # Miscellaneous options
 compress_html:
