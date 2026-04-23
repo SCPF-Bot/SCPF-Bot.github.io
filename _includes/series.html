@@ -1,6 +1,7 @@
 {% comment %}
   Series navigation: Previous/Next buttons with counter for sibling pages in the same directory.
   Renders nothing if fewer than 2 pages exist.
+  Buttons show only "Back" / "Next" + arrow icon (no page titles).
   Active buttons: solid primary with rounded corners (rectangular + border-radius).
   Missing buttons: not rendered at all.
   Uses Bootstrap 5 + FontAwesome.
@@ -56,7 +57,7 @@
     }
     /* Rectangular button with rounded sides */
     .series-nav .btn-primary {
-      border-radius: 0.5rem;   /* rounded sides, but still rectangular */
+      border-radius: 0.5rem;
       padding: 0.5rem 1rem;
       display: inline-flex;
       align-items: center;
@@ -83,9 +84,8 @@
     <div class="prev-col">
       {% if prev_index >= 0 %}
         {% assign prev = siblings[prev_index] %}
-        {% assign prev_title = prev.title | default: prev.name %}
         <a href="{{ prev.url | relative_url }}" class="btn btn-primary">
-          <i class="fas fa-arrow-left"></i> {{ prev_title }}
+          <i class="fas fa-arrow-left"></i> Back
         </a>
       {% endif %}
     </div>
@@ -99,9 +99,8 @@
     <div class="next-col">
       {% if next_index <= last_index %}
         {% assign next = siblings[next_index] %}
-        {% assign next_title = next.title | default: next.name %}
         <a href="{{ next.url | relative_url }}" class="btn btn-primary">
-          {{ next_title }} <i class="fas fa-arrow-right"></i>
+          Next <i class="fas fa-arrow-right"></i>
         </a>
       {% endif %}
     </div>
