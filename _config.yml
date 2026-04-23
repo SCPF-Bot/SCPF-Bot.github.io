@@ -192,7 +192,7 @@ defaults:
     scope:
       path: "pages/_collections/_diary.index.2025"
     values:
-      layout            : "series"
+      layout            : "pages"
       header_type       : "hero"
       header_img        : assets/images/main.003.jpeg
       show_comments     : false
