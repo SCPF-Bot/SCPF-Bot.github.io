@@ -85,3 +85,5 @@ Phase 3 is not about getting rich quickly. It's about **building a financial for
 | **4–5** | Acquire asset (business registration or land) | Register business with DTI/SEC or apply for 4PH housing | Avoid insurance-as-investment; buy term only |
 
 Remember: ***Inflation is a silent thief***. If you are not growing, you are dying...
+
+{% include series.html %}
