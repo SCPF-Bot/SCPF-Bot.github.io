@@ -1,177 +1,118 @@
-#!/usr/bin/env python3
-"""
-Uploader for dl.surf – reads URLs from /hosts/list.txt,
-downloads each file into /hosts/temp/, uploads one by one,
-then shows success/failure summary.
-"""
-
-import os
-import sys
 import requests
-from pathlib import Path
-from urllib.parse import urlparse
+import os
 
-# ------------------------------------------------------------
-# Configuration (paths relative to repo root)
-# ------------------------------------------------------------
-REPO_ROOT = Path(__file__).parent.parent.resolve()   # two levels up from scripts/
-LIST_FILE = REPO_ROOT / "hosts" / "list.txt"
-TEMP_DIR = REPO_ROOT / "hosts" / "temp"
-
+# --- Configuration ---
 API_KEY = os.environ.get("DL_SURF_API_KEY")
-BASE_URL = "https://api.dl.surf"
+LIST_FILE = "/hosts/list.txt"
+TEMP_DIR = "/hosts/temp/"
 
-# ------------------------------------------------------------
-# Validation
-# ------------------------------------------------------------
-if not API_KEY:
-    print("❌ ERROR: Environment variable DL_SURF_API_KEY not set.")
-    sys.exit(1)
+def get_upload_server(api_key):
+    """
+    Step 1: The Handshake.
+    Requests the current active upload server from the gateway.
+    """
+    gateways = [
+        "https://dl.surf/api/upload/server",
+        "https://api.dl.surf/api/upload/server"
+    ]
+    
+    for gw in gateways:
+        try:
+            # We use a GET request to ask for the server
+            resp = requests.get(gw, params={'key': api_key}, timeout=10)
+            if resp.status_code == 200:
+                data = resp.json()
+                # Most PPD APIs return the server URL in 'result' or 'url'
+                server_url = data.get('result') or data.get('url')
+                if server_url:
+                    return server_url
+        except:
+            continue
+    return None
 
-if not LIST_FILE.is_file():
-    print(f"❌ ERROR: List file not found: {LIST_FILE}")
-    sys.exit(1)
-
-# Create temp directory (safe, exists_ok=True)
-TEMP_DIR.mkdir(parents=True, exist_ok=True)
-
-# ------------------------------------------------------------
-# Helper: upload one file to dl.surf
-# ------------------------------------------------------------
-def upload_file(file_path: Path):
-    """Returns (success: bool, message: str)"""
+def download_file(url):
+    """Downloads a file from a URL to the temp directory."""
     try:
-        # Step 1: get upload server URL
-        resp = requests.get(
-            f"{BASE_URL}/api/upload/server",
-            params={"key": API_KEY},
-            timeout=10
-        )
-        resp.raise_for_status()
-
-        content_type = resp.headers.get('content-type', '')
-        if 'application/json' in content_type:
-            data = resp.json()
-            upload_url = data.get('url') or data.get('server_url') or data.get('upload_url')
-        else:
-            upload_url = resp.text.strip()
-
-        if not upload_url:
-            return False, "Empty upload URL from API"
-
-        # Step 2: POST file
-        with open(file_path, 'rb') as f:
-            files = {'file': (file_path.name, f)}
-            upload_resp = requests.post(upload_url, files=files, timeout=60)
-            upload_resp.raise_for_status()
-
-        return True, "Upload successful"
-
-    except requests.exceptions.Timeout:
-        return False, "Timeout during upload"
-    except requests.exceptions.RequestException as e:
-        return False, f"Request error: {e}"
-    except Exception as e:
-        return False, f"Unexpected error: {e}"
-
-# ------------------------------------------------------------
-# Helper: download a URL to a local file (safe filename)
-# ------------------------------------------------------------
-def download_file(url: str, dest_dir: Path, index: int) -> (bool, str, Path):
-    """Returns (success, message, local_path)"""
-    # Create a safe filename from URL basename
-    parsed = urlparse(url)
-    raw_name = os.path.basename(parsed.path)
-    if not raw_name or '.' not in raw_name:
-        raw_name = f"downloaded_{index}.bin"
-    # Sanitize: remove path separators, keep only safe chars
-    safe_name = "".join(c for c in raw_name if c.isalnum() or c in '.-_')
-    if not safe_name:
-        safe_name = f"file_{index}.dat"
-
-    dest_path = dest_dir / safe_name
-
-    try:
-        # Stream download to avoid memory issues
-        with requests.get(url, stream=True, timeout=30) as r:
+        local_filename = os.path.join(TEMP_DIR, url.split('/')[-1].split('?')[0])
+        print(f"📥 Downloading: {url.split('/')[-1]}...")
+        with requests.get(url, stream=True, timeout=60) as r:
             r.raise_for_status()
-            with open(dest_path, 'wb') as f:
+            with open(local_filename, 'wb') as f:
                 for chunk in r.iter_content(chunk_size=8192):
                     f.write(chunk)
-        return True, "Downloaded", dest_path
-    except requests.exceptions.Timeout:
-        return False, "Download timeout", dest_path
-    except requests.exceptions.RequestException as e:
-        return False, f"Download failed: {e}", dest_path
+        return local_filename
     except Exception as e:
-        return False, f"Unexpected download error: {e}", dest_path
+        print(f"❌ Download Error: {e}")
+        return None
 
-# ------------------------------------------------------------
-# Main
-# ------------------------------------------------------------
+def upload_to_server(file_path, server_url, api_key):
+    """
+    Step 2: The Upload.
+    Sends the local file to the server discovered in Step 1.
+    """
+    try:
+        with open(file_path, 'rb') as f:
+            files = {'file': f}
+            payload = {'key': api_key, 'action': 'upload'}
+            
+            # Use a longer timeout for the actual file transfer
+            response = requests.post(server_url, params=payload, files=files, timeout=600)
+            
+            if response.status_code == 200:
+                data = response.json()
+                if data.get('status') == 200 or data.get('success'):
+                    return True, data.get('url')
+                else:
+                    return False, data.get('msg', 'API rejected upload')
+            return False, f"HTTP {response.status_code}"
+    except Exception as e:
+        return False, str(e)
+
 def main():
-    print(f"📄 Reading URLs from: {LIST_FILE}")
-    with open(LIST_FILE, 'r') as f:
+    if not API_KEY:
+        print("❌ CRITICAL: DL_SURF_API_KEY environment variable is missing.")
+        return
+
+    # 1. Setup Environment
+    if not os.path.exists(TEMP_DIR):
+        os.makedirs(TEMP_DIR)
+
+    if not os.path.exists(LIST_FILE):
+        print(f"❌ CRITICAL: {LIST_FILE} not found.")
+        return
+
+    # 2. Read URLs
+    with open(LIST_FILE, "r") as f:
         urls = [line.strip() for line in f if line.strip()]
 
-    if not urls:
-        print("❌ No URLs found in list.txt")
-        sys.exit(1)
+    print(f"🚀 Starting Pipeline: {len(urls)} files in queue.")
+    print("-" * 50)
 
-    print(f"🚀 Found {len(urls)} URL(s) to process\n")
-
-    results = []   # each: (url, download_ok, upload_ok, message)
-
-    for idx, url in enumerate(urls, start=1):
-        print(f"--- [{idx}/{len(urls)}] {url}")
-
-        # Download
-        dl_ok, dl_msg, local_path = download_file(url, TEMP_DIR, idx)
-        if not dl_ok:
-            print(f"   ❌ {dl_msg}")
-            results.append((url, False, False, dl_msg))
+    for url in urls:
+        # Step A: Download
+        local_file = download_file(url)
+        if not local_file:
             continue
-        print(f"   ✅ Downloaded -> {local_path.name}")
 
-        # Upload
-        up_ok, up_msg = upload_file(local_path)
-        print(f"   {'✅' if up_ok else '❌'} Upload: {up_msg}")
-        results.append((url, True, up_ok, up_msg))
+        # Step B: Get Upload Server (Handshake)
+        server = get_upload_server(API_KEY)
+        if not server:
+            print("⚠️ Could not find dynamic server. Falling back to static...")
+            server = "https://dl.surf/api/file/upload"
 
-        # Cleanup local file after upload (save runner disk space)
-        try:
-            local_path.unlink()
-        except OSError:
-            pass   # ignore cleanup errors
+        # Step C: Upload
+        print(f"📤 Uploading to: {server}...")
+        success, result = upload_to_server(local_file, server, API_KEY)
 
-    # --------------------------------------------------------
-    # Summary
-    # --------------------------------------------------------
-    print("\n" + "=" * 55)
-    print("📊 FINAL SUMMARY")
-    print("=" * 55)
-
-    total = len(results)
-    uploaded_ok = sum(1 for r in results if r[2])   # upload_ok
-    download_failed = sum(1 for r in results if not r[1])
-    upload_failed = total - uploaded_ok
-
-    print(f"Total URLs processed: {total}")
-    print(f"✅ Successfully uploaded: {uploaded_ok}")
-    print(f"❌ Upload failures     : {upload_failed}")
-    if download_failed > 0:
-        print(f"⚠️  Download failures   : {download_failed} (skipped upload)")
-
-    if upload_failed > 0:
-        print("\n❌ Failed items:")
-        for url, dl_ok, up_ok, msg in results:
-            if not up_ok:
-                status = "Download failed" if not dl_ok else "Upload failed"
-                print(f"   • {url}\n     [{status}] {msg}")
-
-    # Exit with non-zero if any upload failed (useful for CI)
-    if upload_failed > 0:
-        sys.exit(1)
+        # 3. Indicators & Cleanup
+        if success:
+            print(f"✅ SUCCESS: {result}")
+            os.remove(local_file) # Delete after success to save space
+        else:
+            print(f"❌ FAILED: {result}")
+            # We keep the file in /temp/ if it fails so you can check it
+        
+        print("-" * 50)
 
 if __name__ == "__main__":
     main()
