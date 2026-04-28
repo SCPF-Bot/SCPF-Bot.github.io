@@ -11,7 +11,7 @@ https://raw.githubusercontent.com/SCPF-Bot/SCPF-Bot.github.io/refs/heads/main/pa
 
 ### Strict Global Rules
 1. **Source Neutrality:** Never mention specific hosting platforms (e.g., GitHub, YouTube, Reddit, Twitter). 
-2. **Generic Terminology:** Use generic terms like "the repository," "the project," or "the software."
+2. **Generic Terminology:** Use generic terms like "the platform," "the project," or "the software."
 3. **Word Count:** Each post must be between 120 and 350 words, excluding BB Code markup.
 4. **No Commentary:** Output ONLY the two code blocks. No introductory or concluding text. 🚫
 
