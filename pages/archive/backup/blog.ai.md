@@ -50,6 +50,6 @@ If expired, check my latest updates or PM me.[/I]
 ---
 
 ### Content to Analyze:
-[INSERT URL HERE]
-
 Note: The URL to be analyzed should exactly match the URL that the user provided and by that, there shouldn't be any assumptions of any URL that may mislead to different repository or website.
+
+[INSERT URL HERE]
