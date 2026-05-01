@@ -142,6 +142,7 @@ defaults:
       header_img        : assets/images/main.003.jpeg
       show_comments     : false
       show_date         : false
+      show_bottomnavs   : true
 
   -
     scope:
@@ -151,6 +152,7 @@ defaults:
       header_img        : assets/images/main.003.jpeg
       show_comments     : false
       show_date         : false
+      show_bottomnavs   : true
 
   -
     scope:
@@ -160,6 +162,7 @@ defaults:
       header_img        : assets/images/main.003.jpeg
       show_comments     : false
       show_date         : false
+      show_bottomnavs   : true
 
   -
     scope:
@@ -169,6 +172,7 @@ defaults:
       header_img        : assets/images/main.003.jpeg
       show_comments     : false
       show_date         : false
+      show_bottomnavs   : true
 
   -
     scope:
@@ -178,6 +182,7 @@ defaults:
       header_img        : assets/images/main.003.jpeg
       show_comments     : false
       show_date         : false
+      show_bottomnavs   : true
 
   -
     scope:
@@ -187,6 +192,7 @@ defaults:
       header_img        : assets/images/main.003.jpeg
       show_comments     : false
       show_date         : false
+      show_bottomnavs   : true
 
   -
     scope:
@@ -196,6 +202,7 @@ defaults:
       header_img        : assets/images/main.003.jpeg
       show_comments     : false
       show_date         : false
+      show_bottomnavs   : true
 
 # Miscellaneous options.
 compress_html:
