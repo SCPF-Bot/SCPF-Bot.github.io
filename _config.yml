@@ -37,30 +37,30 @@ navbar:
   - title: E-Tech
     child:
      - title: Web Versions
-       url: /pages/index.pages/web.versions
+       url: /pages/diary-index/web-versions
 
   - title: Babii
     child:
      - title: Diary Index
-       url: /pages/index.pages/diary.index
+       url: /pages/diary-index/
      - title: To-Do List
-       url: /pages/misc/to.do.list
+       url: /pages/misc/to-do-list
      - title: Archive
        url: /pages/archive/readme
 
   - title: Zero to Stable
     child:
      - title: Introduction
-       url: /pages/zero.to.stable/page.000
+       url: /pages/zero-to-stable/page-000
      - title: Phase 1
-       url: /pages/zero.to.stable/page.001
+       url: /pages/zero-to-stable/page-001
      - title: Phase 2
-       url: /pages/zero.to.stable/page.002
+       url: /pages/zero-to-stable/page-002
      - title: Phase 3
-       url: /pages/zero.to.stable/page.003
+       url: /pages/zero-to-stable/page-003
 
   - title: Special Thanks
-    url: /pages/misc/special.thanks
+    url: /pages/misc/special-thanks
 
 footer:
   links:
@@ -94,37 +94,42 @@ comments:
   #disqus_shortname: scpf-archive
 
 # Collections path where you place your posts.
-# (Ex. pages/collections/_my.posts/post1.md)
+# (Ex. pages/_collections/_diary-2025/2025-06-21.md)
 collections:
-  e.tech:
+  e-tech:
     output: true
-    permalink: /e.tech/:name
-  diary.index.2019:
+    permalink: /e-tech/:name
+  diary-2019:
     output: true
-    permalink: /diary.index.2019/:name
-  diary.index.2020:
+    permalink: /diary-2019/:name
+  diary-2020:
     output: true
-    permalink: /diary.index.2020/:name
-  diary.index.2021:
+    permalink: /diary-2020/:name
+  diary-2021:
     output: true
-    permalink: /diary.index.2021/:name
-  diary.index.2022:
+    permalink: /diary-2021/:name
+  diary-2022:
     output: true
-    permalink: /diary.index.2022/:name
-  diary.index.2023:
+    permalink: /diary-2022/:name
+  diary-2023:
     output: true
-    permalink: /diary.index.2023/:name
-  diary.index.2024:
+    permalink: /diary-2023/:name
+  diary-2024:
     output: true
-    permalink: /diary.index.2024/:name
-  diary.index.2025:
+    permalink: /diary-2024/:name
+  diary-2025:
     output: true
-    permalink: /diary.index.2025/:name
+    permalink: /diary-2025/:name
+  diary-2026:
+    output: true
+    permalink: /diary-2026/:name
 
 # Collections directory path.
 collections_dir: pages/_collections
 
 # Defaults for page customizations — controls layout and design per scope.
+# Adding a new year: create pages/_collections/_diary-YEAR/ and add a
+# collection entry above. No new defaults block needed.
 defaults:
   -
     scope:
@@ -137,7 +142,7 @@ defaults:
 
   -
     scope:
-      path: "pages/_collections/_diary.index.2019"
+      path: "pages/_collections"
     values:
       header_type       : "hero"
       header_img        : assets/images/main.003.jpeg
@@ -147,67 +152,7 @@ defaults:
 
   -
     scope:
-      path: "pages/_collections/_diary.index.2020"
-    values:
-      header_type       : "hero"
-      header_img        : assets/images/main.003.jpeg
-      show_comments     : false
-      show_date         : false
-      show_bottomnavs   : true
-
-  -
-    scope:
-      path: "pages/_collections/_diary.index.2021"
-    values:
-      header_type       : "hero"
-      header_img        : assets/images/main.003.jpeg
-      show_comments     : false
-      show_date         : false
-      show_bottomnavs   : true
-
-  -
-    scope:
-      path: "pages/_collections/_diary.index.2022"
-    values:
-      header_type       : "hero"
-      header_img        : assets/images/main.003.jpeg
-      show_comments     : false
-      show_date         : false
-      show_bottomnavs   : true
-
-  -
-    scope:
-      path: "pages/_collections/_diary.index.2023"
-    values:
-      header_type       : "hero"
-      header_img        : assets/images/main.003.jpeg
-      show_comments     : false
-      show_date         : false
-      show_bottomnavs   : true
-
-  -
-    scope:
-      path: "pages/_collections/_diary.index.2024"
-    values:
-      header_type       : "hero"
-      header_img        : assets/images/main.003.jpeg
-      show_comments     : false
-      show_date         : false
-      show_bottomnavs   : true
-
-  -
-    scope:
-      path: "pages/_collections/_diary.index.2025"
-    values:
-      header_type       : "hero"
-      header_img        : assets/images/main.003.jpeg
-      show_comments     : false
-      show_date         : false
-      show_bottomnavs   : true
-
-  -
-    scope:
-      path: "pages/zero.to.stable"
+      path: "pages/zero-to-stable"
     values:
       header_type       : "hero"
       header_img        : assets/images/main.003.jpeg
