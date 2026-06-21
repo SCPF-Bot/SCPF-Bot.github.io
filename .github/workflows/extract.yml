@@ -5,6 +5,11 @@ on:
     paths:
       - '*.zip'
   workflow_dispatch:
+    inputs:
+      zip_url:
+        description: 'Direct download URL of the .zip file to extract'
+        required: false
+        type: string
 
 permissions:
   contents: write
@@ -24,6 +29,12 @@ jobs:
           ! -name '.git' \
           ! -name '*.zip' \
           -exec rm -rf {} +
+        working-directory: ${{ github.workspace }}
+
+      - name: Download zip from provided URL (manual dispatch only)
+        if: github.event_name == 'workflow_dispatch' && github.event.inputs.zip_url != ''
+        run: |
+          curl -L -o downloaded.zip "${{ github.event.inputs.zip_url }}"
         working-directory: ${{ github.workspace }}
 
       - name: Extract all .zip archives
