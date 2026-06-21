@@ -1,3 +1,12 @@
+---
+title: "Zero to Stable — Phase 1"
+subtitle: "The Absolute Hardest Part: Survival and Securing Your First Foothold"
+header_type: "hero"
+header_img: assets/images/main.003.jpeg
+show_comments: false
+show_date: false
+---
+
 ## Phase 1: The Absolute Hardest Part
 
 This isn't about grand plans or long-term goals yet; it's about *brute-force survival* and securing the most basic foothold. Every single action you take in this phase must serve one of two purposes: **keeping you alive today**, and **building the foundation to earn a single peso tomorrow**.
@@ -51,7 +60,7 @@ This is about immediate, unglamorous work to get cash in your hand. Compare the 
 
 This is your first "real job." You need to make yourself <u>visible to the system</u>.
 
-1. Go to your **Barangay Hall** and ask for a Barangay Clearance or a Certificate of Indigency/Residency. Expect to pay a small processing fee (around ~~₱20–₱100~~ *₱20–₱100*). This document is the key to almost all government aid programs.
+1. Go to your **Barangay Hall** and ask for a Barangay Clearance or a Certificate of Indigency/Residency. Expect to pay a small processing fee (around ₱20–₱100). This document is the key to almost all government aid programs.
 2. Visit your local **Public Employment Service Office (PESO)** and **DOLE office**. Your goal is simple: ask for job listings, TUPAD, and any available livelihood programs.
 
 ---

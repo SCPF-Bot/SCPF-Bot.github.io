@@ -1,6 +1,5 @@
 ---
 title: Understanding Web Versions
-show_author: true
 header_type: "hero"
 header_img: assets/images/000.007.png
 show_author: true
@@ -9,10 +8,9 @@ show_bottomnavs: true
 author:
   name: Lovely Angel Cadeliña
   avatar: assets/images/main.001.jpeg
-  links:                
+  links:
     - url: https://www.facebook.com/lovely.cadelina.92
       icon: "fab fa-facebook"
----
 ---
 
 ## Web Versions?

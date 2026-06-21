@@ -1,20 +1,26 @@
 remote_theme: dieghernan/chulapa
 
+url: "https://scpf-bot.github.io"
+baseurl: ""
+
 title: SCPF-Bot
 subtitle: Private Website
+description: >-
+  A private personal website and digital archive dedicated to Babii —
+  containing daily diary entries, life guides, educational content, and more.
 
 author:
   name                  :      SCPF-Bot
   avatar                :      https://avatars.githubusercontent.com/u/112224835
   location              :      SCP Foundation (Site-19)
-  links:                
+  links:
     - url: https://fb.me/june.12th.2019
       icon: "fab fa-facebook"
     - url: https://github.com/SCPF-Archive
       icon: "fab fa-github"
     - url: https://github.com/SCPF-Bot
       icon: "fab fa-github"
-    - url: ph.server@pm.me
+    - url: mailto:ph.server@pm.me
       icon: "fa fa-envelope"
 
 # Navigation Bar contents.
@@ -66,28 +72,27 @@ footer:
       url   : https://github.com/SCPF-Bot
     - label : Proton Mail
       icon  : fa fa-envelope
-      url   : ph.server@pm.me
-  copyright: © 2022 by SCPF-Bot
+      url   : mailto:ph.server@pm.me
+  copyright: "© 2022–2026 by SCPF-Bot"
 
-# Font URL for Google fonts.
+# Font URL for Google Fonts.
 googlefonts:
  - url: https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap
 
-# Theme Skins.
-chulapa-skin: 
+# Theme skin configuration.
+chulapa-skin:
   skin: gitdev-dark
   vars:
     font-family-base: "Ubuntu Mono"
 
 # Comments provider for the webpage.
 comments:
-  #provider: giscus #https://giscus.app
+  #provider: giscus       # https://giscus.app
   #provider: welcomments
   #website_id: "JmOHDoyWDZURoAoxETF4oNUl2"
-  #provider: disqus #https://disqus.com
+  #provider: disqus       # https://disqus.com
   #disqus_shortname: scpf-archive
 
-#### Defaults (Do not modify.)
 # Collections path where you place your posts.
 # (Ex. pages/collections/_my.posts/post1.md)
 collections:
@@ -117,13 +122,9 @@ collections:
     permalink: /diary.index.2025/:name
 
 # Collections directory path.
-# (Ex. pages/collections or yourpreferredname/yourpreferredname)
-collections_dir     : pages/_collections
+collections_dir: pages/_collections
 
-# Note: Defaults for page customizations.
-# Used for layouts and design for all or specific collection pages.
-# (Ex. Edits the layout and design of all the pages of my.posts collection directory to specified strings.)
-# Please consider reading note before editing.
+# Defaults for page customizations — controls layout and design per scope.
 defaults:
   -
     scope:
@@ -204,7 +205,17 @@ defaults:
       show_date         : false
       show_bottomnavs   : true
 
-# Miscellaneous options.
+  -
+    scope:
+      path: "pages/zero.to.stable"
+    values:
+      header_type       : "hero"
+      header_img        : assets/images/main.003.jpeg
+      show_comments     : false
+      show_date         : false
+      show_bottomnavs   : false
+
+# HTML compression settings.
 compress_html:
   clippings: all
   blanklines: true
@@ -218,13 +229,17 @@ plugins:
 exclude:
   - LICENSE
   - Gemfile
+  - Gemfile.lock
   - vendor
+  - "*.sh"
+  - node_modules
+  - .git
 
 include:
-  - readme
+  - readme.txt
 
 markdown: kramdown
-highlighter: github
+highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false

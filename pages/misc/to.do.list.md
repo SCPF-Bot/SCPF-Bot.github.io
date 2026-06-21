@@ -5,7 +5,6 @@ header_type: "hero"
 header_img: assets/images/main.003.jpeg
 show_comments: false
 ---
----
 
 ### For Day Off
 
@@ -51,7 +50,7 @@ show_comments: false
 - [x] Deactivate all my Facebook dummy accounts...
 - [x] Create life reminders for Babii on Facebook...
 
-#### In progress
+#### In Progress
 
 - [ ] Create a Gallery section for my website...
 - [ ] Find a way to visit Jagna, Bohol annually...

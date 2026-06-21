@@ -13,7 +13,6 @@ author:
     - url: https://www.facebook.com/lovely.cadelina.92
       icon: "fab fa-facebook"
 ---
----
 
 ## What's Web 3.0?
 Watch the video below if you don't mind. It'll help you to understand more about the Web 3.0.

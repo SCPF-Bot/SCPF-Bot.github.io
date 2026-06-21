@@ -3,12 +3,12 @@ layout: default
 title: "Archive"
 header_type: "hero"
 header_img: assets/images/main.003.jpeg
----
+show_comments: false
 ---
 
 ## Archive
 
-This page shows the archive....
+This page shows the archive.
 
 #### 2FA
 
@@ -24,6 +24,8 @@ Google (Heighxomium)
 YDKEGHC73TN3OM3OKRNSRYBFFYVGOE2K
 ```
 
+---
+
 #### Usernames
 
 Ange Cadeliña
@@ -38,6 +40,8 @@ Ange Dela Mandevilla
 100091118360457
 ```
 
+---
+
 #### ADBlock
 
 Google Login Pop-up
@@ -45,6 +49,8 @@ Google Login Pop-up
 ```
 https://github.com/SCPF-Bot/SCPF-Bot.github.io/raw/refs/heads/main/pages/archive/adblock/annoyance.google.login.popup.txt
 ```
+
+---
 
 #### Backup
 

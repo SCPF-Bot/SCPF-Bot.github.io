@@ -7,6 +7,5 @@ header_type: "hero"
 header_img: "assets/images/main.002.jpeg"
 include_collection: diary.index.2023
 ---
----
 
 ![](https://grabify.link/TT2ICC.jpeg)

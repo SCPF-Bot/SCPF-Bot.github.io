@@ -2,7 +2,7 @@
 title: Special Thanks
 header_type: "hero"
 header_img: assets/images/main.003.jpeg
----
+show_comments: false
 ---
 
 ### Font Awesome

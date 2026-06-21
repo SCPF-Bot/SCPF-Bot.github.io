@@ -14,7 +14,6 @@ author:
     - url: https://www.facebook.com/lovely.cadelina.92
       icon: "fab fa-facebook"
 ---
----
 
 _Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua._
 

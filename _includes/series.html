@@ -2,9 +2,10 @@
   Series navigation: Previous/Next buttons with counter for sibling pages in the same directory.
   Renders nothing if fewer than 2 pages exist.
   Buttons show only "Back" / "Next" + arrow icon (no page titles).
-  Active buttons: solid primary with rounded corners (rectangular + border-radius).
+  Active buttons: solid primary with rounded corners.
   Missing buttons: not rendered at all.
   Uses Bootstrap 5 + FontAwesome.
+  Accessible: aria-label attributes on nav and anchor elements.
 {% endcomment %}
 
 {% assign current_dir = page.dir %}
@@ -39,7 +40,7 @@
       grid-template-columns: 1fr auto 1fr;
       align-items: center;
       gap: 1rem;
-      margin: 1.5rem 0;
+      margin: 2rem 0 1.5rem;
     }
     .series-nav .prev-col,
     .series-nav .next-col {
@@ -54,16 +55,22 @@
     .series-nav .counter {
       text-align: center;
       white-space: nowrap;
+      font-size: 0.9em;
+      opacity: 0.7;
     }
-    /* Rectangular button with rounded sides */
     .series-nav .btn-primary {
       border-radius: 0.5rem;
-      padding: 0.5rem 1rem;
+      padding: 0.5rem 1.1rem;
       display: inline-flex;
       align-items: center;
       gap: 0.5rem;
       font-weight: 500;
-      transition: all 0.2s ease;
+      transition: opacity 0.2s ease, transform 0.15s ease;
+      text-decoration: none;
+    }
+    .series-nav .btn-primary:hover {
+      opacity: 0.85;
+      transform: translateY(-1px);
     }
     .series-nav .btn-primary i {
       font-size: 0.9em;
@@ -79,30 +86,34 @@
     }
   </style>
 
-  <div class="series-nav">
-    <!-- Previous column -->
+  <nav class="series-nav" aria-label="Series navigation">
+    <!-- Previous page -->
     <div class="prev-col">
       {% if prev_index >= 0 %}
         {% assign prev = siblings[prev_index] %}
-        <a href="{{ prev.url | relative_url }}" class="btn btn-primary">
-          <i class="fas fa-arrow-left"></i> Back
+        <a href="{{ prev.url | relative_url }}"
+           class="btn btn-primary"
+           aria-label="Go to previous page: {{ prev.title | default: 'Previous' }}">
+          <i class="fas fa-arrow-left" aria-hidden="true"></i> Back
         </a>
       {% endif %}
     </div>
 
-    <!-- Counter column -->
-    <div class="counter text-muted">
+    <!-- Page counter -->
+    <div class="counter text-muted" aria-live="polite" aria-atomic="true">
       Page {{ current_index | plus: 1 }} of {{ total_siblings }}
     </div>
 
-    <!-- Next column -->
+    <!-- Next page -->
     <div class="next-col">
       {% if next_index <= last_index %}
         {% assign next = siblings[next_index] %}
-        <a href="{{ next.url | relative_url }}" class="btn btn-primary">
-          Next <i class="fas fa-arrow-right"></i>
+        <a href="{{ next.url | relative_url }}"
+           class="btn btn-primary"
+           aria-label="Go to next page: {{ next.title | default: 'Next' }}">
+          Next <i class="fas fa-arrow-right" aria-hidden="true"></i>
         </a>
       {% endif %}
     </div>
-  </div>
+  </nav>
 {% endif %}

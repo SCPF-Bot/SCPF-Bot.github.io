@@ -1,3 +1,12 @@
+---
+title: "Zero to Stable — Phase 3"
+subtitle: "Scaling Up & Achieving Stability (Years 1–5)"
+header_type: "hero"
+header_img: assets/images/main.003.jpeg
+show_comments: false
+show_date: false
+---
+
 ## Phase 3: Scaling Up & Achieving Stability (Years 1–5)
 
 Phase 3 is a war against inflation and time itself. You've built a stable, modest income (₱15,000–₱25,000/month) and a small emergency fund. ***Stability is a trap*** if you let it become complacency. Inflation in the Philippines is running at *4–4.5%* in 2026. Basic commodities like rice are up 7.5%, fish up 9%, and electricity up a staggering 15.5%. <u>If your income isn't growing faster than inflation, you're getting poorer every single month.</u>
@@ -18,7 +27,7 @@ You need a **high-yield savings account** separate from your everyday spending. 
 
 **The Brutal Reality**: At ₱15,000–₱20,000/month, saving 30% (₱4,500–₱6,000) means it will take you **10–20 months** to reach even a 3-month emergency fund. This is why ~~you cannot afford a single luxury~~ <u>you cannot afford a single luxury</u>. You must track every peso and follow the **50/30/20 rule**: 50% for needs, 30% for savings, 20% for wants (which, for now, means *zero*).
 
-If you're self-employed, you must also start paying your mandatory contributions. SSS self-employed monthly contributions range from *₱760 to ₱5,280*, depending on declared income. PhilHealth premiums remain at 5% of your monthly basic salary in 2026 (no increase). Skipping these seems tempting when money is tight, but ***you're robbing your future self*** of a pension, sickness benefits, and healthcare coverage.
+If you're self-employed, you must also start paying your mandatory contributions. SSS self-employed monthly contributions range from *₱760 to ₱5,280*, depending on declared income. PhilHealth premiums remain at 5% of your monthly basic salary in 2026. Skipping these seems tempting when money is tight, but ***you're robbing your future self*** of a pension, sickness benefits, and healthcare coverage.
 
 ---
 
@@ -69,7 +78,7 @@ Your emergency fund should be well underway. Now, you must **increase your incom
 
 - **Land and Property**: This is the ultimate goal for many Filipinos. Programs like the **Pambansang Pabahay Para sa Pilipino (4PH)** offer a path to land ownership for low-income families. You can also explore purchasing small plots of land in developing provinces. Start small, use financing wisely, and target areas near infrastructure projects for growth potential.
 
-- **Protect Your Wealth**: Once you have assets, you need insurance. Affordable options like FWD's *"The One for Life"* provide coverage if you have dependents. <u>Do not buy insurance as an investment</u> – buy term insurance for protection, and invest the difference separately.
+- **Protect Your Wealth**: Once you have assets, you need insurance. Affordable options like FWD's *"The One for Life"* provide coverage if you have dependents. <u>Do not buy insurance as an investment</u> — buy term insurance for protection, and invest the difference separately.
 
 ---
 
